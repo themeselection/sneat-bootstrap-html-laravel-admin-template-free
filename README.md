@@ -1,25 +1,25 @@
 <p align="center"></p>
 
 <p align="center">
-   <a href="{ts_product_page_url}" target="_blank">
-      <img src="{svg_logo_url_from_current_repo}" alt="{template_name}-logo" width="60px" height="auto">
+   <a href="https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template-free/" target="_blank">
+      <img src="https://user-images.githubusercontent.com/749684/150333149-805037bc-8874-4a1f-876a-61a9683f8ef5.png" alt="sneat-logo" width="60px" height="auto">
    </a>
 </p>
 
 <h1 align="center">
-   <a href="{ts_product_page_url}" target="_blank" align="center">
-      {template_name_titlized}
+   <a href="https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template-free/" target="_blank" align="center">
+      Sneat - Free Bootstrap 5 HTML Laravel Admin Template
    </a>
 </h1>
 
-<p align="center">{template_punchline}</p>
+<p align="center">Most Powerful & Comprehensive Free Bootstrap 5 HTML Laravel Admin Dashboard Template built for developers!</p>
 
 <p align="center">
-   <a href="{licence_url_of_current_repo}">
+   <a href="https://github.com/themeselection/sneat-html-laravel-admin-template-free/blob/master/LICENSE.md">
       <img src="https://img.shields.io/github/license/themeselection/{repo_name_from_url}" alt="license">
    </a>
    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/themeselection/{repo_name_from_url}/Deploy">
-   <a href="{repo_url}/releases">
+   <a href="https://github.com/themeselection/sneat-html-laravel-admin-template-free/releases">
     <img src="https://img.shields.io/github/release/themeselection/{repo_name_from_url}.svg" alt="GitHub release">
   </a>
    <a href="https://twitter.com/Theme_Selection" target="_blank">
@@ -27,13 +27,13 @@
    </a>
 </p>
 
-<kbd>[![Materio - Vuetify VueJS Free Admin Template Demo Screenshot]({product_demo_image_url})]({ts_product_page_url})</kbd>
+<kbd>[![Sneat - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://user-images.githubusercontent.com/80033712/153581472-452394ee-327a-4d00-a41a-c6e8036b7096.png)](https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template-free/)</kbd>
 
 ## Introduction 🚀
 
 {introduction}
 
-[View Demo]({direct_demo_url__NOT_PRODUCT_PAGE_URL})
+[View Demo]({[direct_demo_url__NOT_PRODUCT_PAGE_URL](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)})
 
 ## Installation ⚒️
 
@@ -47,15 +47,15 @@
 
 | {template_single_word_name} Free Version        | {template_single_word_name} Premium Version       |
 | ----------------------------------------------- | :------------------------------------------------ |
-| [Demo]({direct_demo_url__NOT_PRODUCT_PAGE_URL}) | [Demo]({product_landing_page_url})                |
-| [Download]({ts_product_page_url})               | [Purchase]({ts_premium_product_page_url})                 |
+| [Demo]({[direct_demo_url__NOT_PRODUCT_PAGE_URL](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)}) | [Demo]({product_landing_page_url})                |
+| [Download](https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template-free/)               | [Purchase]({ts_premium_product_page_url})                 |
 | Single vertical menu                            | Vertical (+ vertical collapsed) & Horizontal menu |
 
 ## Documentation 📜
 
 <!-- If you have docs in wiki then use below line -->
 
-Check GitHub [Wiki]({repo_url}/wiki) of this repo
+Check GitHub [Wiki](https://github.com/themeselection/sneat-html-laravel-admin-template-free/wiki) of this repo
 
 <!-- If you have live docs then use below line -->
 
