@@ -166,7 +166,7 @@ We use GitHub issues as support tickets to manage Item support.
 ## License ©
 
 - Copyright © [ThemeSelection](https://themeselection.com/)
-- Licensed under [MIT](LICENSE.md)
+- Licensed under [MIT](LICENSE)
 
 ## Contributing 🦸
 
