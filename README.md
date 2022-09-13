@@ -23,7 +23,7 @@
 
 If you’re a developer looking for most Powerful & comprehensive [**Free Bootstrap 5 HTML Laravel Admin Template**](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/) built for developers, rich with features, and highly customizable look no further than Sneat. We’ve followed the highest industry standards to bring you the very best admin template that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
 
-Build premium quality applications with ease. Use our innovative [Laravel admin templates](https://themeselection.com/products/category/laravel-admin-templates/) to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
+Build premium quality applications with ease. Use our innovative **[Laravel admin templates](https://themeselection.com/item/category/laravel-admin-templates/)** to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
 
 [View Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)
 
@@ -152,8 +152,8 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Useful Links 🎁
 
-- [Freebies](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/)
+- [Freebies](https://themeselection.com/item/category/freebies/)
+- [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
 - [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
 
 ## Support 👨‍💻
@@ -196,20 +196,14 @@ Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add a detailed relea
 
 ## Looking For Premium Admin Templates ?? 👀
 
-**[ThemeSelection](https://themeselection.com/)** provides Selected high quality, modern design, professional and easy-to-use Free and Premium [Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/), [VueJS Admin Templates](https://themeselection.com/products/category/vuejs-admin-templates/), [Laravel Admin Templates](https://themeselection.com/products/category/laravel-admin-templates/), HTML Themes, and [Free UI Kits](https://themeselection.com/products/category/free-ui-kits/) to create your applications faster!.
+**[ThemeSelection](https://themeselection.com/)** provides Selected high quality, modern design, professional and easy-to-use Free and Premium [Bootstrap Admin Templates](https://themeselection.com/item/category/bootstrap-admin-templates/), [VueJS Admin Templates](https://themeselection.com/item/category/vuejs-admin-templates/), [Laravel Admin Templates](https://themeselection.com/item/category/laravel-admin-templates/), HTML Themes, and [Free UI Kits](https://themeselection.com/item/category/free-ui-kits/) to create your applications faster!.
 
-If you want to [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
+If you want to Download [Free Admin Templates](https://themeselection.com/item/category/free-ui-kits/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
 
 ## Other variants
 
-* [html variant]({https://themeselection.com/products/sneat-bootstrap-html-admin-template/})
+* [html variant]({https://themeselection.com/item/sneat-free-bootstrap-html-admin-template/})
 <!-- Add others here -->
-
-## Useful Links 🎁
-
-* [Freebies](https://themeselection.com/products/category/download-free-admin-templates/)
-* [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/)
-* [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
 
 ## Social Media :earth_africa:
 
