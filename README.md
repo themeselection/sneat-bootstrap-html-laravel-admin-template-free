@@ -17,22 +17,22 @@
 ![GitHub](https://img.shields.io/github/license/themeselection/sneat-html-laravel-admin-template-free) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/themeselection/sneat-html-laravel-admin-template-free) ![GitHub issues](https://img.shields.io/github/issues/themeselection/sneat-html-laravel-admin-template-free) ![GitHub closed issues](https://img.shields.io/github/issues-closed/themeselection/sneat-html-laravel-admin-template-free) ![Twitter Follow](https://img.shields.io/twitter/follow/Theme_Selection?style=social)
 
 
-<kbd>[![Sneat - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://user-images.githubusercontent.com/5073095/165227845-438b0f58-d2c2-49c4-92e9-349577b0b48d.png)](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/)</kbd>
+<kbd>[![Sneat - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://cdn.jsdelivr.net/gh/themeselection/ts-assets/sneat/sneat-bootstrap-laravel-admin-template-free/marketing/sneat-bootstrap-laravel-admin-template-free-github.png)](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/)</kbd>
 
 ## Introduction 🚀
 
-If you’re a developer looking for most Powerful & comprehensive [**Free Bootstrap 5 HTML Laravel Admin Template**](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/) built for developers, rich with features, and highly customizable look no further than Sneat. We’ve followed the highest industry standards to bring you the very best admin template that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
+If you’re a developer looking for the most Powerful & comprehensive [**Free Bootstrap 5 HTML Laravel Admin Template**](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/) built for developers, rich with features, and highly customizable look no further than Sneat. We’ve followed the highest industry standards to bring you the very best admin template that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
 
-Build premium quality applications with ease. Use our innovative **[Laravel admin templates](https://themeselection.com/item/category/laravel-admin-templates/)** to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
+Build premium quality applications with ease. Use our innovative **[Laravel admin template](https://themeselection.com/item/category/laravel-admin-templates/)** to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
 
 [View Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)
 
 ## Installation ⚒️
 
-Installing and running Sneat is super easy, please follow below steps and you will be ready to rock 🤘
+Installing and running Sneat is super easy, please Follow below steps and you will be ready to rock 🤘
 
 1. Open the terminal in your root directory of Sneat Laravel.
-2. Use following command to install composer
+2. Use the following command to install the composer
 
 ```bash
 composer install
@@ -50,7 +50,7 @@ php artisan key:generate
 yarn
 ```
 
-5. To run the project, you need to run following command in the project directory. It will compile JavaScript and Styles.
+5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles.
 
 ```bash
 yarn dev
@@ -62,11 +62,11 @@ yarn dev
 php artisan serve
 ```
 
-7. Now navigate to the given address, you will see your application is running.🥳
+7. Now navigate to the given address, and you will see your application is running.🥳
 
 ## Available Tasks 🧑‍💻
 
-**Building for Production :** If you want to run the project and make the build in the production mode then run the following command in the root directory, by default the project will continue to run in the development mode:
+**Building for Production:** If you want to run the project and make the build in the production mode then run the following command in the root directory, by default The project will continue to run in the development mode:
 
 ```bash
 yarn prod
@@ -160,7 +160,7 @@ At present, we officially aim to support the last two versions of the following 
 
 We use GitHub issues as support tickets to manage Item support.
 
-1. In order to raise the GitHub issue, you must have a github account. [Raise a Issue](https://github.com/themeselection/sneat-html-laravel-admin-template-free/issues)
+1. In order to raise the GitHub issue, you must have a GitHub account. [Raise an Issue](https://github.com/themeselection/sneat-html-laravel-admin-template-free/issues)
 
 ## License ©
 
@@ -178,9 +178,9 @@ Contribution are always welcome and recommended! Here is how:
 ### Contribution Requirements 🧰
 
 * When you contribute, you agree to give a non-exclusive license to ThemeSelection to use that contribution in any context as we (ThemeSelection) see appropriate.
-* If you use content provided by another party, it must be appropriately licensed using an open source license.
+* If you use content provided by another party, it must be appropriately licensed using an open-source license.
 * Contributions are only accepted through Github pull requests.
-* Finally, contributed code must work in all supported browsers (see above for browser support).
+* Finally, the contributed code must work in all supported browsers (see above for browser support).
 
 ## Creators 😇
 
@@ -188,11 +188,11 @@ Contribution are always welcome and recommended! Here is how:
 
 ## Changelog 📆
 
-Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add a detailed release notes to each new release.
+Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add detailed release notes to each new release.
 
 ## NOTE 🏷️
 
-**We request you to keep ThemeSelection credit link in the footer section.**
+**We request you to keep the ThemeSelection credit link in the footer section.**
 
 ## Looking For Premium Admin Templates ?? 👀
 
