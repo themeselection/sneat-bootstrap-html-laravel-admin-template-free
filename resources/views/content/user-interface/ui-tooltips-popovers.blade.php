@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   <span class="text-muted fw-light">UI elements /</span> Tooltips & popovers
 </h4>
 
@@ -15,7 +15,7 @@
 <div class="card mb-4">
   <h5 class="card-header">Tooltips</h5>
   <div class="card-body">
-    <div class="text-light small fw-semibold">Directions</div>
+    <div class="text-light small fw-medium">Directions</div>
     <div class="row demo-vertical-spacing">
       <div class="col">
         <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-offset="0,4" data-bs-placement="right" data-bs-html="true" title="<i class='bx bx-trending-up bx-xs' ></i> <span>Tooltip on right</span>">
@@ -46,7 +46,7 @@
 <div class="card">
   <h5 class="card-header">Popovers</h5>
   <div class="card-body">
-    <div class="text-light small fw-semibold">Directions</div>
+    <div class="text-light small fw-medium">Directions</div>
     <div class="row demo-vertical-spacing">
       <div class="col">
         <button type="button" class="btn btn-primary text-nowrap" data-bs-toggle="popover" data-bs-offset="0,14" data-bs-placement="right" data-bs-html="true" data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div class='d-flex justify-content-between'><button type='button' class='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' class='btn btn-sm btn-primary'>Read More</button></div>" title="Popover Title">

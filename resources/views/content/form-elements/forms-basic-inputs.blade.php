@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   <span class="text-muted fw-light">Forms /</span> Basic Inputs
 </h4>
 
@@ -67,11 +67,11 @@
           <label for="exampleDataList" class="form-label">Datalist example</label>
           <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
           <datalist id="datalistOptions">
-            <option value="San Francisco">
-            <option value="New York">
-            <option value="Seattle">
-            <option value="Los Angeles">
-            <option value="Chicago">
+            <option value="San Francisco"></option>
+            <option value="New York"></option>
+            <option value="Seattle"></option>
+            <option value="Los Angeles"></option>
+            <option value="Chicago"></option>
           </datalist>
         </div>
         <div class="mb-3">
@@ -96,7 +96,7 @@
     <div class="card mb-4">
       <h5 class="card-header">Input Sizing</h5>
       <div class="card-body">
-        <small class="text-light fw-semibold">Input text</small>
+        <small class="text-light fw-medium">Input text</small>
 
         <div class="mt-2 mb-3">
           <label for="largeInput" class="form-label">Large input</label>
@@ -110,11 +110,10 @@
           <label for="smallInput" class="form-label">Small input</label>
           <input id="smallInput" class="form-control form-control-sm" type="text" placeholder=".form-control-sm" />
         </div>
-
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <small class="text-light fw-semibold">Input select</small>
+        <small class="text-light fw-medium">Input select</small>
         <div class="mt-2 mb-3">
           <label for="largeSelect" class="form-label">Large select</label>
           <select id="largeSelect" class="form-select form-select-lg">
@@ -155,7 +154,7 @@
       <div class="card-body">
         <div class="row gy-3">
           <div class="col-md">
-            <small class="text-light fw-semibold">Checkboxes</small>
+            <small class="text-light fw-medium">Checkboxes</small>
             <div class="form-check mt-3">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
               <label class="form-check-label" for="defaultCheck1">
@@ -188,7 +187,7 @@
             </div>
           </div>
           <div class="col-md">
-            <small class="text-light fw-semibold">Radio</small>
+            <small class="text-light fw-medium">Radio</small>
             <div class="form-check mt-3">
               <input name="default-radio-1" class="form-check-input" type="radio" value="" id="defaultRadio1" />
               <label class="form-check-label" for="defaultRadio1">
@@ -221,7 +220,7 @@
       <div class="card-body">
         <div class="row gy-3">
           <div class="col-md">
-            <small class="text-light fw-semibold d-block">Inline Checkboxes</small>
+            <small class="text-light fw-medium d-block">Inline Checkboxes</small>
             <div class="form-check form-check-inline mt-3">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
               <label class="form-check-label" for="inlineCheckbox1">1</label>
@@ -236,7 +235,7 @@
             </div>
           </div>
           <div class="col-md">
-            <small class="text-light fw-semibold d-block">Inline Radio</small>
+            <small class="text-light fw-medium d-block">Inline Radio</small>
             <div class="form-check form-check-inline mt-3">
               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
               <label class="form-check-label" for="inlineRadio1">1</label>

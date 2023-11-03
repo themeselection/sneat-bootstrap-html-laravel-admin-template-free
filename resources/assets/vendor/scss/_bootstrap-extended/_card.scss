@@ -7,7 +7,7 @@
   .card-link {
     display: inline-block;
   }
-  // ! FIX: to remove padding top from first card-body if used with card-header
+  // ! FIX: To remove padding top from first card-body if used with card-header
   .card-header + .card-body,
   .card-header + .card-content > .card-body:first-of-type {
     padding-top: 0;
@@ -131,6 +131,18 @@
   & + &,
   > * + * {
     margin-left: 0.25rem;
+  }
+}
+
+.card-title {
+  &:not(:is(h1, h2, h3, h4, h5, h6)) {
+    color: $body-color;
+  }
+}
+
+.card-title {
+  &:not(:is(h1, h2, h3, h4, h5, h6)) {
+    color: $body-color;
   }
 }
 

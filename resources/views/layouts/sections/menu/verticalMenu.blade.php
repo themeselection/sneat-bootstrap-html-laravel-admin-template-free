@@ -4,12 +4,12 @@
   <div class="app-brand demo">
     <a href="{{url('/')}}" class="app-brand-link">
       <span class="app-brand-logo demo">
-        @include('_partials.macros',["width"=>25,"withbg"=>'#696cff'])
+        @include('_partials.macros',["width"=>25,"withbg"=>'var(--bs-primary)'])
       </span>
       <span class="app-brand-text demo menu-text fw-bold ms-2">{{config('variables.templateName')}}</span>
     </a>
 
-    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-autod-block d-xl-none">
+    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
       <i class="bx bx-chevron-left bx-sm align-middle"></i>
     </a>
   </div>
@@ -24,7 +24,7 @@
     {{-- menu headers --}}
     @if (isset($menu->menuHeader))
     <li class="menu-header small text-uppercase">
-      <span class="menu-header-text">{{ $menu->menuHeader }}</span>
+      <span class="menu-header-text">{{ __($menu->menuHeader) }}</span>
     </li>
 
     @else
@@ -61,6 +61,9 @@
         <i class="{{ $menu->icon }}"></i>
         @endisset
         <div>{{ isset($menu->name) ? __($menu->name) : '' }}</div>
+        @isset($menu->badge)
+          <div class="badge bg-{{ $menu->badge[0] }} rounded-pill ms-auto">{{ $menu->badge[1] }}</div>
+        @endisset
       </a>
 
       {{-- submenu --}}

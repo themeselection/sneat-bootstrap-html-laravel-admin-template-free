@@ -22,7 +22,7 @@
         <div class="col-sm-7">
           <div class="card-body">
             <h5 class="card-title text-primary">Congratulations John! 🎉</h5>
-            <p class="mb-4">You have done <span class="fw-bold">72%</span> more sales today. Check your new badge in your profile.</p>
+            <p class="mb-4">You have done <span class="fw-medium">72%</span> more sales today. Check your new badge in your profile.</p>
 
             <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Badges</a>
           </div>
@@ -79,7 +79,7 @@
             </div>
             <span>Sales</span>
             <h3 class="card-title text-nowrap mb-1">$4,679</h3>
-            <small class="text-success fw-semibold"><i class='bx bx-up-arrow-alt'></i> +28.42%</small>
+            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> +28.42%</small>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
             </div>
           </div>
           <div id="growthChart"></div>
-          <div class="text-center fw-semibold pt-3 mb-2">62% Company Growth</div>
+          <div class="text-center fw-medium pt-3 mb-2">62% Company Growth</div>
 
           <div class="d-flex px-xxl-4 px-lg-2 p-4 gap-xxl-3 gap-lg-1 gap-3 justify-content-between">
             <div class="d-flex">
@@ -157,7 +157,7 @@
             </div>
             <span class="d-block mb-1">Payments</span>
             <h3 class="card-title text-nowrap mb-2">$2,456</h3>
-            <small class="text-danger fw-semibold"><i class='bx bx-down-arrow-alt'></i> -14.82%</small>
+            <small class="text-danger fw-medium"><i class='bx bx-down-arrow-alt'></i> -14.82%</small>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@
                   <span class="badge bg-label-warning rounded-pill">Year 2021</span>
                 </div>
                 <div class="mt-sm-auto">
-                  <small class="text-success text-nowrap fw-semibold"><i class='bx bx-chevron-up'></i> 68.2%</small>
+                  <small class="text-success text-nowrap fw-medium"><i class='bx bx-chevron-up'></i> 68.2%</small>
                   <h3 class="mb-0">$84,686k</h3>
                 </div>
               </div>
@@ -247,7 +247,7 @@
                 <small class="text-muted">Mobile, Earbuds, TV</small>
               </div>
               <div class="user-progress">
-                <small class="fw-semibold">82.5k</small>
+                <small class="fw-medium">82.5k</small>
               </div>
             </div>
           </li>
@@ -261,7 +261,7 @@
                 <small class="text-muted">T-shirt, Jeans, Shoes</small>
               </div>
               <div class="user-progress">
-                <small class="fw-semibold">23.8k</small>
+                <small class="fw-medium">23.8k</small>
               </div>
             </div>
           </li>
@@ -275,7 +275,7 @@
                 <small class="text-muted">Fine Art, Dining</small>
               </div>
               <div class="user-progress">
-                <small class="fw-semibold">849k</small>
+                <small class="fw-medium">849k</small>
               </div>
             </div>
           </li>
@@ -289,7 +289,7 @@
                 <small class="text-muted">Football, Cricket Kit</small>
               </div>
               <div class="user-progress">
-                <small class="fw-semibold">99</small>
+                <small class="fw-medium">99</small>
               </div>
             </div>
           </li>
@@ -326,7 +326,7 @@
                 <small class="text-muted d-block">Total Balance</small>
                 <div class="d-flex align-items-center">
                   <h6 class="mb-0 me-1">$459.10</h6>
-                  <small class="text-success fw-semibold">
+                  <small class="text-success fw-medium">
                     <i class='bx bx-chevron-up'></i>
                     42.9%
                   </small>

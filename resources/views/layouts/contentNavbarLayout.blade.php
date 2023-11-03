@@ -8,8 +8,6 @@ $isNavbar = ($isNavbar ?? true);
 $isMenu = ($isMenu ?? true);
 $isFlex = ($isFlex ?? false);
 $isFooter = ($isFooter ?? true);
-$customizerHidden = ($customizerHidden ?? '');
-$pricingModal = ($pricingModal ?? false);
 
 /* HTML Classes */
 $navbarDetached = 'navbar-detached';
@@ -48,12 +46,6 @@ $container = ($container ?? 'container-xxl');
             @endif
 
             @yield('content')
-
-            <!-- pricingModal -->
-            @if ($pricingModal)
-            @include('_partials/_modals/modal-pricing')
-            @endif
-            <!--/ pricingModal -->
 
           </div>
           <!-- / Content -->

@@ -7,13 +7,14 @@
 @endsection
 
 @section('content')
-<h4 class="fw-semibold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Toasts</h4>
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Toasts</h4>
+
 
 <!-- Toast with Placements -->
-<div class="bs-toast toast toast-placement-ex m-2" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+<div class="bs-toast toast toast-placement-ex m-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="2000">
   <div class="toast-header">
     <i class='bx bx-bell me-2'></i>
-    <div class="me-auto fw-semibold">Bootstrap</div>
+    <div class="me-auto fw-medium">Bootstrap</div>
     <small>11 mins ago</small>
     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
@@ -68,13 +69,13 @@
   <h5 class="card-header">Bootstrap Toasts Styles</h5>
   <div class="row g-0">
     <div class="col-md-6 p-4">
-      <div class="text-light small fw-semibold mb-3">Default</div>
-      <div class="toast-container">
+      <div class="text-light small fw-medium mb-3">Default</div>
+      <div class="toast-container position-relative">
 
         <div class="bs-toast toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -86,7 +87,7 @@
         <div class="bs-toast toast fade show bg-primary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -98,7 +99,7 @@
         <div class="bs-toast toast fade show bg-secondary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -110,7 +111,7 @@
         <div class="bs-toast toast fade show bg-success" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -122,7 +123,7 @@
         <div class="bs-toast toast fade show bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -134,7 +135,7 @@
         <div class="bs-toast toast fade show bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -146,7 +147,7 @@
         <div class="bs-toast toast fade show bg-info" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -158,7 +159,7 @@
         <div class="bs-toast toast fade show bg-dark" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -169,14 +170,14 @@
       </div>
     </div>
     <div class="col-md-6 ui-bg-overlay-container p-4">
-      <div class="ui-bg-overlay bg-dark opacity-75 rounded-end-bottom"></div>
-      <div class="text-white small fw-semibold mb-3">Translucent</div>
+      <div class="ui-bg-overlay bg-dark rounded-end-bottom"></div>
+      <div class="text-white small fw-medium mb-3">Translucent</div>
 
-      <div class="toast-container">
+      <div class="toast-container position-relative">
         <div class="bs-toast toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -188,7 +189,7 @@
         <div class="bs-toast toast fade show bg-primary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -200,7 +201,7 @@
         <div class="bs-toast toast fade show bg-secondary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -212,7 +213,7 @@
         <div class="bs-toast toast fade show bg-success" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -224,7 +225,7 @@
         <div class="bs-toast toast fade show bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -236,7 +237,7 @@
         <div class="bs-toast toast fade show bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -248,7 +249,7 @@
         <div class="bs-toast toast fade show bg-info" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
@@ -260,7 +261,7 @@
         <div class="bs-toast toast fade show bg-dark" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-semibold">Bootstrap</div>
+            <div class="me-auto fw-medium">Bootstrap</div>
             <small>11 mins ago</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>

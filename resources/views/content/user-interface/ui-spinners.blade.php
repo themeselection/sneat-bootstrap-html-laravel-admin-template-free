@@ -4,7 +4,7 @@
 
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Spinners</h4>
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Spinners</h4>
 
 <!-- Style -->
 <div class="card mb-4">
@@ -12,7 +12,7 @@
   <div class="card-body">
     <div class="row gy-3">
       <div class="col-md">
-        <div class="text-light small fw-semibold">Border</div>
+        <div class="text-light small fw-medium">Border</div>
 
         <div class="demo-inline-spacing">
           <div class="spinner-border" role="status">
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="col-md">
-        <div class="text-light small fw-semibold">Growing</div>
+        <div class="text-light small fw-medium">Growing</div>
 
         <div class="demo-inline-spacing">
           <div class="spinner-grow" role="status">
@@ -89,7 +89,7 @@
     <div class="row gy-3">
       <!-- Large -->
       <div class="col-md">
-        <div class="text-light small fw-semibold">Large</div>
+        <div class="text-light small fw-medium">Large</div>
         <div class="demo-inline-spacing">
           <div class="spinner-border spinner-border-lg text-primary" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -102,7 +102,7 @@
 
       <!-- Medium -->
       <div class="col-md">
-        <div class="text-light small fw-semibold">Medium</div>
+        <div class="text-light small fw-medium">Medium</div>
         <div class="demo-inline-spacing">
           <div class="spinner-border text-primary" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -115,7 +115,7 @@
 
       <!-- Small -->
       <div class="col-md">
-        <div class="text-light small fw-semibold">Small</div>
+        <div class="text-light small fw-medium">Small</div>
         <div class="demo-inline-spacing">
           <div class="spinner-border spinner-border-sm text-primary" role="status">
             <span class="visually-hidden">Loading...</span>

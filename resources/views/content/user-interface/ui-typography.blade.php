@@ -3,7 +3,7 @@
 @section('title', 'Typography - UI elements')
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   Typography
 </h4>
 
@@ -15,37 +15,37 @@
       <table class="table table-borderless">
         <tbody>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Heading 1</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Heading 1</small></td>
             <td class="py-3">
               <h1 class="mb-0">Bootstrap heading</h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Heading 2</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Heading 2</small></td>
             <td class="py-3">
               <h2 class="mb-0">Bootstrap heading</h2>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 3</small></td>
+            <td><small class="text-light fw-medium">Heading 3</small></td>
             <td class="py-3">
               <h3 class="mb-0">Bootstrap heading</h3>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 4</small></td>
+            <td><small class="text-light fw-medium">Heading 4</small></td>
             <td class="py-3">
               <h4 class="mb-0">Bootstrap heading</h4>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 5</small></td>
+            <td><small class="text-light fw-medium">Heading 5</small></td>
             <td class="py-3">
               <h5 class="mb-0">Bootstrap heading</h5>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 6</small></td>
+            <td><small class="text-light fw-medium">Heading 6</small></td>
             <td class="py-3">
               <h6 class="mb-0">Bootstrap heading</h6>
             </td>
@@ -61,37 +61,37 @@
       <table class="table table-borderless">
         <tbody>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Heading 1</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Heading 1</small></td>
             <td class="py-3">
               <h1 class="mb-0">Bootstrap <small class="text-muted">heading</small></h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Heading 2</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Heading 2</small></td>
             <td class="py-3">
               <h2 class="mb-0">Bootstrap <small class="text-muted">heading</small></h2>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 3</small></td>
+            <td><small class="text-light fw-medium">Heading 3</small></td>
             <td class="py-3">
               <h3 class="mb-0">Bootstrap <small class="text-muted">heading</small></h3>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 4</small></td>
+            <td><small class="text-light fw-medium">Heading 4</small></td>
             <td class="py-3">
               <h4 class="mb-0">Bootstrap <small class="text-muted">heading</small></h4>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 5</small></td>
+            <td><small class="text-light fw-medium">Heading 5</small></td>
             <td class="py-3">
               <h5 class="mb-0">Bootstrap <small class="text-muted">heading</small></h5>
             </td>
           </tr>
           <tr>
-            <td><small class="text-light fw-semibold">Heading 6</small></td>
+            <td><small class="text-light fw-medium">Heading 6</small></td>
             <td class="py-3">
               <h6 class="mb-0">Bootstrap <small class="text-muted">heading</small></h6>
             </td>
@@ -110,37 +110,37 @@
       <table class="table table-borderless">
         <tbody>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Display 1</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Display 1</small></td>
             <td class="py-3">
               <h1 class="display-1 mb-0">Display 1</h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Display 2</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Display 2</small></td>
             <td class="py-3">
               <h1 class="display-2 mb-0">Display 2</h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Display 3</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Display 3</small></td>
             <td class="py-3">
               <h1 class="display-3 mb-0">Display 3</h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Display 4</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Display 4</small></td>
             <td class="py-3">
               <h1 class="display-4 mb-0">Display 4</h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Display 5</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Display 5</small></td>
             <td class="py-3">
               <h1 class="display-5 mb-0">Display 5</h1>
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Display 6</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Display 6</small></td>
             <td class="py-3">
               <h1 class="display-6 mb-0">Display 6</h1>
             </td>
@@ -156,7 +156,7 @@
       <table class="table table-borderless">
         <tbody>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Paragraph</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Paragraph</small></td>
             <td class="py-3">
               <p class="mb-0">
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
@@ -166,7 +166,7 @@
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Lead Text</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Lead Text</small></td>
             <td class="py-4">
               <p class="lead mb-0">
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
@@ -175,7 +175,7 @@
             </td>
           </tr>
           <tr>
-            <td class="align-middle"><small class="text-light fw-semibold">Muted text</small></td>
+            <td class="align-middle"><small class="text-light fw-medium">Muted text</small></td>
             <td class="py-3">
               <p class="text-muted mb-0">
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
@@ -198,55 +198,55 @@
         <table class="table table-borderless">
           <tbody>
             <tr>
-              <td class="align-middle"><small class="text-light fw-semibold">Text Highlight</small></td>
+              <td class="align-middle"><small class="text-light fw-medium">Text Highlight</small></td>
               <td class="py-3">
                 <p class="mb-0">You can use the mark tag to <mark>highlight</mark> text.</p>
               </td>
             </tr>
             <tr>
-              <td class="align-middle"><small class="text-light fw-semibold">Deleted Text</small></td>
+              <td class="align-middle"><small class="text-light fw-medium">Deleted Text</small></td>
               <td class="py-3">
                 <p class="mb-0"><del>This line of text is meant to be treated as deleted text.</del></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">No Longer Correct</small></td>
+              <td><small class="text-light fw-medium">No Longer Correct</small></td>
               <td class="py-3">
                 <p class="mb-0"><s>This line of text is meant to be treated as no longer accurate.</s></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">Addition</small></td>
+              <td><small class="text-light fw-medium">Addition</small></td>
               <td class="py-3">
                 <p class="mb-0"><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">Underlined</small></td>
+              <td><small class="text-light fw-medium">Underlined</small></td>
               <td class="py-3">
                 <p class="mb-0"><u>This line of text will render as underlined</u></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">Fine Print</small></td>
+              <td><small class="text-light fw-medium">Fine Print</small></td>
               <td class="py-3">
                 <p class="mb-0"><small>This line of text is meant to be treated as fine print.</small></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">Bold Text</small></td>
+              <td><small class="text-light fw-medium">Bold Text</small></td>
               <td class="py-3">
                 <p class="mb-0"><strong>This line rendered as bold text.</strong></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">Italicized Text</small></td>
+              <td><small class="text-light fw-medium">Italicized Text</small></td>
               <td class="py-3">
                 <p class="mb-0"><em>This line rendered as italicized text.</em></p>
               </td>
             </tr>
             <tr>
-              <td><small class="text-light fw-semibold">Abbreviations</small></td>
+              <td><small class="text-light fw-medium">Abbreviations</small></td>
               <td>
                 <p><abbr title="attribute">attr</abbr></p>
                 <p class="mb-0"><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
@@ -271,7 +271,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <small class="text-light fw-semibold">Naming a source</small>
+        <small class="text-light fw-medium">Naming a source</small>
         <figure class="mt-2">
           <blockquote class="blockquote">
             <p class="mb-0">A well-known quote, contained in a blockquote element.</p>
@@ -283,7 +283,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <small class="text-light fw-semibold">Align Center</small>
+        <small class="text-light fw-medium">Align Center</small>
         <figure class="text-center mt-2">
           <blockquote class="blockquote">
             <p class="mb-0">A well-known quote, contained in a blockquote element.</p>
@@ -295,7 +295,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <small class="text-light fw-semibold">Align Right</small>
+        <small class="text-light fw-medium">Align Right</small>
         <figure class="text-end mt-2">
           <blockquote class="blockquote">
             <p class="mb-0">A well-known quote, contained in a blockquote element.</p>
@@ -312,7 +312,7 @@
     <div class="card">
       <h5 class="card-header">Lists</h5>
       <div class="card-body">
-        <small class="text-light fw-semibold">Unstyled</small>
+        <small class="text-light fw-medium">Unstyled</small>
         <ul class="list-unstyled mt-2">
           <li>Lorem ipsum dolor sit amet</li>
           <li>Facilisis in pretium nisl aliquet</li>
@@ -328,7 +328,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <small class="text-light fw-semibold">Inline</small>
+        <small class="text-light fw-medium">Inline</small>
         <ul class="list-inline mt-2">
           <li class="list-inline-item">Lorem ipsum</li>
           <li class="list-inline-item">Phasellus iaculis</li>
@@ -337,7 +337,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <small class="text-light fw-semibold">Description list alignment</small>
+        <small class="text-light fw-medium">Description list alignment</small>
         <dl class="row mt-2">
           <dt class="col-sm-3">Description lists</dt>
           <dd class="col-sm-9">A description list is perfect for defining terms.</dd>

@@ -16,7 +16,6 @@
 
 ![GitHub](https://img.shields.io/github/license/themeselection/sneat-html-laravel-admin-template-free) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/themeselection/sneat-html-laravel-admin-template-free) ![GitHub issues](https://img.shields.io/github/issues/themeselection/sneat-html-laravel-admin-template-free) ![GitHub closed issues](https://img.shields.io/github/issues-closed/themeselection/sneat-html-laravel-admin-template-free) ![Twitter Follow](https://img.shields.io/twitter/follow/Theme_Selection?style=social)
 
-
 <kbd>[![Sneat - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://cdn.jsdelivr.net/gh/themeselection/ts-assets/sneat/sneat-bootstrap-laravel-admin-template-free/marketing/sneat-bootstrap-laravel-admin-template-free-github.png)](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/)</kbd>
 
 ## Introduction 🚀
@@ -72,7 +71,6 @@ php artisan serve
 yarn prod
 ```
 
-
 ## What's Included 📦
 
 - Dashboard
@@ -106,33 +104,33 @@ yarn prod
 
 ## What's in Premium Version 💎
 
-| Sneat Free Version                                                                        | Sneat Premium Version                                                                                                            |
-| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| [Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)    | [Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/landing)                         |
-| [Download](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/) | [Purchase](https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template/)                                             |
-| Single vertical Menu                                                                      | Vertical Menu + Horizontal Menu                                                                                                  |
-| Simple Light Style                                                                        | Light & Dark Style                                                                                                               |
-| Default Theme                                                                             | Default, Semi Dark & Bordered Themes                                                                                             |
-| Fixed Layout(Menu)                                                                        | Fixed & Static Layout(Menu)                                                                                                      |
-| 1 Simple Dashboard                                                                        | 3 Niche Dashboards                                                                                                               |
-| -                                                                                         | Multiple Ready to use Application like **Laravel CRUD Application**, Calendar, Invoice, Users List, Users View, Roles and Permission etc.                      |
-| Simple From Elements                                                                      | Advance form elements, validation & form wizard                                                                                  |
-| Basic Cards                                                                               | Basic, Advance , Statistics, Analytics, Gamifications and Actions Cards                                                          |
-| Basic User Interface(Components)                                                          | Advance and Custom User Interfaces(Components)                                                                                   |
-| Two Extended Components                                                                   | Twelve Ready to use Extended Components                                                                                          |
-| -                                                                                         | Quick Search - Quickly navigate between pages (w/ hotkey support)                                                                |
-| Basic Pages                                                                               | Authentication Pages in 2 Variants + Ready to use pages like User Profile, Account Settings,FAQ, Help Center, Pricing, Misc etc. |
-| -                                                                                         | 3D Characters + Illustrations                                                                                                    |
-| Basic tables                                                                              | Advanced tables                                                                                                                  |
-| -                                                                                         | Quick customization using theme config file                                                                                      |
-| -                                                                                         | Leaflet Maps                                                                                                                     |
-| 1 Chart Library                                                                           | 2 Chart Libraries                                                                                                                |
-| -                                                                                         | Multiple Navbar & Menu Options                                                                                                   |
-| -                                                                                         | Starter-kit                                                                                                                      |
-| -                                                                                         | **Localization support**                                                                                                     |
-| -                                                                                         | RTL Support                                                                                                                      |
-| Regular Support                                                                           | Priority Support                                                                                                                 |
-| Detailed Documentation                                                                    | Detailed Documentation                                                                                                           |
+| Sneat Free Version                                                                              | Sneat Premium Version                                                                                                                                                                         |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/) | [Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/)                                                                                                  |
+| [Download](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/)   | [Purchase](https://themeselection.com/item/sneat-bootstrap-laravel-admin-template/)                                                                                                           |
+| Single vertical Menu                                                                            | Vertical Menu + Horizontal Menu                                                                                                                                                               |
+| Simple Light Style                                                                              | Light, Dark & System Style                                                                                                                                                                    |
+| Default Theme                                                                                   | Default, Semi Dark & Bordered Themes                                                                                                                                                          |
+| Fixed Layout(Menu)                                                                              | Fixed & Static Layout(Menu)                                                                                                                                                                   |
+| 1 Simple Dashboard                                                                              | 5 Niche Dashboards                                                                                                                                                                            |
+| -                                                                                               | Multiple Ready to use Application like **Laravel CRUD Application**, Email, Chat, Calendar, Kanban, eCommerce, Academy, Logistics, Invoice, Users List, Users View, Roles and Permission etc. |
+| Simple From Elements                                                                            | Advance form elements, validation & form wizard                                                                                                                                               |
+| Basic Cards                                                                                     | Basic, Advance , Statistics, Analytics, Gamifications and Actions Cards                                                                                                                       |
+| Basic User Interface(Components)                                                                | Advance and Custom User Interfaces(Components)                                                                                                                                                |
+| Two Extended Components                                                                         | Twelve Ready to use Extended Components                                                                                                                                                       |
+| -                                                                                               | Quick Search - Quickly navigate between pages (w/ hotkey support)                                                                                                                             |
+| Basic Pages                                                                                     | Authentication Pages in 2 Variants + Ready to use pages like User Profile, Account Settings,FAQ, Help Center, Pricing, Misc etc.                                                              |
+| -                                                                                               | 3D Characters + Illustrations                                                                                                                                                                 |
+| Basic tables                                                                                    | Advanced & Data tables                                                                                                                                                                        |
+| -                                                                                               | Quick customization using theme config file                                                                                                                                                   |
+| -                                                                                               | Leaflet Maps                                                                                                                                                                                  |
+| 1 Chart Library                                                                                 | 2 Chart Libraries                                                                                                                                                                             |
+| -                                                                                               | Multiple Navbar & Menu Options                                                                                                                                                                |
+| -                                                                                               | Starter-kit                                                                                                                                                                                   |
+| -                                                                                               | **Localization support**                                                                                                                                                                      |
+| -                                                                                               | RTL Support                                                                                                                                                                                   |
+| Regular Support                                                                                 | Priority Support                                                                                                                                                                              |
+| Detailed Documentation                                                                          | Detailed Documentation                                                                                                                                                                        |
 
 ## Documentation 📜
 
@@ -171,20 +169,20 @@ We use GitHub issues as support tickets to manage Item support.
 
 Contribution are always welcome and recommended! Here is how:
 
-* Fork the repository ([here is the guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
-* Clone to your machine `git clone https://github.com/YOUR_USERNAME/REPO_NAME` Make your changes
-* Create a pull request
+- Fork the repository ([here is the guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
+- Clone to your machine `git clone https://github.com/YOUR_USERNAME/REPO_NAME` Make your changes
+- Create a pull request
 
 ### Contribution Requirements 🧰
 
-* When you contribute, you agree to give a non-exclusive license to ThemeSelection to use that contribution in any context as we (ThemeSelection) see appropriate.
-* If you use content provided by another party, it must be appropriately licensed using an open-source license.
-* Contributions are only accepted through Github pull requests.
-* Finally, the contributed code must work in all supported browsers (see above for browser support).
+- When you contribute, you agree to give a non-exclusive license to ThemeSelection to use that contribution in any context as we (ThemeSelection) see appropriate.
+- If you use content provided by another party, it must be appropriately licensed using an open-source license.
+- Contributions are only accepted through Github pull requests.
+- Finally, the contributed code must work in all supported browsers (see above for browser support).
 
 ## Creators 😇
 
-* [ThemeSelection](https://themeselection.com)
+- [ThemeSelection](https://themeselection.com)
 
 ## Changelog 📆
 
@@ -202,7 +200,7 @@ If you want to Download [Free Admin Templates](https://themeselection.com/item/c
 
 ## Other variants
 
-* [html variant]({https://themeselection.com/item/sneat-free-bootstrap-html-admin-template/})
+- [html variant]({https://themeselection.com/item/sneat-free-bootstrap-html-admin-template/})
 <!-- Add others here -->
 
 ## Social Media :earth_africa:

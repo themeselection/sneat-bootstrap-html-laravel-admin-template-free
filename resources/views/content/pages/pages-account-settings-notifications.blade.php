@@ -3,7 +3,7 @@
 @section('title', 'Account settings - Pages')
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   <span class="text-muted fw-light">Account Settings /</span> Notifications
 </h4>
 
@@ -18,7 +18,7 @@
       <!-- Notifications -->
       <h5 class="card-header">Recent Devices</h5>
       <div class="card-body">
-        <span>We need permission from your browser to show notifications. <span class="notificationRequest"><strong>Request Permission</strong></span></span>
+        <span>We need permission from your browser to show notifications. <span class="notificationRequest"><span class="fw-medium">Request Permission</span></span></span>
         <div class="error"></div>
       </div>
       <div class="table-responsive">

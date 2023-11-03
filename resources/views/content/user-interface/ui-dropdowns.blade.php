@@ -3,24 +3,23 @@
 @section('title', 'Dropdowns - UI elements')
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   <span class="text-muted fw-light">UI elements /</span> Dropdowns
 </h4>
-
 
 <div class="card mb-4" id="btn-dropdown-demo">
   <h5 class="card-header">Dropdowns</h5>
 
   <!-- Basic Dropdowns -->
   <div class="card-body">
-    <small class="text-light fw-semibold">Basic</small>
+    <small class="text-light fw-medium">Basic</small>
     <div class="demo-inline-spacing">
       <div class="btn-group">
         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Primary</button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
           <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-          <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+          <li><a class="dropdown-item disabled" href="javascript:void(0);">Something else here</a></li>
           <li>
             <hr class="dropdown-divider">
           </li>
@@ -95,12 +94,11 @@
     </div>
   </div>
   <!--/ Basic Dropdowns -->
-
   <hr class="m-0">
 
   <!-- Outline Dropdowns -->
   <div class="card-body">
-    <small class="text-light fw-semibold">Outline</small>
+    <small class="text-light fw-medium">Outline</small>
     <div class="demo-inline-spacing">
       <div class="btn-group">
         <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Primary</button>
@@ -185,7 +183,7 @@
   <hr class="m-0">
   <!-- Split Dropdowns -->
   <div class="card-body">
-    <small class="text-light fw-semibold">Split</small>
+    <small class="text-light fw-medium">Split</small>
     <div class="demo-inline-spacing">
       <div class="btn-group">
         <button type="button" class="btn btn-primary">Primary</button>
@@ -292,7 +290,7 @@
     <div class="row gy-3">
       <!-- Hidden Arrow Dropdowns -->
       <div class="col-lg-3 col-sm-6 col-12">
-        <small class="text-light fw-semibold">Hidden arrow</small>
+        <small class="text-light fw-medium">Hidden arrow</small>
         <div class="demo-inline-spacing">
           <div class="btn-group">
             <button type="button" class="btn btn-primary dropdown-toggle hide-arrow" data-bs-toggle="dropdown" aria-expanded="false">Hidden arrow </button>
@@ -311,10 +309,10 @@
       <!--/ Hidden Arrow Dropdowns -->
       <!-- Dropdown with icon -->
       <div class="col-lg-3 col-sm-6 col-12">
-        <small class="text-light fw-semibold">With Icon</small>
+        <small class="text-light fw-medium">With Icon</small>
         <div class="demo-inline-spacing">
           <div class="btn-group" id="dropdown-icon-demo">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-menu"></i> With Icon</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-menu me-1"></i> With Icon</button>
             <ul class="dropdown-menu">
               <li><a href="javascript:void(0);" class="dropdown-item d-flex align-items-center"><i class="bx bx-chevron-right scaleX-n1-rtl"></i>Action</a></li>
               <li><a href="javascript:void(0);" class="dropdown-item d-flex align-items-center"><i class="bx bx-chevron-right scaleX-n1-rtl"></i>Another action</a></li>
@@ -330,7 +328,7 @@
       <!--/ Dropdown with icon -->
       <!-- Icon Dropdown -->
       <div class="col-lg-3 col-sm-6 col-12">
-        <small class="text-light fw-semibold">Icon Dropdown</small>
+        <small class="text-light fw-medium">Icon Dropdown</small>
         <div class="demo-inline-spacing">
           <div class="btn-group">
             <button type="button" class="btn btn-primary btn-icon rounded-pill dropdown-toggle hide-arrow" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></button>
@@ -359,10 +357,10 @@
 
   <!-- Dropdown Menu Alignment -->
   <div class="card-body">
-    <small class="text-light fw-semibold">Menu Alignment</small>
+    <small class="text-light fw-medium">Menu Alignment</small>
     <div class="demo-inline-spacing">
       <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="btn btn-primary dropdown-toggle overflow-hidden d-sm-inline-flex d-block text-truncate" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           End-aligned dropdown menu
         </button>
         <ul class="dropdown-menu dropdown-menu-end">
@@ -372,7 +370,7 @@
         </ul>
       </div>
       <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="btn btn-primary dropdown-toggle overflow-hidden d-sm-inline-flex d-block text-truncate" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false">
           Start-aligned but end-aligned when lg screen
         </button>
         <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end">
@@ -382,7 +380,7 @@
         </ul>
       </div>
       <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="btn btn-primary dropdown-toggle overflow-hidden d-sm-inline-flex d-block text-truncate" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false">
           End-aligned but start-aligned when lg screen
         </button>
         <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
@@ -399,7 +397,7 @@
   <!-- Dropdown Sizes -->
 
   <div class="card-body">
-    <small class="text-light fw-semibold">Sizes</small>
+    <small class="text-light fw-medium">Sizes</small>
     <div class="demo-inline-spacing">
       <div class="btn-group">
         <button class="btn btn-primary btn-xl dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Extra large
@@ -465,7 +463,7 @@
     <div class="row gy-3">
       <!-- Dropdown Directions -->
       <div class="col-xl-6">
-        <small class="text-light fw-semibold">Directions</small>
+        <small class="text-light fw-medium">Directions</small>
         <div class="row">
           <div class="col-md-6">
             <div class="demo-inline-spacing">
@@ -538,7 +536,7 @@
       <!--/ Dropdown Directions -->
       <!-- Dropdown menu content -->
       <div class="col-xl-6">
-        <small class="text-light fw-semibold">Menu Content</small>
+        <small class="text-light fw-medium">Menu Content</small>
         <div class="demo-inline-spacing">
           <div class="btn-group">
             <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -619,7 +617,7 @@
     <div class="row gy-3">
       <!-- Dropdown options -->
       <div class="col-xl-6">
-        <small class="text-light fw-semibold">Options : Use <code>data-bs-offset</code> or <code>data-bs-reference</code> to change the location of the dropdown.</small>
+        <small class="text-light fw-medium">Options : Use <code>data-bs-offset</code> or <code>data-bs-reference</code> to change the location of the dropdown.</small>
         <div class="demo-inline-spacing">
           <div class="btn-group me-1">
             <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
@@ -651,7 +649,7 @@
       <!--/ Dropdown options -->
       <!-- Auto close behavior -->
       <div class="col-xl-6">
-        <small class="text-light fw-semibold">Auto close behavior</small>
+        <small class="text-light fw-medium">Auto close behavior</small>
         <div class="demo-inline-spacing">
           <div class="btn-group">
             <button class="btn btn-primary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"> Default </button>

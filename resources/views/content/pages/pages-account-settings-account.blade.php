@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   <span class="text-muted fw-light">Account Settings /</span> Account
 </h4>
 
@@ -166,7 +166,7 @@
       <div class="card-body">
         <div class="mb-3 col-12 mb-0">
           <div class="alert alert-warning">
-            <h6 class="alert-heading fw-bold mb-1">Are you sure you want to delete your account?</h6>
+            <h6 class="alert-heading fw-medium mb-1">Are you sure you want to delete your account?</h6>
             <p class="mb-0">Once you delete your account, there is no going back. Please be certain.</p>
           </div>
         </div>

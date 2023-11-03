@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4">
+<h4 class="py-3 mb-4">
   <span class="text-muted fw-light">UI elements /</span> Modals
 </h4>
 
@@ -18,7 +18,7 @@
     <div class="row gy-3">
       <!-- Default Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">Default</small>
+        <small class="text-light fw-medium">Default</small>
         <div class="mt-3">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
@@ -43,11 +43,11 @@
                   <div class="row g-2">
                     <div class="col mb-0">
                       <label for="emailBasic" class="form-label">Email</label>
-                      <input type="text" id="emailBasic" class="form-control" placeholder="xxxx@xxx.xx">
+                      <input type="email" id="emailBasic" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
                       <label for="dobBasic" class="form-label">DOB</label>
-                      <input type="text" id="dobBasic" class="form-control" placeholder="DD / MM / YY">
+                      <input type="date" id="dobBasic" class="form-control">
                     </div>
                   </div>
                 </div>
@@ -63,7 +63,7 @@
 
       <!-- Vertically Centered Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">Vertically centered</small>
+        <small class="text-light fw-medium">Vertically centered</small>
         <div class="mt-3">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCenter">
@@ -88,11 +88,11 @@
                   <div class="row g-2">
                     <div class="col mb-0">
                       <label for="emailWithTitle" class="form-label">Email</label>
-                      <input type="text" id="emailWithTitle" class="form-control" placeholder="xxxx@xxx.xx">
+                      <input type="email" id="emailWithTitle" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
                       <label for="dobWithTitle" class="form-label">DOB</label>
-                      <input type="text" id="dobWithTitle" class="form-control" placeholder="DD / MM / YY">
+                      <input type="date" id="dobWithTitle" class="form-control">
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
 
       <!-- Slide from Top Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">Slide from Top</small>
+        <small class="text-light fw-medium">Slide from Top</small>
         <div class="mt-3">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTop">
@@ -133,11 +133,11 @@
                   <div class="row g-2">
                     <div class="col mb-0">
                       <label for="emailSlideTop" class="form-label">Email</label>
-                      <input type="text" id="emailSlideTop" class="form-control" placeholder="xxxx@xxx.xx">
+                      <input type="email" id="emailSlideTop" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
                       <label for="dobSlideTop" class="form-label">DOB</label>
-                      <input type="text" id="dobSlideTop" class="form-control" placeholder="DD / MM / YY">
+                      <input type="date" id="dobSlideTop" class="form-control">
                     </div>
                   </div>
                 </div>
@@ -157,7 +157,7 @@
     <div class="row gy-3">
       <!-- Modal with YouTube Video -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">YouTube Video</small>
+        <small class="text-light fw-medium">YouTube Video</small>
         <div class="mt-3">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#youTubeModal" data-theVideo="https://www.youtube.com/embed/EngW7tLk6R8">
             Launch modal
@@ -176,7 +176,7 @@
 
       <!-- Toggle Between Modals -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">Toggle Between Modals</small>
+        <small class="text-light fw-medium">Toggle Between Modals</small>
         <div class="mt-3">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalToggle">
             Launch modal
@@ -221,7 +221,7 @@
 
       <!-- Fullscreen Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">Fullscreen</small>
+        <small class="text-light fw-medium">Fullscreen</small>
         <div class="mt-3">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
             Launch modal
@@ -289,7 +289,7 @@
     <div class="row gy-3">
       <!-- Modal Sizes -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-semibold">Sizes</small>
+        <small class="text-light fw-medium">Sizes</small>
         <!-- Small Modal -->
         <div class="modal fade" id="smallModal" tabindex="-1" aria-hidden="true">
           <div class="modal-dialog modal-sm" role="document">
@@ -308,11 +308,11 @@
                 <div class="row g-2">
                   <div class="col mb-0">
                     <label class="form-label" for="emailSmall">Email</label>
-                    <input type="text" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx">
+                    <input type="email" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx">
                   </div>
                   <div class="col mb-0">
                     <label for="dobSmall" class="form-label">DOB</label>
-                    <input id="dobSmall" type="text" class="form-control" placeholder="DD / MM / YY">
+                    <input id="dobSmall" type="date" class="form-control">
                   </div>
                 </div>
               </div>
@@ -341,11 +341,11 @@
                 <div class="row g-2">
                   <div class="col mb-0">
                     <label for="emailLarge" class="form-label">Email</label>
-                    <input type="text" id="emailLarge" class="form-control" placeholder="xxxx@xxx.xx">
+                    <input type="email" id="emailLarge" class="form-control" placeholder="xxxx@xxx.xx">
                   </div>
                   <div class="col mb-0">
                     <label for="dobLarge" class="form-label">DOB</label>
-                    <input type="text" id="dobLarge" class="form-control" placeholder="DD / MM / YY">
+                    <input type="date" id="dobLarge" class="form-control">
                   </div>
                 </div>
               </div>
@@ -374,11 +374,11 @@
                 <div class="row g-2">
                   <div class="col mb-0">
                     <label for="emailExLarge" class="form-label">Email</label>
-                    <input type="text" id="emailExLarge" class="form-control" placeholder="xxxx@xxx.xx">
+                    <input type="email" id="emailExLarge" class="form-control" placeholder="xxxx@xxx.xx">
                   </div>
                   <div class="col mb-0">
                     <label for="dobExLarge" class="form-label">DOB</label>
-                    <input type="text" id="dobExLarge" class="form-control" placeholder="DD / MM / YY">
+                    <input type="date" id="dobExLarge" class="form-control">
                   </div>
                 </div>
               </div>
@@ -406,7 +406,7 @@
 
       <!-- Modal Scroll long content -->
       <div class="col-lg-4 col-md-3">
-        <small class="text-light fw-semibold">Scrolling long content</small>
+        <small class="text-light fw-medium">Scrolling long content</small>
         <!-- Modal -->
         <div class="modal fade" id="modalLong" tabindex="-1" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -528,7 +528,7 @@
 
       <!-- Modal Backdrop -->
       <div class="col-lg-4 col-md-3">
-        <small class="text-light fw-semibold">Backdrop</small>
+        <small class="text-light fw-medium">Backdrop</small>
         <div class="mt-3">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#backDropModal">
@@ -553,11 +553,11 @@
                   <div class="row g-2">
                     <div class="col mb-0">
                       <label for="emailBackdrop" class="form-label">Email</label>
-                      <input type="text" id="emailBackdrop" class="form-control" placeholder="xxxx@xxx.xx">
+                      <input type="email" id="emailBackdrop" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
                       <label for="dobBackdrop" class="form-label">DOB</label>
-                      <input type="text" id="dobBackdrop" class="form-control" placeholder="DD / MM / YY">
+                      <input type="date" id="dobBackdrop" class="form-control">
                     </div>
                   </div>
                 </div>

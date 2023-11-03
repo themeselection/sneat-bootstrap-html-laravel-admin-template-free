@@ -3,7 +3,7 @@
 @section('title', 'Badges - UI elements')
 
 @section('content')
-<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Badges</h4>
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Badges</h4>
 
 <div class="row">
   <!-- Basic Badges -->
@@ -11,7 +11,7 @@
     <div class="card mb-4">
       <h5 class="card-header">Basic Badges</h5>
       <div class="card-body">
-        <div class="text-light small fw-semibold">Default</div>
+        <div class="text-light small fw-medium">Default</div>
         <div class="demo-inline-spacing">
           <span class="badge bg-primary">Primary</span>
           <span class="badge bg-secondary">Secondary</span>
@@ -24,7 +24,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <div class="text-light small fw-semibold">Pills</div>
+        <div class="text-light small fw-medium">Pills</div>
 
         <div class="demo-inline-spacing">
           <span class="badge rounded-pill bg-primary">Primary</span>
@@ -44,7 +44,7 @@
     <div class="card mb-4">
       <h5 class="card-header">Label Badges</h5>
       <div class="card-body">
-        <div class="text-light small fw-semibold">Label Default</div>
+        <div class="text-light small fw-medium">Label Default</div>
 
         <div class="demo-inline-spacing">
           <span class="badge bg-label-primary">Primary</span>
@@ -58,7 +58,7 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
-        <div class="text-light small fw-semibold">Label Pills</div>
+        <div class="text-light small fw-medium">Label Pills</div>
 
         <div class="demo-inline-spacing">
           <span class="badge rounded-pill bg-label-primary">Primary</span>
@@ -82,28 +82,28 @@
       <div class="card-body">
         <div class="row gy-3">
           <div class="col-sm-4">
-            <small class="text-light fw-semibold">Default</small>
+            <small class="text-light fw-medium">Default</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-primary">
                 Text
-                <span class="badge bg-white text-primary">4</span>
+                <span class="badge bg-white text-primary ms-1">4</span>
               </button>
               <button type="button" class="btn btn-primary">
                 Text
-                <span class="badge bg-secondary rounded-pill">4</span>
+                <span class="badge bg-secondary rounded-pill ms-1">4</span>
               </button>
             </div>
           </div>
           <div class="col-sm-4">
-            <small class="text-light fw-semibold">Outline</small>
+            <small class="text-light fw-medium">Outline</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-outline-primary">
                 Text
-                <span class="badge">4</span>
+                <span class="badge ms-1">4</span>
               </button>
               <button type="button" class="btn btn-outline-secondary">
                 Text
-                <span class="badge rounded-pill">4</span>
+                <span class="badge rounded-pill ms-1">4</span>
               </button>
             </div>
           </div>
@@ -122,7 +122,7 @@
         <div class="row gy-3">
           <div class="col-xl-6">
             <h6>Basic</h6>
-            <div class="text-light small fw-semibold mb-2">Default</div>
+            <div class="text-light small fw-medium mb-2">Default</div>
             <div class="demo-inline-spacing">
               <p>
                 <span class="badge badge-center rounded-pill bg-primary">1</span>
@@ -144,7 +144,7 @@
           </div>
           <div class="col-xl-6">
             <h6>Label</h6>
-            <div class="text-light small fw-semibold mb-2">Default</div>
+            <div class="text-light small fw-medium mb-2">Default</div>
             <div class="demo-inline-spacing">
               <p>
                 <span class="badge badge-center rounded-pill bg-label-primary">1</span>
