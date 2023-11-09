@@ -81,7 +81,7 @@
       <h5 class="card-header"> Button with Badges</h5>
       <div class="card-body">
         <div class="row gy-3">
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <small class="text-light fw-medium">Default</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-primary">
@@ -94,7 +94,7 @@
               </button>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <small class="text-light fw-medium">Outline</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-outline-primary">

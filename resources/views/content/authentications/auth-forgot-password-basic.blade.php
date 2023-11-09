@@ -25,7 +25,7 @@
           <!-- /Logo -->
           <h4 class="mb-2">Forgot Password? 🔒</h4>
           <p class="mb-4">Enter your email and we'll send you instructions to reset your password</p>
-          <form id="formAuthentication" class="mb-3" action="javascript:void(0)" method="GET">
+          <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="GET">
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
               <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" autofocus>
