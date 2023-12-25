@@ -23,7 +23,6 @@ yarn-error.log
 yarn.lock
 package-lock.log
 /.idea
-/.vscode
 
 /public/css
 /public/js
