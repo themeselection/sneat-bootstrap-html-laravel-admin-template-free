@@ -16,12 +16,8 @@ docker-compose.override.yml
 
 Homestead.json
 Homestead.yaml
-composer.lock
 npm-debug.log
-/package-lock.json
 yarn-error.log
-yarn.lock
-package-lock.log
 /.idea
 
 /public/css
