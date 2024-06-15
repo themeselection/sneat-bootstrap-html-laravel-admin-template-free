@@ -36,9 +36,12 @@
             </button>
 
             <p class="text-muted mb-0">Allowed JPG, GIF or PNG. Max size of 800K</p>
+    
           </div>
         </div>
+              <p class="alert w-25 mt-2" style='font-size:0.6rrm;' id='upload-account-image-msg'></p>
       </div>
+      
       <hr class="my-0">
       <div class="card-body">
         <form id="formAccountSettings" method="POST" onsubmit="return false">
