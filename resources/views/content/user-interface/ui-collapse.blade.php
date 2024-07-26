@@ -3,13 +3,11 @@
 @section('title', 'Collapse - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Collapse</h4>
-
 <!-- Collapse -->
 <h5>Collapse</h5>
 <div class="row">
   <div class="col-12">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Basic</h5>
       <div class="card-body">
         <p class="card-text">
@@ -24,8 +22,8 @@
           </button>
         </p>
         <div class="collapse" id="collapseExample">
-          <div class="d-grid d-sm-flex p-3 border">
-            <img src="{{asset('assets/img/elements/1.jpg')}}" alt="collapse-image" height="125" class="me-4 mb-sm-0 mb-2">
+          <div class="d-grid d-sm-flex p-4 border">
+            <img src="{{asset('assets/img/elements/1.jpg')}}" alt="collapse-image" height="125" class="me-6 mb-sm-0 mb-2">
             <span>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
             </span>
@@ -50,10 +48,10 @@
           </button>
         </p>
         <div class="row">
-          <div class="col-12 col-md-6 mb-2 mb-md-0">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
             <div class="collapse multi-collapse" id="multiCollapseExample1">
-              <div class="d-grid d-sm-flex p-3 border">
-                <img src="{{asset('assets/img/elements/2.jpg')}}" alt="collapse-image" height="125" class="me-4 mb-sm-0 mb-2">
+              <div class="d-grid d-sm-flex p-4 border">
+                <img src="{{asset('assets/img/elements/2.jpg')}}" alt="collapse-image" height="125" class="me-6 mb-sm-0 mb-2">
                 <span>
                   All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
                 </span>
@@ -62,8 +60,8 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="d-grid d-sm-flex p-3 border">
-                <img src="{{asset('assets/img/elements/3.jpg')}}" alt="collapse-image" height="125" class="me-4 mb-sm-0 mb-2">
+              <div class="d-grid d-sm-flex p-4 border">
+                <img src="{{asset('assets/img/elements/3.jpg')}}" alt="collapse-image" height="125" class="me-6 mb-sm-0 mb-2">
                 <span>
                   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.
                 </span>

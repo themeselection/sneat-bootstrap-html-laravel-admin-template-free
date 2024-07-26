@@ -1,6 +1,7 @@
 {
   "arrowParens": "avoid",
   "bracketSpacing": true,
+  "bracketSameLine": true,
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
   "jsxSingleQuote": true,
@@ -12,5 +13,17 @@
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none",
-  "useTabs": false
+  "useTabs": false,
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto",
+  "overrides": [
+    {
+      "files": [
+        "full-version/resources/assets/vendor/js/*.js"
+      ],
+      "options": {
+        "semi": false
+      }
+    }
+  ]
 }

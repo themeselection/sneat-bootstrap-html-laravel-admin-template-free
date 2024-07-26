@@ -3,18 +3,14 @@
 @section('title', 'List groups - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span> List groups
-</h4>
-
-<div class="card mb-4">
+<div class="card mb-6">
   <h5 class="card-header">List groups</h5>
   <div class="card-body">
     <div class="row">
       <!-- Basic List group -->
-      <div class="col-lg-6 mb-4 mb-xl-0">
+      <div class="col-lg-6 mb-6 mb-xl-0">
         <small class="text-light fw-medium">Basic</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <div class="list-group">
             <a href="javascript:void(0);" class="list-group-item list-group-item-action active">Bear claw cake biscuit</a>
             <a href="javascript:void(0);" class="list-group-item list-group-item-action">Soufflé pastry pie ice</a>
@@ -28,20 +24,20 @@
       <!-- List group with Badges & Pills -->
       <div class="col-lg-6">
         <small class="text-light fw-medium">With Bagdes & Pills</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">Soufflé
               pastry pie ice
-              <span class="badge bg-primary">5</span>
+              <span class="badge badge-center bg-primary">5</span>
             </li>
             <li class="list-group-item disabled">Bear claw cake biscuit</li>
             <li class="list-group-item d-flex justify-content-between align-items-center">Tart
               tiramisu cake
-              <span class="badge bg-success">2</span>
+              <span class="badge badge-center bg-success">2</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">Bonbon
               toffee muffin
-              <span class="badge bg-danger rounded-pill">3</span>
+              <span class="badge badge-center bg-danger rounded-pill">3</span>
             </li>
             <li class="list-group-item">Dragée tootsie roll</li>
           </ul>
@@ -54,9 +50,9 @@
   <div class="card-body">
     <div class="row">
       <!-- List group Flush (Without main border) -->
-      <div class="col-lg-6 mb-4 mb-xl-0">
+      <div class="col-lg-6 mb-6 mb-xl-0">
         <small class="text-light fw-medium">Flush</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <div class="list-group list-group-flush">
             <a href="javascript:void(0);" class="list-group-item list-group-item-action">Bear claw cake biscuit</a>
             <a href="javascript:void(0);" class="list-group-item list-group-item-action">Soufflé pastry pie ice</a>
@@ -70,26 +66,26 @@
       <!-- List group Icons -->
       <div class="col-lg-6">
         <small class="text-light fw-medium">With Icons</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <ul class="list-group">
             <li class="list-group-item d-flex align-items-center">
-              <i class="bx bx-tv me-2"></i>
+              <i class="bx bx-tv me-3"></i>
               Soufflé pastry pie ice
             </li>
             <li class="list-group-item d-flex align-items-center">
-              <i class="bx bx-bell me-2"></i>
+              <i class="bx bx-bell me-3"></i>
               Bear claw cake biscuit
             </li>
             <li class="list-group-item d-flex align-items-center">
-              <i class="bx bx-support me-2"></i>
+              <i class="bx bx-support me-3"></i>
               Tart tiramisu cake
             </li>
             <li class="list-group-item d-flex align-items-center">
-              <i class="bx bx-purchase-tag-alt me-2"></i>
+              <i class="bx bx-purchase-tag-alt me-3"></i>
               Bonbon toffee muffin
             </li>
             <li class="list-group-item d-flex align-items-center">
-              <i class="bx bx-closet me-2"></i>
+              <i class="bx bx-closet me-3"></i>
               Dragée tootsie roll
             </li>
           </ul>
@@ -102,9 +98,9 @@
   <div class="card-body">
     <div class="row">
       <!-- List group Numbered -->
-      <div class="col-lg-6 mb-4 mb-xl-0">
+      <div class="col-lg-6 mb-6 mb-xl-0">
         <small class="text-light fw-medium">Numbered</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <ol class="list-group list-group-numbered">
             <li class="list-group-item">Bear claw cake biscuit</li>
             <li class="list-group-item">Soufflé pastry pie ice</li>
@@ -118,26 +114,26 @@
       <!-- List group checkbox -->
       <div class="col-lg-6">
         <small class="text-light fw-medium">List Group With Checkbox</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <div class="list-group">
             <label class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="">
+              <input class="form-check-input me-3" type="checkbox" value="">
               Soufflé pastry pie ice
             </label>
             <label class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="">
+              <input class="form-check-input me-3" type="checkbox" value="">
               Bear claw cake biscuit
             </label>
             <label class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="">
+              <input class="form-check-input me-3" type="checkbox" value="">
               Tart tiramisu cake
             </label>
             <label class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="">
+              <input class="form-check-input me-3" type="checkbox" value="">
               Bonbon toffee muffin
             </label>
             <label class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="">
+              <input class="form-check-input me-3" type="checkbox" value="">
               Dragée tootsie roll
             </label>
           </div>
@@ -150,9 +146,9 @@
   <div class="card-body">
     <div class="row">
       <!-- Contextual List group -->
-      <div class="col-lg-6 mb-4 mb-xl-0">
+      <div class="col-lg-6 mb-6 mb-xl-0">
         <small class="text-light fw-medium">Contextual classes</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <ul class="list-group">
             <li class="list-group-item list-group-item-primary">Primary list group item</li>
             <li class="list-group-item list-group-item-secondary">Secondary list group item</li>
@@ -168,11 +164,11 @@
       <!-- Custom content with heading -->
       <div class="col-lg-6">
         <small class="text-light fw-medium">Custom content</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <div class="list-group">
             <a href="javascript:void(0);" class="list-group-item list-group-item-action flex-column align-items-start active">
               <div class="d-flex justify-content-between w-100">
-                <h6>List group item heading</h6>
+                <h5 class="mb-1">List group item heading</h5>
                 <small>3 days ago</small>
               </div>
               <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
@@ -180,7 +176,7 @@
             </a>
             <a href="javascript:void(0);" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex justify-content-between w-100">
-                <h6>List group item heading</h6>
+                <h5 class="mb-1">List group item heading</h5>
                 <small class="text-muted">3 days ago</small>
               </div>
               <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
@@ -188,7 +184,7 @@
             </a>
             <a href="javascript:void(0);" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex justify-content-between w-100">
-                <h6>List group item heading</h6>
+                <h5 class="mb-1">List group item heading</h5>
                 <small class="text-muted">3 days ago</small>
               </div>
               <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
@@ -202,16 +198,16 @@
   </div>
 </div>
 
-<div class="card mb-4">
+<div class="card mb-6">
   <h5 class="card-header">Javascript behavior</h5>
   <div class="card-body">
     <div class="row">
       <!-- Custom content with heading -->
-      <div class="col-lg-6 mb-4 mb-xl-0">
+      <div class="col-lg-6 mb-6 mb-xl-0">
         <small class="text-light fw-medium">Vertical</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <div class="row">
-            <div class="col-md-4 col-12 mb-3 mb-md-0">
+            <div class="col-md-4 col-12 mb-6 mb-md-0">
               <div class="list-group">
                 <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home">Home</a>
                 <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile">Profile</a>
@@ -256,7 +252,7 @@
       </div>
       <div class="col-lg-6">
         <small class="text-light fw-medium">Horizontal</small>
-        <div class="demo-inline-spacing mt-3">
+        <div class="mt-4">
           <div class="list-group list-group-horizontal-md text-md-center">
             <a class="list-group-item list-group-item-action active" id="home-list-item" data-bs-toggle="list" href="#horizontal-home">Home</a>
             <a class="list-group-item list-group-item-action" id="profile-list-item" data-bs-toggle="list" href="#horizontal-profile">Profile</a>

@@ -3,27 +3,22 @@
 @section('title', 'Perfect Scrollbar - Extended UI')
 
 @section('vendor-style')
-<link rel="stylesheet" href="{{asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')}}" />
+@vite('resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.scss')
 @endsection
 
 @section('vendor-script')
-<script src="{{asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
+@vite('resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')
 @endsection
 
 @section('page-script')
-<script src="{{asset('assets/js/extended-ui-perfect-scrollbar.js')}}"></script>
+@vite('resources/assets/js/extended-ui-perfect-scrollbar.js')
 @endsection
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">Extended UI /</span> Perfect
-  Scrollbar
-</h4>
-
 <div class="row">
   <!-- Vertical Scrollbar -->
   <div class="col-md-6 col-sm-12">
-    <div class="card overflow-hidden mb-4" style="height: 300px;">
+    <div class="card overflow-hidden mb-6" style="height: 300px;">
       <h5 class="card-header">Vertical Scrollbar</h5>
       <div class="card-body" id="vertical-example">
         <p>
@@ -103,7 +98,7 @@
 
   <!-- Horizontal Scrollbar -->
   <div class="col-md-6 col-sm-12">
-    <div class="card overflow-hidden mb-4" style="height: 300px;">
+    <div class="card overflow-hidden mb-6" style="height: 300px;">
       <h5 class="card-header">Horizontal Scrollbar</h5>
       <div class="card-body" id="horizontal-example">
         <img src="{{asset('assets/img/backgrounds/18.jpg')}}" alt="scrollbar-image" />

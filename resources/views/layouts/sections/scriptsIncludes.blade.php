@@ -1,8 +1,11 @@
+@php
+use Illuminate\Support\Facades\Vite;
+@endphp
 <!-- laravel style -->
-<script src="{{ asset('assets/vendor/js/helpers.js') }}"></script>
+@vite(['resources/assets/vendor/js/helpers.js'])
 
 <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-<script src="{{ asset('assets/js/config.js') }}"></script>
+@vite(['resources/assets/js/config.js'])
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

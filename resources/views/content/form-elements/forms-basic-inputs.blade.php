@@ -3,17 +3,13 @@
 @section('title', 'Basic Inputs - Forms')
 
 @section('page-script')
-<script src="{{asset('assets/js/form-basic-inputs.js')}}"></script>
+@vite('resources/assets/js/form-basic-inputs.js')
 @endsection
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">Forms /</span> Basic Inputs
-</h4>
-
-<div class="row">
+<div class="row g-6">
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Default</h5>
       <div class="card-body">
         <div>
@@ -25,7 +21,7 @@
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Float label</h5>
       <div class="card-body">
         <div class="form-floating">
@@ -39,22 +35,22 @@
 
   <!-- Form controls -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Form Controls</h5>
       <div class="card-body">
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleFormControlInput1" class="form-label">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleFormControlReadOnlyInput1" class="form-label">Read only</label>
           <input class="form-control" type="text" id="exampleFormControlReadOnlyInput1" placeholder="Readonly input here..." readonly />
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleFormControlReadOnlyInputPlain1" class="form-label">Read plain</label>
           <input type="text" readonly class="form-control-plaintext" id="exampleFormControlReadOnlyInputPlain1" value="email@example.com" />
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleFormControlSelect1" class="form-label">Example select</label>
           <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
             <option selected>Open this select menu</option>
@@ -63,7 +59,7 @@
             <option value="3">Three</option>
           </select>
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleDataList" class="form-label">Datalist example</label>
           <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
           <datalist id="datalistOptions">
@@ -74,7 +70,7 @@
             <option value="Chicago"></option>
           </datalist>
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleFormControlSelect2" class="form-label">Example multiple select</label>
           <select multiple class="form-select" id="exampleFormControlSelect2" aria-label="Multiple select example">
             <option selected>Open this select menu</option>
@@ -93,16 +89,16 @@
 
   <!-- Input Sizing -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Input Sizing</h5>
       <div class="card-body">
         <small class="text-light fw-medium">Input text</small>
 
-        <div class="mt-2 mb-3">
+        <div class="mt-2 mb-4">
           <label for="largeInput" class="form-label">Large input</label>
           <input id="largeInput" class="form-control form-control-lg" type="text" placeholder=".form-control-lg" />
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="defaultInput" class="form-label">Default input</label>
           <input id="defaultInput" class="form-control" type="text" placeholder="Default input" />
         </div>
@@ -114,7 +110,7 @@
       <hr class="m-0" />
       <div class="card-body">
         <small class="text-light fw-medium">Input select</small>
-        <div class="mt-2 mb-3">
+        <div class="mt-2 mb-4">
           <label for="largeSelect" class="form-label">Large select</label>
           <select id="largeSelect" class="form-select form-select-lg">
             <option>Large select</option>
@@ -123,7 +119,7 @@
             <option value="3">Three</option>
           </select>
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="defaultSelect" class="form-label">Default select</label>
           <select id="defaultSelect" class="form-select">
             <option>Default select</option>
@@ -148,11 +144,11 @@
   <!-- Default Checkboxes and radios & Default checkboxes and radios -->
   <div class="col-xl-6">
 
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Checkboxes and Radios</h5>
       <!-- Checkboxes and Radios -->
       <div class="card-body">
-        <div class="row gy-3">
+        <div class="row gy-6">
           <div class="col-md">
             <small class="text-light fw-medium">Checkboxes</small>
             <div class="form-check mt-3">
@@ -218,7 +214,7 @@
       <hr class="m-0" />
       <!-- Inline Checkboxes -->
       <div class="card-body">
-        <div class="row gy-3">
+        <div class="row gy-6">
           <div class="col-md">
             <small class="text-light fw-medium d-block">Inline Checkboxes</small>
             <div class="form-check form-check-inline mt-3">
@@ -254,7 +250,7 @@
     </div>
 
     <!-- Switches -->
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Switches</h5>
       <div class="card-body">
         <div class="form-check form-switch mb-2">
@@ -277,18 +273,18 @@
     </div>
 
     <!-- Range -->
-    <div class="card mb-4 mb-xl-0">
+    <div class="card mb-6 mb-xl-0">
       <h5 class="card-header">Range</h5>
       <div class="card-body">
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="formRange1" class="form-label">Example range</label>
           <input type="range" class="form-range" id="formRange1">
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="disabledRange" class="form-label">Disabled range</label>
           <input type="range" class="form-range" id="disabledRange" disabled>
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="formRange2" class="form-label">Min and max</label>
           <input type="range" class="form-range" min="0" max="5" id="formRange2">
         </div>
@@ -303,82 +299,82 @@
 
   <div class="col-xl-6">
     <!-- HTML5 Inputs -->
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">HTML5 Inputs</h5>
       <div class="card-body">
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-text-input" class="col-md-2 col-form-label">Text</label>
           <div class="col-md-10">
             <input class="form-control" type="text" value="{{ config('variables.templateName') }}" id="html5-text-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-search-input" class="col-md-2 col-form-label">Search</label>
           <div class="col-md-10">
             <input class="form-control" type="search" value="Search ..." id="html5-search-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-email-input" class="col-md-2 col-form-label">Email</label>
           <div class="col-md-10">
             <input class="form-control" type="email" value="john@example.com" id="html5-email-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-url-input" class="col-md-2 col-form-label">URL</label>
           <div class="col-md-10">
             <input class="form-control" type="url" value="{{ config('variables.creatorUrl') }}" id="html5-url-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-tel-input" class="col-md-2 col-form-label">Phone</label>
           <div class="col-md-10">
             <input class="form-control" type="tel" value="90-(164)-188-556" id="html5-tel-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-password-input" class="col-md-2 col-form-label">Password</label>
           <div class="col-md-10">
             <input class="form-control" type="password" value="password" id="html5-password-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-number-input" class="col-md-2 col-form-label">Number</label>
           <div class="col-md-10">
             <input class="form-control" type="number" value="18" id="html5-number-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-datetime-local-input" class="col-md-2 col-form-label">Datetime</label>
           <div class="col-md-10">
             <input class="form-control" type="datetime-local" value="2021-06-18T12:30:00" id="html5-datetime-local-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-date-input" class="col-md-2 col-form-label">Date</label>
           <div class="col-md-10">
             <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-month-input" class="col-md-2 col-form-label">Month</label>
           <div class="col-md-10">
             <input class="form-control" type="month" value="2021-06" id="html5-month-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-week-input" class="col-md-2 col-form-label">Week</label>
           <div class="col-md-10">
             <input class="form-control" type="week" value="2021-W25" id="html5-week-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-time-input" class="col-md-2 col-form-label">Time</label>
           <div class="col-md-10">
             <input class="form-control" type="time" value="12:30:00" id="html5-time-input" />
           </div>
         </div>
-        <div class="mb-3 row">
+        <div class="mb-4 row">
           <label for="html5-color-input" class="col-md-2 col-form-label">Color</label>
           <div class="col-md-10">
             <input class="form-control" type="color" value="#666EE8" id="html5-color-input" />
@@ -387,7 +383,7 @@
         <div class="row">
           <label for="html5-range" class="col-md-2 col-form-label">Range</label>
           <div class="col-md-10">
-            <input type="range" class="form-range mt-3" id="html5-range" />
+            <input type="range" class="form-range mt-4" id="html5-range" />
           </div>
         </div>
       </div>
@@ -397,11 +393,11 @@
     <div class="card">
       <h5 class="card-header">File input</h5>
       <div class="card-body">
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="formFile" class="form-label">Default file input example</label>
           <input class="form-control" type="file" id="formFile">
         </div>
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="formFileMultiple" class="form-label">Multiple files input example</label>
           <input class="form-control" type="file" id="formFileMultiple" multiple>
         </div>

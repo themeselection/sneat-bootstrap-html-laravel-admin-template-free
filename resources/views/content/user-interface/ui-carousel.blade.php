@@ -3,12 +3,10 @@
 @section('title', 'Carousel - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Carousel</h4>
-
-<div class="row">
+<div class="row row-gap-6">
   <!-- Bootstrap carousel -->
   <div class="col-md">
-    <h5 class="my-4">Bootstrap carousel</h5>
+    <h5 class="mb-6">Bootstrap carousel</h5>
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -51,7 +49,7 @@
   </div>
   <!-- Bootstrap crossfade carousel -->
   <div class="col-md">
-    <h5 class="my-4">Bootstrap crossfade carousel (dark)</h5>
+    <h5 class="mb-6">Bootstrap crossfade carousel (dark)</h5>
 
     <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">

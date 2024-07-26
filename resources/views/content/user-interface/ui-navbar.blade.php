@@ -3,11 +3,9 @@
 @section('title', 'Navbar - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Navbar</h4>
-
 <!-- Basic -->
-<h5 class="pb-1 mt-5 mb-4">Example</h5>
-<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+<h5 class="pb-1 mb-6">Example</h5>
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-12">
   <div class="container-fluid">
     <a class="navbar-brand" href="javascript:void(0)">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +46,9 @@
 <!--/ Basic -->
 
 <!-- Supported content -->
-<h5 class="pb-1 mb-4">Supported content</h5>
-<div class="mb-5">
-  <h6 class="mt-2 mb-3 text-muted">Text</h6>
+<h5 class="pb-1 mb-6">Supported content</h5>
+<div class="mb-12">
+  <h6 class="mt-2 mb-4 text-muted">Text</h6>
   <nav class="navbar navbar-example navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="javascript:void(0)">Navbar</a>
@@ -69,7 +67,7 @@
     </div>
   </nav>
 
-  <h6 class="mt-4 mb-3 text-muted">Input Group</h6>
+  <h6 class="mt-6 mb-4 text-muted">Input Group</h6>
   <nav class="navbar navbar-example navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="javascript:void(0)">Navbar</a>
@@ -94,7 +92,7 @@
     </div>
   </nav>
 
-  <h6 class="mt-4 mb-3 text-muted">Button</h6>
+  <h6 class="mt-6 mb-4 text-muted">Button</h6>
   <nav class="navbar navbar-example navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="javascript:void(0)">Navbar</a>

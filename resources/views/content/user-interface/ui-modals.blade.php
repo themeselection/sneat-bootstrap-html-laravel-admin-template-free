@@ -3,23 +3,19 @@
 @section('title', 'Modals - UI elements')
 
 @section('page-script')
-<script src="{{asset('assets/js/ui-modals.js')}}"></script>
+@vite(['resources/assets/js/ui-modals.js'])
 @endsection
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span> Modals
-</h4>
-
 <!-- Bootstrap modals -->
-<div class="card mb-4">
+<div class="card mb-6">
   <h5 class="card-header">Bootstrap modals</h5>
   <div class="card-body">
     <div class="row gy-3">
       <!-- Default Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Default</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
             Launch modal
@@ -35,12 +31,12 @@
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-3">
+                    <div class="col mb-6">
                       <label for="nameBasic" class="form-label">Name</label>
                       <input type="text" id="nameBasic" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-6">
                     <div class="col mb-0">
                       <label for="emailBasic" class="form-label">Email</label>
                       <input type="email" id="emailBasic" class="form-control" placeholder="xxxx@xxx.xx">
@@ -64,7 +60,7 @@
       <!-- Vertically Centered Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Vertically centered</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCenter">
             Launch modal
@@ -80,12 +76,12 @@
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-3">
+                    <div class="col mb-6">
                       <label for="nameWithTitle" class="form-label">Name</label>
                       <input type="text" id="nameWithTitle" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-6">
                     <div class="col mb-0">
                       <label for="emailWithTitle" class="form-label">Email</label>
                       <input type="email" id="emailWithTitle" class="form-control" placeholder="xxxx@xxx.xx">
@@ -109,7 +105,7 @@
       <!-- Slide from Top Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Slide from Top</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTop">
             Launch modal
@@ -125,12 +121,12 @@
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-3">
+                    <div class="col mb-6">
                       <label for="nameSlideTop" class="form-label">Name</label>
                       <input type="text" id="nameSlideTop" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-6">
                     <div class="col mb-0">
                       <label for="emailSlideTop" class="form-label">Email</label>
                       <input type="email" id="emailSlideTop" class="form-control" placeholder="xxxx@xxx.xx">
@@ -158,7 +154,7 @@
       <!-- Modal with YouTube Video -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">YouTube Video</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#youTubeModal" data-theVideo="https://www.youtube.com/embed/EngW7tLk6R8">
             Launch modal
           </button>
@@ -177,7 +173,7 @@
       <!-- Toggle Between Modals -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Toggle Between Modals</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalToggle">
             Launch modal
           </button>
@@ -222,7 +218,7 @@
       <!-- Fullscreen Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Fullscreen</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
             Launch modal
           </button>
@@ -300,12 +296,12 @@
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col mb-3">
+                  <div class="col mb-6">
                     <label for="nameSmall" class="form-label">Name</label>
                     <input type="text" id="nameSmall" class="form-control" placeholder="Enter Name">
                   </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-6">
                   <div class="col mb-0">
                     <label class="form-label" for="emailSmall">Email</label>
                     <input type="email" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx">
@@ -333,12 +329,12 @@
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col mb-3">
+                  <div class="col mb-6">
                     <label for="nameLarge" class="form-label">Name</label>
                     <input type="text" id="nameLarge" class="form-control" placeholder="Enter Name">
                   </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-6">
                   <div class="col mb-0">
                     <label for="emailLarge" class="form-label">Email</label>
                     <input type="email" id="emailLarge" class="form-control" placeholder="xxxx@xxx.xx">
@@ -366,12 +362,12 @@
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col mb-3">
+                  <div class="col mb-6">
                     <label for="nameExLarge" class="form-label">Name</label>
                     <input type="text" id="nameExLarge" class="form-control" placeholder="Enter Name">
                   </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-6">
                   <div class="col mb-0">
                     <label for="emailExLarge" class="form-label">Email</label>
                     <input type="email" id="emailExLarge" class="form-control" placeholder="xxxx@xxx.xx">
@@ -529,7 +525,7 @@
       <!-- Modal Backdrop -->
       <div class="col-lg-4 col-md-3">
         <small class="text-light fw-medium">Backdrop</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#backDropModal">
             Launch modal
@@ -545,12 +541,12 @@
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-3">
+                    <div class="col mb-6">
                       <label for="nameBackdrop" class="form-label">Name</label>
                       <input type="text" id="nameBackdrop" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-6">
                     <div class="col mb-0">
                       <label for="emailBackdrop" class="form-label">Email</label>
                       <input type="email" id="emailBackdrop" class="form-control" placeholder="xxxx@xxx.xx">

@@ -68,7 +68,7 @@ yarn
 5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles.
 
 ```bash
-yarn dev
+yarn build
 ```
 
 6. To serve the application, you need to run the following command in the project directory
@@ -130,7 +130,7 @@ yarn prod
 | Fixed Layout(Menu)                                                                              | Fixed & Static Layout(Menu)                                                                                                                                                                   |
 | 1 Simple Dashboard                                                                              | 5 Niche Dashboards                                                                                                                                                                            |
 | -                                                                                               | Multiple Ready to use Application like **Laravel CRUD Application**, Email, Chat, Calendar, Kanban, eCommerce, Academy, Logistics, Invoice, Users List, Users View, Roles and Permission etc. |
-| Simple From Elements                                                                            | Advance form elements, validation & form wizard                                                                                                                                               |
+| Simple Form Elements                                                                            | Advance form elements, validation & form wizard                                                                                                                                               |
 | Basic Cards                                                                                     | Basic, Advance , Statistics, Analytics, Gamifications and Actions Cards                                                                                                                       |
 | Basic User Interface(Components)                                                                | Advance and Custom User Interfaces(Components)                                                                                                                                                |
 | Two Extended Components                                                                         | Twelve Ready to use Extended Components                                                                                                                                                       |
@@ -226,22 +226,22 @@ For free products, enjoy community support via GitHub issues. Upgrade to Premium
 
 **[ThemeSelection](https://themeselection.com/)** provides Selected high quality, modern design, professional and easy-to-use **Fully Coded Dashboard Templates & UI Kits** to create your applications faster!
 
-- [Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/)
-- [VueJS Admin Templates](https://themeselection.com/products/category/vuejs-admin-templates/)
-- [Laravel Admin Templates](https://themeselection.com/products/category/laravel-admin-templates/)
+- [Bootstrap Admin Templates](https://themeselection.com/item/category/bootstrap-admin-template/)
+- [VueJS Admin Templates](https://themeselection.com/item/category/vuejs-admin-templates/)
+- [Laravel Admin Templates](https://themeselection.com/item/category/laravel-admin-templates/)
 - [Django Admin Templates](https://themeselection.com/item/category/django-admin-template/)
 - [React (NextJS) Admin Templates](https://themeselection.com/item/category/next-js-admin-template/)
 - [ASP.Net Core Admin Templates](https://themeselection.com/item/category/asp-net-dashboard/)
-- [Free UI Kits](https://themeselection.com/products/category/free-ui-kits/)
+- [Free UI Kits](https://themeselection.com/item/category/free-ui-kits/)
 
-If you want to [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
+If you want to [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
 
 ## Useful Links 🎁
 
-- [Freebies](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
 - [Vue CheatSheet](https://vue-cheatsheet.themeselection.com/)
+- [Freebies](https://themeselection.com/item/category/free-admin-templates/)
+- [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
+- [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
 
 ## Social Media :earth_africa:
 
