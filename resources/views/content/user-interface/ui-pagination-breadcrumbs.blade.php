@@ -3,11 +3,7 @@
 @section('title', 'Pagination and breadcrumbs - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span> Pagination and breadcrumbs
-</h4>
-
-<div class="card mb-4">
+<div class="card mb-6">
   <h5 class="card-header">Pagination</h5>
   <!-- Basic Pagination -->
   <div class="card-body">
@@ -19,10 +15,10 @@
           <nav aria-label="Page navigation">
             <ul class="pagination">
               <li class="page-item first">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-sm"></i></a>
               </li>
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevron-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevron-left bx-sm"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -40,10 +36,10 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevron-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevron-right bx-sm"></i></a>
               </li>
               <li class="page-item last">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-sm"></i></a>
               </li>
             </ul>
           </nav>
@@ -54,7 +50,7 @@
   </div>
 </div>
 <!-- Pagination Sizes -->
-<div class="card mb-4">
+<div class="card mb-6">
   <h5 class="card-header">Sizes & Alignments</h5>
   <div class="card-body">
     <div class="row">
@@ -64,7 +60,7 @@
           <nav aria-label="Page navigation">
             <ul class="pagination pagination-sm">
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-xs"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -82,14 +78,14 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-xs"></i></a>
               </li>
             </ul>
           </nav>
           <nav aria-label="Page navigation">
             <ul class="pagination">
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-sm"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -107,14 +103,14 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-sm"></i></a>
               </li>
             </ul>
           </nav>
           <nav aria-label="Page navigation">
             <ul class="pagination pagination-lg">
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-md"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -132,7 +128,7 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-md"></i></a>
               </li>
             </ul>
           </nav>
@@ -144,7 +140,7 @@
           <nav aria-label="Page navigation">
             <ul class="pagination">
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-sm"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -162,14 +158,14 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-sm"></i></a>
               </li>
             </ul>
           </nav>
           <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-sm"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -187,14 +183,14 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-sm"></i></a>
               </li>
             </ul>
           </nav>
           <nav aria-label="Page navigation">
             <ul class="pagination justify-content-end">
               <li class="page-item prev">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-left bx-sm"></i></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="javascript:void(0);">1</a>
@@ -212,7 +208,7 @@
                 <a class="page-link" href="javascript:void(0);">5</a>
               </li>
               <li class="page-item next">
-                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right"></i></a>
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevrons-right bx-sm"></i></a>
               </li>
             </ul>
           </nav>

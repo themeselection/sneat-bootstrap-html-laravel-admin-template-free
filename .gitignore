@@ -18,13 +18,11 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+/.fleet
 /.idea
+/.vscode
 
+!/public/assets
+!/public/assets/*
 /public/css
 /public/js
-/public/mix-manifest.json
-# But not these files...
-!/public/assets/*
-/public/assets/js
-/public/assets/css
-/public/assets/vendor

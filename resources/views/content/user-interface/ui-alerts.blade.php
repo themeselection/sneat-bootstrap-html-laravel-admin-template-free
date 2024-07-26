@@ -3,12 +3,9 @@
 @section('title', 'Alerts - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span> Alerts
-</h4>
-<div class="row mb-4">
+<div class="row g-6 mb-6">
   <!-- Basic Alerts -->
-  <div class="col-md mb-4 mb-md-0">
+  <div class="col-md">
     <div class="card">
       <h5 class="card-header">Basic Alerts</h5>
       <div class="card-body">

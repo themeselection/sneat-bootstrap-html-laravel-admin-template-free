@@ -3,11 +3,7 @@
 @section('title', 'Dropdowns - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span> Dropdowns
-</h4>
-
-<div class="card mb-4" id="btn-dropdown-demo">
+<div class="card mb-6" id="btn-dropdown-demo">
   <h5 class="card-header">Dropdowns</h5>
 
   <!-- Basic Dropdowns -->
@@ -569,7 +565,7 @@
               Text
             </button>
             <div class="dropdown-menu">
-              <div class="px-3 py-2 text-muted">
+              <div class="px-4 py-2 text-muted">
                 <p>
                   Some example text that's free-flowing within the dropdown menu.
                 </p>
@@ -584,16 +580,16 @@
               Forms
             </button>
             <div class="dropdown-menu dropdown-menu-end w-px-300">
-              <form class="p-4" onsubmit="return false">
-                <div class="mb-3">
+              <form class="p-6" onsubmit="return false">
+                <div class="mb-4">
                   <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
                 </div>
-                <div class="mb-3">
+                <div class="mb-4">
                   <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
                   <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
                 </div>
-                <div class="mb-3">
+                <div class="mb-4">
                   <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="dropdownCheck">
                     <label class="form-check-label" for="dropdownCheck"> Remember me </label>

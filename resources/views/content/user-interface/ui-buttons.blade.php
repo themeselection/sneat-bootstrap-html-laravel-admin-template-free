@@ -3,16 +3,11 @@
 @section('title', 'Buttons - UI elements')
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span>
-  Buttons
-</h4>
-
-<div class="row">
+<div class="row g-6">
   <!-- Basic Buttons -->
 
   <div class="col-12">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Basic Buttons</h5>
       <div class="card-body">
         <small class="text-light fw-medium">Default</small>
@@ -45,7 +40,7 @@
   <!-- Outline Buttons -->
 
   <div class="col-12">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Outline Buttons</h5>
       <div class="card-body">
         <small class="text-light fw-medium">Default</small>
@@ -76,47 +71,46 @@
   </div>
 
   <!-- Buttons with Icons -->
-
   <div class="col-12">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Buttons with Icons</h5>
       <div class="card-body">
         <div class="row gy-3">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-lg-4">
             <small class="text-light fw-medium">Basic</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-primary">
-                <span class="tf-icons bx bx-pie-chart-alt me-1"></span>Primary
+                <span class="tf-icons bx bx-pie-chart-alt bx-18px me-2"></span>Primary
               </button>
               <button type="button" class="btn btn-secondary">
-                <span class="tf-icons bx bx-bell me-1"></span>Secondary
+                <span class="tf-icons bx bx-bell bx-18px me-2"></span>Secondary
               </button>
             </div>
             <div class="demo-inline-spacing">
               <button type="button" class="btn rounded-pill btn-primary">
-                <span class="tf-icons bx bx-pie-chart-alt me-1"></span>Primary
+                <span class="tf-icons bx bx-pie-chart-alt bx-18px me-2"></span>Primary
               </button>
               <button type="button" class="btn rounded-pill btn-secondary">
-                <span class="tf-icons bx bx-bell"></span>&nbsp; Secondary
+                <span class="tf-icons bx bx-bell bx-18px me-2"></span>Secondary
               </button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-4">
             <small class="text-light fw-medium">Outline</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-outline-primary">
-                <span class="tf-icons bx bx-pie-chart-alt me-1"></span>Primary
+                <span class="tf-icons bx bx-pie-chart-alt bx-18px me-2"></span>Primary
               </button>
               <button type="button" class="btn btn-outline-secondary">
-                <span class="tf-icons bx bx-bell me-1"></span>Secondary
+                <span class="tf-icons bx bx-bell bx-18px me-2"></span>Secondary
               </button>
             </div>
             <div class="demo-inline-spacing">
               <button type="button" class="btn rounded-pill btn-outline-primary">
-                <span class="tf-icons bx bx-pie-chart-alt me-1"></span>Primary
+                <span class="tf-icons bx bx-pie-chart-alt bx-18px me-2"></span>Primary
               </button>
               <button type="button" class="btn rounded-pill btn-outline-secondary">
-                <span class="tf-icons bx bx-bell me-1"></span>Secondary
+                <span class="tf-icons bx bx-bell bx-18px me-2"></span>Secondary
               </button>
             </div>
           </div>
@@ -125,37 +119,37 @@
       <hr class="m-0" />
       <div class="card-body">
         <div class="row gy-3">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-lg-4">
             <small class="text-light fw-medium">Basic</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-icon btn-primary">
-                <span class="tf-icons bx bx-pie-chart-alt"></span>
+                <span class="tf-icons bx bx-pie-chart-alt bx-22px"></span>
               </button>
               <button type="button" class="btn btn-icon btn-secondary">
-                <span class="tf-icons bx bx-bell"></span>
+                <span class="tf-icons bx bx-bell bx-22px"></span>
               </button>
               <button type="button" class="btn rounded-pill btn-icon btn-primary">
-                <span class="tf-icons bx bx-pie-chart-alt"></span>
+                <span class="tf-icons bx bx-pie-chart-alt bx-22px"></span>
               </button>
               <button type="button" class="btn rounded-pill btn-icon btn-secondary">
-                <span class="tf-icons bx bx-bell"></span>
+                <span class="tf-icons bx bx-bell bx-22px"></span>
               </button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-4">
             <small class="text-light fw-medium">Outline</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-icon btn-outline-primary">
-                <span class="tf-icons bx bx-pie-chart-alt"></span>
+                <span class="tf-icons bx bx-pie-chart-alt bx-22px"></span>
               </button>
               <button type="button" class="btn btn-icon btn-outline-secondary">
-                <span class="tf-icons bx bx-bell"></span>
+                <span class="tf-icons bx bx-bell bx-22px"></span>
               </button>
               <button type="button" class="btn rounded-pill btn-icon btn-outline-primary">
-                <span class="tf-icons bx bx-pie-chart-alt"></span>
+                <span class="tf-icons bx bx-pie-chart-alt bx-22px"></span>
               </button>
               <button type="button" class="btn rounded-pill btn-icon btn-outline-secondary">
-                <span class="tf-icons bx bx-bell"></span>
+                <span class="tf-icons bx bx-bell bx-22px"></span>
               </button>
             </div>
           </div>
@@ -166,7 +160,7 @@
 
   <!-- Button Options -->
   <div class="col-12">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Button Options</h5>
       <div class="card-body">
         <small class="text-light fw-medium">Sizes</small>
@@ -190,7 +184,7 @@
       <hr class="m-0" />
       <div class="card-body">
         <small class="text-light fw-medium">Block level buttons</small>
-        <div class="row mt-3">
+        <div class="row mt-4">
           <div class="d-grid gap-2 col-lg-6 mx-auto">
             <button class="btn btn-primary btn-lg" type="button">Button</button>
             <button class="btn btn-secondary btn-lg" type="button">Button</button>
@@ -202,7 +196,7 @@
 
   <!-- Button Plugin -->
   <div class="col-12">
-    <div class="card mb-4">
+    <div class="card">
       <h5 class="card-header">Button Plugin</h5>
       <div class="card-body">
         <div class="row gy-3">
@@ -237,13 +231,13 @@
               <!-- Checkbox -->
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" checked>
-              <label class="btn btn-outline-primary d-flex flex-column" for="btncheck1"><span class="d-none d-sm-block">Checkbox</span>1 ( pre-checked )</label>
+                <label class="btn btn-outline-primary d-flex flex-column" for="btncheck1"><span class="d-none d-sm-block">Checkbox</span>1 ( pre-checked )</label>
 
-              <input type="checkbox" class="btn-check" id="btncheck2">
-              <label class="btn btn-outline-primary d-flex flex-column" for="btncheck2"><span class="d-none d-sm-block">Checkbox</span>2</label>
+                <input type="checkbox" class="btn-check" id="btncheck2">
+                <label class="btn btn-outline-primary d-flex flex-column" for="btncheck2"><span class="d-none d-sm-block">Checkbox</span>2</label>
 
-              <input type="checkbox" class="btn-check" id="btncheck3">
-              <label class="btn btn-outline-primary d-flex flex-column" for="btncheck3"><span class="d-none d-sm-block">Checkbox</span>3</label>
+                <input type="checkbox" class="btn-check" id="btncheck3">
+                <label class="btn btn-outline-primary d-flex flex-column" for="btncheck3"><span class="d-none d-sm-block">Checkbox</span>3</label>
               </div>
               <br />
               <!-- Radio -->
@@ -268,9 +262,9 @@
       <h5 class="card-header">Button Group</h5>
       <div class="card-body">
         <div class="row g-4">
-          <div class="col-md-6">
+          <div class="col-md-6 col-lg-4">
             <small class="text-light fw-medium">Basic</small>
-            <div class="mt-3">
+            <div class="mt-4">
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-secondary">Left</button>
                 <button type="button" class="btn btn-secondary">Middle</button>
@@ -278,9 +272,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-lg-4">
             <small class="text-light fw-medium">Outline</small>
-            <div class="mt-3">
+            <div class="mt-4">
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-outline-secondary">Left</button>
                 <button type="button" class="btn btn-outline-secondary">Middle</button>
@@ -293,7 +287,7 @@
       <hr class="m-0" />
       <div class="card-body">
         <div class="row">
-          <div class="col-xl-6 mb-xl-0 mb-3">
+          <div class="col-xl-6 mb-xl-0 mb-4">
             <small class="text-light fw-medium">Button Toolbar</small>
             <div class="btn-toolbar demo-inline-spacing" role="toolbar" aria-label="Toolbar with button groups">
               <div class="btn-group" role="group" aria-label="First group">
@@ -314,7 +308,7 @@
           </div>
           <div class="col-xl-6">
             <small class="text-light fw-medium">Button Nesting</small>
-            <div class="mt-3">
+            <div class="mt-4">
               <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-car"></i></button>
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-rocket"></i></button>

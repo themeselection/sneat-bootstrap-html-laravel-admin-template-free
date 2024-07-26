@@ -1,0 +1,2 @@
+**/*.*
+!resources/assets/vendor/js/*.js

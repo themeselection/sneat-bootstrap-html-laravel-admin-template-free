@@ -3,7 +3,7 @@
     {
       "url": "/",
       "name": "Dashboards",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "icon": "menu-icon tf-icons bx bx-home-smile",
       "slug": "dashboard",
       "badge": [
         "danger",
@@ -379,7 +379,7 @@
       "submenu": [
         {
           "url": "extended/ui-perfect-scrollbar",
-          "name": "Perfect scrollbar",
+          "name": "Perfect Scrollbar",
           "slug": "extended-ui-perfect-scrollbar"
         },
         {
