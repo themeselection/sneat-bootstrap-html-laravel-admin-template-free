@@ -2,7 +2,11 @@
 
 All notable changes to this template will be documented in this file.
 
-## 2.0.0 (2024-07-26)
+## v2.0.1 (2024-08-02)
+
+- Minor Bug Fixes
+
+## v2.0.0 (2024-07-26)
 
 ### Added
 
