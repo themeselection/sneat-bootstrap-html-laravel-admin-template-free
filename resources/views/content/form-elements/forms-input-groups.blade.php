@@ -3,10 +3,12 @@
 @section('title', 'Input groups - Forms')
 
 @section('content')
-<div class="row g-6">
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">Forms /</span> Input groups</h4>
+
+<div class="row">
   <!-- Basic -->
   <div class="col-md-6">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header">Basic</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -50,7 +52,7 @@
 
   <!-- Merged -->
   <div class="col-md-6">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header">Merged</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -94,7 +96,7 @@
 
   <!-- Sizing -->
   <div class="col-md-6">
-    <div class="card mb-6">
+    <div class="card mb-4">
       <h5 class="card-header">Sizing</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -117,7 +119,7 @@
   </div>
   <!-- Checkbox and radio addons -->
   <div class="col-md-6">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header">Checkbox and radio addons</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -145,7 +147,7 @@
 <div class="row">
   <!-- Multiple inputs & addon -->
   <div class="col-md-6">
-    <div class="card mb-6">
+    <div class="card mb-4">
       <h5 class="card-header">Multiple inputs & addon</h5>
 
       <div class="card-body demo-vertical-spacing demo-only-element">
@@ -156,15 +158,15 @@
           <input type="text" aria-label="Last name" class="form-control">
         </div>
 
-        <small class="text-light fw-medium d-block pt-4">Multiple addons</small>
+        <small class="text-light fw-medium d-block pt-3">Multiple addons</small>
         <div class="input-group">
           <span class="input-group-text">$</span>
           <span class="input-group-text">0.00</span>
-          <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
         </div>
 
         <div class="input-group">
-          <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
           <span class="input-group-text">$</span>
           <span class="input-group-text">0.00</span>
         </div>
@@ -174,7 +176,7 @@
   </div>
   <!-- Speech To Text -->
   <div class="col-md-6">
-    <div class="card mb-6">
+    <div class="card mb-4">
       <h5 class="card-header">Speech To Text</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -187,7 +189,7 @@
           </span>
         </div>
 
-        <small class="text-light fw-medium d-block pt-4">Textarea</small>
+        <small class="text-light fw-medium d-block pt-3">Textarea</small>
 
         <div class="input-group input-group-merge form-send-message">
           <textarea class="form-control message-input" placeholder="Say it" rows="2"></textarea>
@@ -204,7 +206,7 @@
 <!-- Button with dropdowns & addons -->
 <div class="row">
   <div class="col-md-6">
-    <div class="card mb-6">
+    <div class="card mb-4">
       <h5 class="card-header">Button with dropdowns & addons</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
         <small class="text-light fw-medium d-block">Button addons</small>
@@ -230,7 +232,7 @@
           <button class="btn btn-outline-primary" type="button">Button</button>
         </div>
 
-        <small class="text-light fw-medium d-block pt-4">Button with dropdowns</small>
+        <small class="text-light fw-medium d-block pt-3">Button with dropdowns</small>
         <div class="input-group">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu">
@@ -292,7 +294,7 @@
     <!-- Segmented buttons -->
     <div class="row">
       <div class="col-12">
-        <div class="card mb-6">
+        <div class="card mb-4">
           <h5 class="card-header">Segmented buttons</h5>
           <div class="card-body demo-vertical-spacing demo-only-element">
             <div class="input-group">
@@ -336,7 +338,7 @@
     <!-- Custom select -->
     <div class="row">
       <div class="col-12">
-        <div class="card mb-6">
+        <div class="card mb-4">
           <h5 class="card-header">Custom select</h5>
           <div class="card-body demo-vertical-spacing demo-only-element">
             <div class="input-group">

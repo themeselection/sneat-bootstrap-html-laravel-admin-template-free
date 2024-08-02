@@ -7,8 +7,5 @@
 }
 
 .tooltip-inner {
-  font-weight: $font-weight-medium;
-  display: flex;
-  align-items: center;
-  gap: 3px;
+  box-shadow: $tooltip-box-shadow;
 }

@@ -3,9 +3,8 @@
 @section('title', 'Register Basic - Pages')
 
 @section('page-style')
-@vite([
-  'resources/assets/vendor/scss/pages/page-auth.scss'
-])
+<!-- Page -->
+<link rel="stylesheet" href="{{asset('assets/vendor/css/pages/page-auth.css')}}">
 @endsection
 
 
@@ -14,29 +13,29 @@
   <div class="authentication-wrapper authentication-basic container-p-y">
     <div class="authentication-inner">
       <!-- Register Card -->
-      <div class="card px-sm-6 px-0">
+      <div class="card">
         <div class="card-body">
           <!-- Logo -->
-          <div class="app-brand justify-content-center mb-6">
+          <div class="app-brand justify-content-center">
             <a href="{{url('/')}}" class="app-brand-link gap-2">
               <span class="app-brand-logo demo">@include('_partials.macros',["width"=>25,"withbg"=>'var(--bs-primary)'])</span>
-              <span class="app-brand-text demo text-heading fw-bold">{{config('variables.templateName')}}</span>
+              <span class="app-brand-text demo text-body fw-bold">{{config('variables.templateName')}}</span>
             </a>
           </div>
           <!-- /Logo -->
-          <h4 class="mb-1">Adventure starts here 🚀</h4>
-          <p class="mb-6">Make your app management easy and fun!</p>
+          <h4 class="mb-2">Adventure starts here 🚀</h4>
+          <p class="mb-4">Make your app management easy and fun!</p>
 
-          <form id="formAuthentication" class="mb-6" action="{{url('/')}}" method="GET">
-            <div class="mb-6">
+          <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="GET">
+            <div class="mb-3">
               <label for="username" class="form-label">Username</label>
               <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" autofocus>
             </div>
-            <div class="mb-6">
+            <div class="mb-3">
               <label for="email" class="form-label">Email</label>
               <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email">
             </div>
-            <div class="mb-6 form-password-toggle">
+            <div class="mb-3 form-password-toggle">
               <label class="form-label" for="password">Password</label>
               <div class="input-group input-group-merge">
                 <input type="password" id="password" class="form-control" name="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password" />
@@ -44,8 +43,8 @@
               </div>
             </div>
 
-            <div class="my-8">
-              <div class="form-check mb-0 ms-2">
+            <div class="mb-3">
+              <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms">
                 <label class="form-check-label" for="terms-conditions">
                   I agree to

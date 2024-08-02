@@ -4,19 +4,19 @@
 
 @section('page-style')
 <!-- Page -->
-@vite(['resources/assets/vendor/scss/pages/page-misc.scss'])
+<link rel="stylesheet" href="{{asset('assets/vendor/css/pages/page-misc.css')}}">
 @endsection
 
 @section('content')
 <!--Under Maintenance -->
 <div class="container-xxl container-p-y">
   <div class="misc-wrapper">
-    <h3 class="mb-2 mx-2">Under Maintenance! 🚧</h3>
-    <p class="mb-6 mx-2">
+    <h2 class="mb-2 mx-2">Under Maintenance!</h2>
+    <p class="mb-4 mx-2">
       Sorry for the inconvenience but we're performing some maintenance at the moment
     </p>
     <a href="{{url('/')}}" class="btn btn-primary">Back to home</a>
-    <div class="mt-6">
+    <div class="mt-4">
       <img src="{{asset('assets/img/illustrations/girl-doing-yoga-light.png')}}" alt="girl-doing-yoga-light" width="500" class="img-fluid">
     </div>
   </div>

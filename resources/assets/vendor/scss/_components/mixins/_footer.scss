@@ -5,10 +5,11 @@
   $colors: get-navbar-prop($bg, $active-color, $color, $border);
 
   #{$parent} {
+    background-color: map-get($colors, bg) !important;
     color: map-get($colors, color);
 
     .footer-link {
-      color: map-get($colors, active-color);
+      color: map-get($colors, color);
 
       &:hover,
       &:focus {
@@ -21,7 +22,7 @@
     }
 
     .footer-text {
-      color: map-get($colors, color);
+      color: map-get($colors, active-color);
     }
 
     .show > .footer-link,

@@ -2,24 +2,6 @@
 
 All notable changes to this template will be documented in this file.
 
-## 2.0.0 (2024-07-26)
-
-### Added
-
-- New Design Alignments
-- New spacer & utility classes
-
-### Updated
-
-- Laravel 10 to Laravel 11
-- Updated Laravel base Folders & files as per Laravel 11
-- Bootstrap 5.3.3
-- Documentation
-
-### Fixed
-
-- UI improvements & bug fixes
-
 ## v1.1.1 (2023-11-09)
 
 ### Fixed

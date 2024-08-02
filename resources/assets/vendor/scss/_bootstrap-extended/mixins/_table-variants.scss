@@ -19,8 +19,12 @@
 
     color: $color;
     border-color: mix($color, $background, percentage($table-border-factor));
-    .btn-icon,
-    .btn {
+    // Highlight border color between thead, tbody and tfoot.
+    th {
+      border-bottom-color: $dark-border-color !important;
+    }
+
+    .btn-icon {
       color: $color;
     }
   }

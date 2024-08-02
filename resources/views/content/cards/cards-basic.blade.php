@@ -3,13 +3,15 @@
 @section('title', 'Cards basic   - UI elements')
 
 @section('vendor-script')
-@vite('resources/assets/vendor/libs/masonry/masonry.js')
+<script src="{{asset('assets/vendor/libs/masonry/masonry.js')}}"></script>
 @endsection
 
 @section('content')
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI Elements /</span> Cards Basic</h4>
+
 <!-- Examples -->
-<div class="row mb-12 g-6">
-  <div class="col-md-6 col-lg-4">
+<div class="row mb-5">
+  <div class="col-md-6 col-lg-4 mb-3">
     <div class="card h-100">
       <img class="card-img-top" src="{{asset('assets/img/elements/2.jpg')}}" alt="Card image cap" />
       <div class="card-body">
@@ -21,11 +23,11 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-lg-4">
+  <div class="col-md-6 col-lg-4 mb-3">
     <div class="card h-100">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle">Support card subtitle</h6>
+        <h6 class="card-subtitle text-muted">Support card subtitle</h6>
       </div>
       <img class="img-fluid" src="{{asset('assets/img/elements/13.jpg')}}" alt="Card image cap" />
       <div class="card-body">
@@ -35,12 +37,12 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-lg-4">
+  <div class="col-md-6 col-lg-4 mb-3">
     <div class="card h-100">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle">Support card subtitle</h6>
-        <img class="img-fluid d-flex mx-auto my-6 rounded" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
+        <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+        <img class="img-fluid d-flex mx-auto my-4 rounded" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
         <p class="card-text">Bear claw sesame snaps gummies chocolate.</p>
         <a href="javascript:void(0);" class="card-link">Card link</a>
         <a href="javascript:void(0);" class="card-link">Another link</a>
@@ -51,12 +53,12 @@
 <!-- Examples -->
 
 <!-- Content types -->
-<h5 class="pb-1 mb-6">Content types</h5>
+<h5 class="pb-1 mb-4">Content types</h5>
 
-<div class="row mb-12 g-6">
+<div class="row mb-5">
   <div class="col-md-6 col-lg-4">
     <h6 class="mt-2 text-muted">Body</h6>
-    <div class="card mb-6">
+    <div class="card mb-4">
       <div class="card-body">
         <p class="card-text">
           This is some text within a card body.
@@ -66,10 +68,10 @@
       </div>
     </div>
     <h6 class="mt-2 text-muted">Titles, text, and links</h6>
-    <div class="card mb-6">
+    <div class="card mb-4">
       <div class="card-body">
-        <h5 class="card-title mb-1">Card title</h5>
-        <div class="card-subtitle mb-4">Card subtitle</div>
+        <h5 class="card-title">Card title</h5>
+        <div class="card-subtitle text-muted mb-3">Card subtitle</div>
         <p class="card-text">
           Some quick example text to build on the card title and make up the bulk of the card's content.
         </p>
@@ -78,7 +80,7 @@
       </div>
     </div>
     <h6 class="mt-2 text-muted">List groups</h6>
-    <div class="card mb-6">
+    <div class="card mb-4">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Cras justo odio</li>
         <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -88,7 +90,7 @@
   </div>
   <div class="col-md-6 col-lg-4">
     <h6 class="mt-2 text-muted">Images</h6>
-    <div class="card">
+    <div class="card mb-4">
       <img class="card-img-top" src="{{asset('assets/img/elements/5.jpg')}}" alt="Card image cap" />
       <div class="card-body">
         <p class="card-text">
@@ -121,9 +123,9 @@
   </div>
 </div>
 
-<h6 class="pb-1 mb-6 text-muted">Header and footer</h6>
-<div class="row mb-12 g-6">
-  <div class="col-md-6 col-lg-4">
+<h6 class="pb-1 mb-4 text-muted">Header and footer</h6>
+<div class="row mb-5">
+  <div class="col-md-6 col-lg-4 mb-3">
     <div class="card">
       <div class="card-header">
         Featured
@@ -137,7 +139,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-lg-4">
+  <div class="col-md-6 col-lg-4 mb-3">
     <div class="card">
       <h5 class="card-header">Quote</h5>
       <div class="card-body">
@@ -155,7 +157,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-lg-4">
+  <div class="col-md-6 col-lg-4 mb-3">
     <div class="card text-center">
       <div class="card-header">
         Featured
@@ -174,10 +176,10 @@
 <!--/ Content types -->
 
 <!-- Text alignment -->
-<h5 class="pb-1 mb-6">Text alignment</h5>
-<div class="row mb-12 g-6">
+<h5 class="pb-1 mb-4">Text alignment</h5>
+<div class="row mb-5">
   <div class="col-md-6 col-lg-4">
-    <div class="card">
+    <div class="card mb-3">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -186,7 +188,7 @@
     </div>
   </div>
   <div class="col-md-6 col-lg-4">
-    <div class="card text-center">
+    <div class="card text-center mb-3">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -195,7 +197,7 @@
     </div>
   </div>
   <div class="col-md-6 col-lg-4">
-    <div class="card text-end">
+    <div class="card text-end mb-3">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -207,10 +209,10 @@
 <!--/ Text alignment -->
 
 <!-- Images -->
-<h5 class="pb-1 mb-6">Images caps & overlay</h5>
-<div class="row mb-12 g-6">
+<h5 class="pb-1 mb-4">Images caps & overlay</h5>
+<div class="row mb-5">
   <div class="col-md-6 col-xl-4">
-    <div class="card">
+    <div class="card mb-3">
       <img class="card-img-top" src="{{asset('assets/img/elements/18.jpg')}}" alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -225,7 +227,7 @@
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card">
+    <div class="card mb-3">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
@@ -256,15 +258,15 @@
 <!--/ Images -->
 
 <!-- Horizontal -->
-<h5 class="pb-1 mb-6">Horizontal</h5>
-<div class="row mb-12 g-6">
+<h5 class="pb-1 mb-4">Horizontal</h5>
+<div class="row mb-5">
   <div class="col-md">
-    <div class="card">
-      <div class="d-flex">
-        <div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
           <img class="card-img card-img-left" src="{{asset('assets/img/elements/12.jpg')}}" alt="Card image" />
         </div>
-        <div>
+        <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -279,9 +281,9 @@
     </div>
   </div>
   <div class="col-md">
-    <div class="card">
-      <div class="d-flex">
-        <div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -292,7 +294,7 @@
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-        <div>
+        <div class="col-md-4">
           <img class="card-img card-img-right" src="{{asset('assets/img/elements/17.jpg')}}" alt="Card image" />
         </div>
       </div>
@@ -303,10 +305,10 @@
 
 <!-- Style variation -->
 <h5 class="pb-1 mb-4">Style variation</h5>
-<h6 class="pb-1 mb-4 text-muted">Default(solid)</h6>
-<div class="row g-6 mb-6">
+<div class="row">
   <div class="col-md-6 col-xl-4">
-    <div class="card bg-primary text-white">
+    <div class="card bg-primary text-white mb-3">
+      <div class="card-header">Header</div>
       <div class="card-body">
         <h5 class="card-title text-white">Primary card title</h5>
         <p class="card-text">
@@ -316,7 +318,8 @@
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card bg-secondary text-white">
+    <div class="card bg-secondary text-white mb-3">
+      <div class="card-header">Header</div>
       <div class="card-body">
         <h5 class="card-title text-white">Secondary card title</h5>
         <p class="card-text">
@@ -326,7 +329,8 @@
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card bg-success text-white">
+    <div class="card bg-success text-white mb-3">
+      <div class="card-header">Header</div>
       <div class="card-body">
         <h5 class="card-title text-white">Success card title</h5>
         <p class="card-text">
@@ -336,7 +340,8 @@
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card bg-danger text-white">
+    <div class="card bg-danger text-white mb-3">
+      <div class="card-header">Header</div>
       <div class="card-body">
         <h5 class="card-title text-white">Danger card title</h5>
         <p class="card-text">
@@ -346,7 +351,8 @@
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card bg-warning text-white">
+    <div class="card bg-warning text-white mb-3">
+      <div class="card-header">Header</div>
       <div class="card-body">
         <h5 class="card-title text-white">Warning card title</h5>
         <p class="card-text">
@@ -356,7 +362,8 @@
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card bg-info text-white">
+    <div class="card bg-info text-white mb-3">
+      <div class="card-header">Header</div>
       <div class="card-body">
         <h5 class="card-title text-white">Info card title</h5>
         <p class="card-text">
@@ -367,63 +374,62 @@
   </div>
 </div>
 <!-- Outline -->
-<h6 class="pb-1 mb-4 text-muted">Outline</h6>
-<div class="row g-6">
+<div class="row">
   <div class="col-md-6 col-xl-4">
-    <div class="card shadow-none bg-transparent border border-primary">
+    <div class="card shadow-none bg-transparent border border-primary mb-3">
       <div class="card-body">
-        <h5 class="card-title text-primary">Primary card title</h5>
-        <p class="card-text text-primary">
+        <h5 class="card-title">Primary card title</h5>
+        <p class="card-text">
           Some quick example text to build on the card title and make up.
         </p>
       </div>
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card shadow-none bg-transparent border border-secondary">
+    <div class="card shadow-none bg-transparent border border-secondary mb-3">
       <div class="card-body">
-        <h5 class="card-title text-secondary">Secondary card title</h5>
-        <p class="card-text text-secondary">
+        <h5 class="card-title">Secondary card title</h5>
+        <p class="card-text">
           Some quick example text to build on the card title and make up.
         </p>
       </div>
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card shadow-none bg-transparent border border-success">
+    <div class="card shadow-none bg-transparent border border-success mb-3">
       <div class="card-body">
-        <h5 class="card-title text-success">Success card title</h5>
-        <p class="card-text text-success">
+        <h5 class="card-title">Success card title</h5>
+        <p class="card-text">
           Some quick example text to build on the card title and make up.
         </p>
       </div>
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card shadow-none bg-transparent border border-danger">
+    <div class="card shadow-none bg-transparent border border-danger mb-3">
       <div class="card-body">
-        <h5 class="card-title text-danger">Danger card title</h5>
-        <p class="card-text text-danger">
+        <h5 class="card-title">Danger card title</h5>
+        <p class="card-text">
           Some quick example text to build on the card title and make up.
         </p>
       </div>
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card shadow-none bg-transparent border border-warning">
+    <div class="card shadow-none bg-transparent border border-warning mb-3">
       <div class="card-body">
-        <h5 class="card-title text-warning">Warning card title</h5>
-        <p class="card-text text-warning">
+        <h5 class="card-title">Warning card title</h5>
+        <p class="card-text">
           Some quick example text to build on the card title and make up.
         </p>
       </div>
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card shadow-none bg-transparent border border-info">
+    <div class="card shadow-none bg-transparent border border-info mb-3">
       <div class="card-body">
-        <h5 class="card-title text-info">Info card title</h5>
-        <p class="card-text text-info">
+        <h5 class="card-title">Info card title</h5>
+        <p class="card-text">
           Some quick example text to build on the card title and make up.
         </p>
       </div>
@@ -434,11 +440,11 @@
 
 
 <!-- Card layout -->
-<h5 class="pb-1 my-12">Card layout</h5>
+<h5 class="pb-1 my-5">Card layout</h5>
 
 <!-- Card Groups -->
-<h6 class="pb-1 mb-6 text-muted">Card Groups</h6>
-<div class="card-group mb-12">
+<h6 class="pb-1 mb-4 text-muted">Card Groups</h6>
+<div class="card-group mb-5">
   <div class="card">
     <img class="card-img-top" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
     <div class="card-body">
@@ -480,8 +486,8 @@
 </div>
 
 <!-- Grid Card -->
-<h6 class="pb-1 mb-6 text-muted">Grid Card</h6>
-<div class="row row-cols-1 row-cols-md-3 g-6 mb-12">
+<h6 class="pb-1 mb-4 text-muted">Grid Card</h6>
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
   <div class="col">
     <div class="card h-100">
       <img class="card-img-top" src="{{asset('assets/img/elements/2.jpg')}}" alt="Card image cap" />
@@ -539,9 +545,9 @@
 </div>
 
 <!-- Masonry -->
-<h6 class="pb-1 mb-6 text-muted">Masonry</h6>
-<div class="row g-6" data-masonry='{"percentPosition": true }'>
-  <div class="col-sm-6 col-lg-4">
+<h6 class="pb-1 mb-4 text-muted">Masonry</h6>
+<div class="row" data-masonry='{"percentPosition": true }'>
+  <div class="col-sm-6 col-lg-4 mb-4">
     <div class="card">
       <img class="card-img-top" src="{{asset('assets/img/elements/5.jpg')}}" alt="Card image cap" />
       <div class="card-body">
@@ -550,9 +556,9 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
-    <div class="card p-4">
-      <figure class="p-4 mb-0">
+  <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="card p-3">
+      <figure class="p-3 mb-0">
         <blockquote class="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
         </blockquote>
@@ -562,7 +568,7 @@
       </figure>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
+  <div class="col-sm-6 col-lg-4 mb-4">
     <div class="card">
       <img class="card-img-top" src="{{asset('assets/img/elements/18.jpg')}}" alt="Card image cap" />
       <div class="card-body">
@@ -572,8 +578,8 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
-    <div class="card bg-primary text-white text-center p-4">
+  <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="card bg-primary text-white text-center p-3">
       <figure class="mb-0">
         <blockquote class="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
@@ -584,7 +590,7 @@
       </figure>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
+  <div class="col-sm-6 col-lg-4 mb-4">
     <div class="card text-center">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -593,13 +599,13 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
+  <div class="col-sm-6 col-lg-4 mb-4">
     <div class="card">
-      <img class="card-img" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
+      <img class="card-img-top" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
-    <div class="card p-4 text-end">
+  <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="card p-3 text-end">
       <figure class="mb-0">
         <blockquote class="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
@@ -610,7 +616,7 @@
       </figure>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-4">
+  <div class="col-sm-6 col-lg-4 mb-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>

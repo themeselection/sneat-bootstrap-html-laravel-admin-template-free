@@ -5,12 +5,11 @@
 'use strict';
 
 (function () {
-  let cardColor, headingColor, legendColor, labelColor, shadeColor, borderColor;
+  let cardColor, headingColor, axisColor, shadeColor, borderColor;
 
   cardColor = config.colors.cardColor;
   headingColor = config.colors.headingColor;
-  legendColor = config.colors.bodyColor;
-  labelColor = config.colors.textMuted;
+  axisColor = config.colors.axisColor;
   borderColor = config.colors.borderColor;
 
   // Total Revenue Report Chart - Bar Chart
@@ -19,17 +18,16 @@
     totalRevenueChartOptions = {
       series: [
         {
-          name: new Date().getFullYear() - 1,
-
+          name: '2021',
           data: [18, 7, 15, 29, 18, 12, 9]
         },
         {
-          name: new Date().getFullYear() - 2,
+          name: '2020',
           data: [-13, -18, -9, -14, -5, -17, -15]
         }
       ],
       chart: {
-        height: 317,
+        height: 300,
         stacked: true,
         type: 'bar',
         toolbar: { show: false }
@@ -37,8 +35,8 @@
       plotOptions: {
         bar: {
           horizontal: false,
-          columnWidth: '30%',
-          borderRadius: 8,
+          columnWidth: '33%',
+          borderRadius: 12,
           startingShape: 'rounded',
           endingShape: 'rounded'
         }
@@ -61,21 +59,16 @@
           height: 8,
           width: 8,
           radius: 12,
-          offsetX: -5
+          offsetX: -3
         },
-        fontSize: '13px',
-        fontFamily: 'Public Sans',
-        fontWeight: 400,
         labels: {
-          colors: legendColor,
-          useSeriesColors: false
+          colors: axisColor
         },
         itemMargin: {
           horizontal: 10
         }
       },
       grid: {
-        strokeDashArray: 7,
         borderColor: borderColor,
         padding: {
           top: 0,
@@ -84,16 +77,12 @@
           right: 20
         }
       },
-      fill: {
-        opacity: [1, 1]
-      },
       xaxis: {
         categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
         labels: {
           style: {
             fontSize: '13px',
-            fontFamily: 'Public Sans',
-            colors: labelColor
+            colors: axisColor
           }
         },
         axisTicks: {
@@ -107,14 +96,24 @@
         labels: {
           style: {
             fontSize: '13px',
-            fontFamily: 'Public Sans',
-            colors: labelColor
+            colors: axisColor
           }
         }
       },
       responsive: [
         {
           breakpoint: 1700,
+          options: {
+            plotOptions: {
+              bar: {
+                borderRadius: 10,
+                columnWidth: '32%'
+              }
+            }
+          }
+        },
+        {
+          breakpoint: 1580,
           options: {
             plotOptions: {
               bar: {
@@ -129,8 +128,8 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 12,
-                columnWidth: '43%'
+                borderRadius: 10,
+                columnWidth: '42%'
               }
             }
           }
@@ -140,8 +139,8 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 11,
-                columnWidth: '45%'
+                borderRadius: 10,
+                columnWidth: '48%'
               }
             }
           }
@@ -151,8 +150,8 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 11,
-                columnWidth: '37%'
+                borderRadius: 10,
+                columnWidth: '40%'
               }
             }
           }
@@ -162,8 +161,8 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 12,
-                columnWidth: '45%'
+                borderRadius: 11,
+                columnWidth: '48%'
               }
             }
           }
@@ -173,8 +172,19 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 12,
-                columnWidth: '33%'
+                borderRadius: 10,
+                columnWidth: '30%'
+              }
+            }
+          }
+        },
+        {
+          breakpoint: 840,
+          options: {
+            plotOptions: {
+              bar: {
+                borderRadius: 10,
+                columnWidth: '35%'
               }
             }
           }
@@ -184,7 +194,7 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 11,
+                borderRadius: 10,
                 columnWidth: '28%'
               }
             }
@@ -195,8 +205,8 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 11,
-                columnWidth: '30%'
+                borderRadius: 10,
+                columnWidth: '32%'
               }
             }
           }
@@ -207,18 +217,29 @@
             plotOptions: {
               bar: {
                 borderRadius: 10,
-                columnWidth: '38%'
+                columnWidth: '37%'
               }
             }
           }
         },
         {
-          breakpoint: 440,
+          breakpoint: 480,
           options: {
             plotOptions: {
               bar: {
                 borderRadius: 10,
-                columnWidth: '50%'
+                columnWidth: '45%'
+              }
+            }
+          }
+        },
+        {
+          breakpoint: 420,
+          options: {
+            plotOptions: {
+              bar: {
+                borderRadius: 10,
+                columnWidth: '52%'
               }
             }
           }
@@ -228,7 +249,7 @@
           options: {
             plotOptions: {
               bar: {
-                borderRadius: 9,
+                borderRadius: 10,
                 columnWidth: '60%'
               }
             }
@@ -279,7 +300,7 @@
           dataLabels: {
             name: {
               offsetY: 15,
-              color: legendColor,
+              color: headingColor,
               fontSize: '15px',
               fontWeight: '500',
               fontFamily: 'Public Sans'
@@ -339,7 +360,7 @@
   const profileReportChartEl = document.querySelector('#profileReportChart'),
     profileReportChartConfig = {
       chart: {
-        height: 75,
+        height: 80,
         // width: 175,
         type: 'line',
         toolbar: {
@@ -402,13 +423,13 @@
   const chartOrderStatistics = document.querySelector('#orderStatisticsChart'),
     orderChartConfig = {
       chart: {
-        height: 145,
-        width: 110,
+        height: 165,
+        width: 130,
         type: 'donut'
       },
       labels: ['Electronic', 'Sports', 'Decor', 'Fashion'],
-      series: [50, 85, 25, 40],
-      colors: [config.colors.success, config.colors.primary, config.colors.secondary, config.colors.info],
+      series: [85, 15, 50, 50],
+      colors: [config.colors.primary, config.colors.secondary, config.colors.info, config.colors.success],
       stroke: {
         width: 5,
         colors: [cardColor]
@@ -444,23 +465,22 @@
             labels: {
               show: true,
               value: {
-                fontSize: '18px',
+                fontSize: '1.5rem',
                 fontFamily: 'Public Sans',
-                fontWeight: 500,
                 color: headingColor,
-                offsetY: -17,
+                offsetY: -15,
                 formatter: function (val) {
                   return parseInt(val) + '%';
                 }
               },
               name: {
-                offsetY: 17,
+                offsetY: 20,
                 fontFamily: 'Public Sans'
               },
               total: {
                 show: true,
-                fontSize: '13px',
-                color: legendColor,
+                fontSize: '0.8125rem',
+                color: axisColor,
                 label: 'Weekly',
                 formatter: function (w) {
                   return '38%';
@@ -482,11 +502,11 @@
     incomeChartConfig = {
       series: [
         {
-          data: [21, 30, 22, 42, 26, 35, 29]
+          data: [24, 21, 30, 22, 42, 26, 35, 29]
         }
       ],
       chart: {
-        height: 232,
+        height: 215,
         parentHeightOffset: 0,
         parentWidthOffset: 0,
         toolbar: {
@@ -498,7 +518,7 @@
         enabled: false
       },
       stroke: {
-        width: 3,
+        width: 2,
         curve: 'smooth'
       },
       legend: {
@@ -513,7 +533,7 @@
           {
             fillColor: config.colors.white,
             seriesIndex: 0,
-            dataPointIndex: 6,
+            dataPointIndex: 7,
             strokeColor: config.colors.primary,
             strokeWidth: 2,
             size: 6,
@@ -537,16 +557,16 @@
       },
       grid: {
         borderColor: borderColor,
-        strokeDashArray: 8,
+        strokeDashArray: 3,
         padding: {
           top: -20,
           bottom: -8,
-          left: 0,
+          left: -10,
           right: 8
         }
       },
       xaxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+        categories: ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
         axisBorder: {
           show: false
         },
@@ -557,7 +577,7 @@
           show: true,
           style: {
             fontSize: '13px',
-            colors: labelColor
+            colors: axisColor
           }
         }
       },
@@ -592,9 +612,10 @@
           strokeWidth: '8',
           hollow: {
             margin: 2,
-            size: '40%'
+            size: '45%'
           },
           track: {
+            strokeWidth: '50%',
             background: borderColor
           },
           dataLabels: {
@@ -607,9 +628,8 @@
                 return '$' + parseInt(val);
               },
               offsetY: 5,
-              color: legendColor,
-              fontSize: '12px',
-              fontFamily: 'Public Sans',
+              color: '#697a8d',
+              fontSize: '13px',
               show: true
             }
           }

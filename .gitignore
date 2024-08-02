@@ -17,12 +17,18 @@ docker-compose.override.yml
 Homestead.json
 Homestead.yaml
 npm-debug.log
+/package-lock.json
 yarn-error.log
-/.fleet
+yarn.lock
+package-lock.log
 /.idea
 /.vscode
 
-!/public/assets
-!/public/assets/*
 /public/css
 /public/js
+/public/mix-manifest.json
+# But not these files...
+!/public/assets/*
+/public/assets/js
+/public/assets/css
+/public/assets/vendor

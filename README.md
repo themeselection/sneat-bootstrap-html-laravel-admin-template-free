@@ -68,7 +68,7 @@ yarn
 5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles.
 
 ```bash
-yarn build
+yarn dev
 ```
 
 6. To serve the application, you need to run the following command in the project directory

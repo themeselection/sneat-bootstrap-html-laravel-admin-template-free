@@ -3,13 +3,14 @@
 @section('title', 'Accordion - UI elements')
 
 @section('content')
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Accordion</h4>
 
 <!-- Accordion -->
-<h5>Accordion</h5>
-<div class="row g-6">
-  <div class="col-md">
+<h5 class="mt-4">Accordion</h5>
+<div class="row">
+  <div class="col-md mb-4 mb-md-2">
     <small class="text-light fw-medium">Basic Accordion</small>
-    <div class="accordion mt-4" id="accordionExample">
+    <div class="accordion mt-3" id="accordionExample">
       <div class="card accordion-item active">
         <h2 class="accordion-header" id="headingOne">
           <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordionOne" aria-expanded="true" aria-controls="accordionOne">
@@ -57,7 +58,7 @@
   </div>
   <div class="col-md">
     <small class="text-light fw-medium">Accordion Without Arrow</small>
-    <div id="accordionIcon" class="accordion mt-4 accordion-without-arrow">
+    <div id="accordionIcon" class="accordion mt-3 accordion-without-arrow">
       <div class="accordion-item card">
         <h2 class="accordion-header text-body d-flex justify-content-between" id="accordionIconOne">
           <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionIcon-1" aria-controls="accordionIcon-1">

@@ -103,14 +103,12 @@ const Helpers = {
   // ---
   // Add classes
   _addClass(cls, el = this.ROOT_EL) {
-    if (el && el.length !== undefined) {
+    if (el.length !== undefined) {
       // Add classes to multiple elements
       el.forEach(e => {
-        if (e) {
-          cls.split(' ').forEach(c => e.classList.add(c))
-        }
+        cls.split(' ').forEach(c => e.classList.add(c))
       })
-    } else if (el) {
+    } else {
       // Add classes to single element
       cls.split(' ').forEach(c => el.classList.add(c))
     }
@@ -119,14 +117,12 @@ const Helpers = {
   // ---
   // Remove classes
   _removeClass(cls, el = this.ROOT_EL) {
-    if (el && el.length !== undefined) {
+    if (el.length !== undefined) {
       // Remove classes to multiple elements
       el.forEach(e => {
-        if (e) {
-          cls.split(' ').forEach(c => e.classList.remove(c))
-        }
+        cls.split(' ').forEach(c => e.classList.remove(c))
       })
-    } else if (el) {
+    } else {
       // Remove classes to single element
       cls.split(' ').forEach(c => el.classList.remove(c))
     }
@@ -851,5 +847,4 @@ if (typeof window !== 'undefined') {
 }
 
 // ---
-window.Helpers = Helpers
 export { Helpers }

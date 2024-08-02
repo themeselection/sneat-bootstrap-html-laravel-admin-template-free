@@ -3,10 +3,12 @@
 @section('title', 'Badges - UI elements')
 
 @section('content')
-<div class="row g-6 mb-6">
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Badges</h4>
+
+<div class="row">
   <!-- Basic Badges -->
   <div class="col-lg">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header">Basic Badges</h5>
       <div class="card-body">
         <div class="text-light small fw-medium">Default</div>
@@ -39,7 +41,7 @@
 
   <!-- Label Badges -->
   <div class="col-lg">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header">Label Badges</h5>
       <div class="card-body">
         <div class="text-light small fw-medium">Label Default</div>
@@ -72,27 +74,27 @@
   </div>
 </div>
 
-<div class="row mb-6">
+<div class="row">
   <!-- Button with Badges -->
   <div class="col-lg">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header"> Button with Badges</h5>
       <div class="card-body">
         <div class="row gy-3">
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <small class="text-light fw-medium">Default</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-primary">
                 Text
                 <span class="badge bg-white text-primary ms-1">4</span>
               </button>
-              <button type="button" class="btn btn-secondary">
+              <button type="button" class="btn btn-primary">
                 Text
-                <span class="badge bg-white text-secondary rounded-pill ms-1">4</span>
+                <span class="badge bg-secondary rounded-pill ms-1">4</span>
               </button>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <small class="text-light fw-medium">Outline</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-outline-primary">
@@ -111,10 +113,10 @@
   </div>
 </div>
 
-<div class="row gap-6">
+<div class="row">
   <!-- Badge Circle -->
   <div class="col-12">
-    <div class="card">
+    <div class="card mb-4">
       <h5 class="card-header"> Badge Circle & Square Style</h5>
       <div class="card-body">
         <div class="row gy-3">

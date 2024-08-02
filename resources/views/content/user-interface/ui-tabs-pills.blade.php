@@ -3,13 +3,15 @@
 @section('title', 'Tabs and pills - UI elements')
 
 @section('content')
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Tabs & Pills</h4>
+
 <!-- Tabs -->
-<h5 class="py-4 my-6">Tabs</h5>
+<h5 class="py-3 my-4">Tabs</h5>
 
 <div class="row">
   <div class="col-xl-6">
     <h6 class="text-muted">Basic</h6>
-    <div class="nav-align-top nav-tabs-shadow mb-6">
+    <div class="nav-align-top mb-4">
       <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
           <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-top-home" aria-controls="navs-top-home" aria-selected="true">Home</button>
@@ -62,16 +64,16 @@
   </div>
   <div class="col-xl-6">
     <h6 class="text-muted">Filled Tabs</h6>
-    <div class="nav-align-top nav-tabs-shadow mb-6">
+    <div class="nav-align-top mb-4">
       <ul class="nav nav-tabs nav-fill" role="tablist">
         <li class="nav-item">
-          <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-justified-home" aria-controls="navs-justified-home" aria-selected="true"><span class="d-none d-sm-block"><i class="tf-icons bx bx-home bx-sm me-1_5 align-text-bottom"></i> Home <span class="badge rounded-pill badge-center h-px-20 w-px-20 bg-label-danger ms-1_5 pt-50">3</span></span><i class="bx bx-home bx-sm d-sm-none"></i></button>
+          <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-justified-home" aria-controls="navs-justified-home" aria-selected="true"><i class="tf-icons bx bx-home me-1"></i><span class="d-none d-sm-block"> Home</span> <span class="badge rounded-pill badge-center h-px-20 w-px-20 bg-label-danger ms-1">3</span></button>
         </li>
         <li class="nav-item">
-          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-justified-profile" aria-controls="navs-justified-profile" aria-selected="false"><span class="d-none d-sm-block"><i class="tf-icons bx bx-user bx-sm me-1_5 align-text-bottom"></i> Profile</span><i class="bx bx-user bx-sm d-sm-none"></i></button>
+          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-justified-profile" aria-controls="navs-justified-profile" aria-selected="false"><i class="tf-icons bx bx-user me-1"></i><span class="d-none d-sm-block"> Profile</span></button>
         </li>
         <li class="nav-item">
-          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-justified-messages" aria-controls="navs-justified-messages" aria-selected="false"><span class="d-none d-sm-block"><i class="tf-icons bx bx-message-square bx-sm me-1_5 align-text-bottom"></i> Messages</span><i class="bx bx-message-square bx-sm d-sm-none"></i></button>
+          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-justified-messages" aria-controls="navs-justified-messages" aria-selected="false"><i class="tf-icons bx bx-message-square me-1"></i><span class="d-none d-sm-block"> Messages</span></button>
         </li>
       </ul>
       <div class="tab-content">
@@ -116,16 +118,16 @@
 </div>
 <!-- Tabs -->
 
-<hr class="container-m-nx border-light mt-12" />
+<hr class="container-m-nx mt-5" />
 
 <!-- Pills -->
-<h5 class="py-4 my-6">Pills</h5>
+<h5 class="py-3 my-4">Pills</h5>
 
 <div class="row">
   <div class="col-xl-6">
     <h6 class="text-muted">Basic</h6>
-    <div class="nav-align-top mb-6">
-      <ul class="nav nav-pills mb-4" role="tablist">
+    <div class="nav-align-top mb-4">
+      <ul class="nav nav-pills mb-3" role="tablist">
         <li class="nav-item">
           <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-home" aria-controls="navs-pills-top-home" aria-selected="true">Home</button>
         </li>
@@ -178,16 +180,16 @@
 
   <div class="col-xl-6">
     <h6 class="text-muted">Filled Pills</h6>
-    <div class="nav-align-top mb-6">
-      <ul class="nav nav-pills mb-4 nav-fill" role="tablist">
-        <li class="nav-item mb-1 mb-sm-0">
-          <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-justified-home" aria-controls="navs-pills-justified-home" aria-selected="true"><span class="d-none d-sm-block"><i class="tf-icons bx bx-home bx-sm me-1_5 align-text-bottom"></i> Home <span class="badge rounded-pill badge-center h-px-20 w-px-20 bg-danger ms-1_5 pt-50">3</span></span><i class="bx bx-home bx-sm d-sm-none"></i></button>
-        </li>
-        <li class="nav-item mb-1 mb-sm-0">
-          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-justified-profile" aria-controls="navs-pills-justified-profile" aria-selected="false"><span class="d-none d-sm-block"><i class="tf-icons bx bx-user bx-sm me-1_5 align-text-bottom"></i> Profile</span><i class="bx bx-user bx-sm d-sm-none"></i></button>
+    <div class="nav-align-top mb-4">
+      <ul class="nav nav-pills mb-3 nav-fill" role="tablist">
+        <li class="nav-item">
+          <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-justified-home" aria-controls="navs-pills-justified-home" aria-selected="true"><i class="tf-icons bx bx-home me-1"></i><span class="d-none d-sm-block"> Home</span><span class="badge rounded-pill badge-center h-px-20 w-px-20 bg-danger ms-1">3</span></button>
         </li>
         <li class="nav-item">
-          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-justified-messages" aria-controls="navs-pills-justified-messages" aria-selected="false"><span class="d-none d-sm-block"><i class="tf-icons bx bx-message-square bx-sm me-1_5 align-text-bottom"></i> Messages</span><i class="bx bx-message-square bx-sm d-sm-none"></i></button>
+          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-justified-profile" aria-controls="navs-pills-justified-profile" aria-selected="false"><i class="tf-icons bx bx-user me-1"></i><span class="d-none d-sm-block"> Profile</span></button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-justified-messages" aria-controls="navs-pills-justified-messages" aria-selected="false"><i class="tf-icons bx bx-message-square me-1"></i><span class="d-none d-sm-block"> Messages</span></button>
         </li>
       </ul>
       <div class="tab-content">

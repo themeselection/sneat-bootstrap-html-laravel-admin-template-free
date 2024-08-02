@@ -3,10 +3,12 @@
 @section('title', 'Toasts - UI elements')
 
 @section('page-script')
-@vite(['resources/assets/js/ui-toasts.js'])
+<script src="{{asset('assets/js/ui-toasts.js')}}"></script>
 @endsection
 
 @section('content')
+<h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Toasts</h4>
+
 
 <!-- Toast with Placements -->
 <div class="bs-toast toast toast-placement-ex m-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="2000">
@@ -23,7 +25,7 @@
 <!-- Toast with Placements -->
 
 <!-- Bootstrap Toasts with Placement -->
-<div class="card mb-6">
+<div class="card mb-4">
   <h5 class="card-header">Bootstrap Toasts Example With Placement</h5>
   <div class="card-body">
     <div class="row gx-3 gy-2 align-items-center">
@@ -63,11 +65,11 @@
 <!--/ Bootstrap Toasts with Placement -->
 
 <!-- Bootstrap Toasts Styles -->
-<div class="card mb-6">
+<div class="card mb-4">
   <h5 class="card-header">Bootstrap Toasts Styles</h5>
   <div class="row g-0">
-    <div class="col-md-6 p-6">
-      <div class="text-light small fw-medium mb-4">Default</div>
+    <div class="col-md-6 p-4">
+      <div class="text-light small fw-medium mb-3">Default</div>
       <div class="toast-container position-relative">
 
         <div class="bs-toast toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
@@ -167,9 +169,9 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 ui-bg-overlay-container p-6">
-      <div class="ui-bg-overlay rounded-end-bottom"></div>
-      <div class="text-white small fw-medium mb-4">Translucent</div>
+    <div class="col-md-6 ui-bg-overlay-container p-4">
+      <div class="ui-bg-overlay bg-dark rounded-end-bottom"></div>
+      <div class="text-white small fw-medium mb-3">Translucent</div>
 
       <div class="toast-container position-relative">
         <div class="bs-toast toast fade show" role="alert" aria-live="assertive" aria-atomic="true">

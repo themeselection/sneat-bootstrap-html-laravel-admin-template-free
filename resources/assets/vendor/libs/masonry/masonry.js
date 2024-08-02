@@ -1,7 +1,7 @@
-import Masonry from 'masonry-layout';
+// var Masonry = require('masonry-layout/dist/masonry.pkgd')
 
-try {
-  window.Masonry = Masonry;
-} catch (e) {}
+// export { Masonry }
+
+import * as Masonry from 'masonry-layout/dist/masonry.pkgd';
 
 export { Masonry };
