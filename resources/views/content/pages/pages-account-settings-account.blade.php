@@ -20,10 +20,10 @@
       <!-- Account -->
       <div class="card-body">
         <div class="d-flex align-items-start align-items-sm-center gap-6 pb-4 border-bottom">
-          <img src="{{asset('assets/img/avatars/1.png')}}" alt="user-avatar" class="d-block w-px-100 h-px-100 rounded" id="uploadedAvatar" />
+          <img src="{{asset('assets/img/avatars/user.jpg')}}" alt="user-avatar" class="d-block w-px-100 h-px-100 rounded" id="uploadedAvatar" />
           <div class="button-wrapper">
             <label for="upload" class="btn btn-primary me-3 mb-4" tabindex="0">
-              <span class="d-none d-sm-block">Upload new photo</span>
+              <span class="d-none d-sm-block">Upload Foto Baru</span>
               <i class="bx bx-upload d-block d-sm-none"></i>
               <input type="file" id="upload" class="account-file-input" hidden accept="image/png, image/jpeg" />
             </label>
@@ -32,7 +32,7 @@
               <span class="d-none d-sm-block">Reset</span>
             </button>
 
-            <div>Allowed JPG, GIF or PNG. Max size of 800K</div>
+            <div>Format JPG, GIF or PNG. Max size 800KB</div>
           </div>
         </div>
       </div>
@@ -40,42 +40,42 @@
         <form id="formAccountSettings" method="POST" onsubmit="return false">
           <div class="row g-6">
             <div class="col-md-6">
-              <label for="firstName" class="form-label">First Name</label>
-              <input class="form-control" type="text" id="firstName" name="firstName" value="John" autofocus />
+              <label for="firstName" class="form-label">Nama Depan</label>
+              <input class="form-control" type="text" id="firstName" name="firstName" autofocus />
             </div>
             <div class="col-md-6">
-              <label for="lastName" class="form-label">Last Name</label>
-              <input class="form-control" type="text" name="lastName" id="lastName" value="Doe" />
+              <label for="lastName" class="form-label">Nama Belakang</label>
+              <input class="form-control" type="text" name="lastName" id="lastName"  />
             </div>
             <div class="col-md-6">
               <label for="email" class="form-label">E-mail</label>
-              <input class="form-control" type="text" id="email" name="email" value="john.doe@example.com" placeholder="john.doe@example.com" />
+              <input class="form-control" type="text" id="email" name="email"  placeholder="john.doe@gmail.com" />
             </div>
             <div class="col-md-6">
-              <label for="organization" class="form-label">Organization</label>
-              <input type="text" class="form-control" id="organization" name="organization" value="{{config('variables.creatorName')}}" />
+              <label for="organization" class="form-label">Organisasi</label>
+              <input type="text" class="form-control" id="organization" name="organization" placeholder="QCPP"  />
             </div>
             <div class="col-md-6">
-              <label class="form-label" for="phoneNumber">Phone Number</label>
+              <label class="form-label" for="phoneNumber">No Telepon</label>
               <div class="input-group input-group-merge">
-                <span class="input-group-text">US (+1)</span>
-                <input type="text" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="202 555 0111" />
+                <span class="input-group-text">ID (+62)</span>
+                <input type="text" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="821 7893 888" />
               </div>
             </div>
             <div class="col-md-6">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" name="address" placeholder="Address" />
+              <label for="address" class="form-label">Alamat</label>
+              <input type="text" class="form-control" id="address" name="address" placeholder="Alamat" />
             </div>
             <div class="col-md-6">
-              <label for="state" class="form-label">State</label>
-              <input class="form-control" type="text" id="state" name="state" placeholder="California" />
+              <label for="state" class="form-label">Kota</label>
+              <input class="form-control" type="text" id="state" name="state" placeholder="Jakarta" />
             </div>
             <div class="col-md-6">
-              <label for="zipCode" class="form-label">Zip Code</label>
+              <label for="zipCode" class="form-label">Kode Pos</label>
               <input type="text" class="form-control" id="zipCode" name="zipCode" placeholder="231465" maxlength="6" />
             </div>
             <div class="col-md-6">
-              <label class="form-label" for="country">Country</label>
+              <label class="form-label" for="country">Negara</label>
               <select id="country" class="select2 form-select">
                 <option value="">Select</option>
                 <option value="Australia">Australia</option>
@@ -105,13 +105,14 @@
               </select>
             </div>
             <div class="col-md-6">
-              <label for="language" class="form-label">Language</label>
+              <label for="language" class="form-label">Bahasa</label>
               <select id="language" class="select2 form-select">
-                <option value="">Select Language</option>
+                <option value="">Pilih Bahasa</option>
                 <option value="en">English</option>
                 <option value="fr">French</option>
                 <option value="de">German</option>
                 <option value="pt">Portuguese</option>
+                <option value="pt">Indonesia</option>
               </select>
             </div>
             <div class="col-md-6">
@@ -124,7 +125,7 @@
                 <option value="-9">(GMT-09:00) Alaska</option>
                 <option value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
                 <option value="-8">(GMT-08:00) Tijuana, Baja California</option>
-                <option value="-7">(GMT-07:00) Arizona</option>
+                <option value="-7">(GMT-07:00) Jakarta, Indonesia</option>
                 <option value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
                 <option value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
                 <option value="-6">(GMT-06:00) Central America</option>
@@ -138,40 +139,30 @@
                 <option value="-4">(GMT-04:00) Caracas, La Paz</option>
               </select>
             </div>
-            <div class="col-md-6">
-              <label for="currency" class="form-label">Currency</label>
-              <select id="currency" class="select2 form-select">
-                <option value="">Select Currency</option>
-                <option value="usd">USD</option>
-                <option value="euro">Euro</option>
-                <option value="pound">Pound</option>
-                <option value="bitcoin">Bitcoin</option>
-              </select>
-            </div>
           </div>
           <div class="mt-6">
-            <button type="submit" class="btn btn-primary me-3">Save changes</button>
-            <button type="reset" class="btn btn-outline-secondary">Cancel</button>
+            <button type="submit" class="btn btn-primary me-3">Simpan Perubahan</button>
+            <button type="reset" class="btn btn-outline-secondary">Batal</button>
           </div>
         </form>
       </div>
       <!-- /Account -->
     </div>
     <div class="card">
-      <h5 class="card-header">Delete Account</h5>
+      <h5 class="card-header">Hapus Akun</h5>
       <div class="card-body">
         <div class="mb-6 col-12 mb-0">
           <div class="alert alert-warning">
-            <h5 class="alert-heading mb-1">Are you sure you want to delete your account?</h5>
-            <p class="mb-0">Once you delete your account, there is no going back. Please be certain.</p>
+            <h5 class="alert-heading mb-1">Apakah Anda yakin ingin menghapus akun Anda?</h5>
+            <p class="mb-0">Setelah Anda menghapus akun, Anda tidak dapat kembali lagi. Pastikan Anda yakin.</p>
           </div>
         </div>
         <form id="formAccountDeactivation" onsubmit="return false">
           <div class="form-check my-8 ms-2">
             <input class="form-check-input" type="checkbox" name="accountActivation" id="accountActivation" />
-            <label class="form-check-label" for="accountActivation">I confirm my account deactivation</label>
+            <label class="form-check-label" for="accountActivation">Saya mengonfirmasi penonaktifan akun saya</label>
           </div>
-          <button type="submit" class="btn btn-danger deactivate-account" disabled>Deactivate Account</button>
+          <button type="submit" class="btn btn-danger deactivate-account" disabled>Nonaktifkan Akun</button>
         </form>
       </div>
     </div>

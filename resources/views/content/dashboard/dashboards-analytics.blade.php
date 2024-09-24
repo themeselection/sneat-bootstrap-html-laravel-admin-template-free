@@ -21,15 +21,15 @@
       <div class="d-flex align-items-start row">
         <div class="col-sm-7">
           <div class="card-body">
-            <h5 class="card-title text-primary mb-3">Congratulations John! 🎉</h5>
-            <p class="mb-6">You have done 72% more sales today.<br>Check your new badge in your profile.</p>
+            <h5 class="card-title text-primary mb-3">Hello Everyone!</h5>
+            <p class="mb-6">Kerja untuk Kinerja, untuk data yang cepat,<br>tepat, akurat dan dapat dipercaya. BISA!!!</p>
 
             <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Badges</a>
           </div>
         </div>
         <div class="col-sm-5 text-center text-sm-left">
           <div class="card-body pb-0 px-0 px-md-6">
-            <img src="{{asset('assets/img/illustrations/man-with-laptop.png')}}" height="175" class="scaleX-n1-rtl" alt="View Badge User">
+            <img src="{{asset('assets/img/illustrations/nanas.jpg')}}" height="175" class="scaleX-n1-rtl" alt="View Badge User">
           </div>
         </div>
       </div>
@@ -54,9 +54,9 @@
                 </div>
               </div>
             </div>
-            <p class="mb-1">Profit</p>
-            <h4 class="card-title mb-3">$12,628</h4>
-            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> +72.80%</small>
+            <p class="mb-1">Yeild NSFC</p>
+            <h4 class="card-title mb-3">200</h4>
+            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> +7.80%</small>
           </div>
         </div>
       </div>
@@ -77,9 +77,9 @@
                 </div>
               </div>
             </div>
-            <p class="mb-1">Sales</p>
-            <h4 class="card-title mb-3">$4,679</h4>
-            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> +28.42%</small>
+            <p class="mb-1">Yeild NSSC</p>
+            <h4 class="card-title mb-3">75</h4>
+            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> +2.42%</small>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
         <div class="col-lg-8">
           <div class="card-header d-flex align-items-center justify-content-between">
             <div class="card-title mb-0">
-              <h5 class="m-0 me-2">Total Revenue</h5>
+              <h5 class="m-0 me-2">Rata-Rata Pengamatan Bajak Tahun 2022 - 2023</h5>
             </div>
             <div class="dropdown">
               <button class="btn p-0" type="button" id="totalRevenue" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -121,15 +121,15 @@
                   <span class="visually-hidden">Toggle Dropdown</span>
                 </button>
                 <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="javascript:void(0);">2022</a></li>
                   <li><a class="dropdown-item" href="javascript:void(0);">2021</a></li>
                   <li><a class="dropdown-item" href="javascript:void(0);">2020</a></li>
-                  <li><a class="dropdown-item" href="javascript:void(0);">2019</a></li>
                 </ul>
               </div>
             </div>
 
             <div id="growthChart"></div>
-            <div class="text-center fw-medium my-6">62% Company Growth</div>
+            <div class="text-center fw-medium my-6">92% Potensi Crown</div>
 
             <div class="d-flex gap-3 justify-content-between">
               <div class="d-flex">
@@ -143,7 +143,7 @@
 
                     </script>
                   </small>
-                  <h6 class="mb-0">$32.5k</h6>
+                  <h6 class="mb-0">92% bibit normal</h6>
                 </div>
               </div>
               <div class="d-flex">
@@ -157,7 +157,7 @@
 
                     </script>
                   </small>
-                  <h6 class="mb-0">$41.2k</h6>
+                  <h6 class="mb-0">8% bibit afkir</h6>
                 </div>
               </div>
             </div>
@@ -186,9 +186,9 @@
                 </div>
               </div>
             </div>
-            <p class="mb-1">Payments</p>
-            <h4 class="card-title mb-3">$2,456</h4>
-            <small class="text-danger fw-medium"><i class='bx bx-down-arrow-alt'></i> -14.82%</small>
+            <p class="mb-1">Keseragaman Bibit Crown</p>
+            <h4 class="card-title mb-3">99.25%</h4>
+            <small class="text-danger fw-medium"><i class='bx bx-down-arrow-alt'></i> 0.08%</small>
           </div>
         </div>
       </div>
@@ -209,9 +209,9 @@
                 </div>
               </div>
             </div>
-            <p class="mb-1">Transactions</p>
-            <h4 class="card-title mb-3">$14,857</h4>
-            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> +28.14%</small>
+            <p class="mb-1">Keseragaman Bibit Sucker </p>
+            <h4 class="card-title mb-3">97.75%</h4>
+            <small class="text-success fw-medium"><i class='bx bx-up-arrow-alt'></i> 1.25%</small>
           </div>
         </div>
       </div>
@@ -221,12 +221,12 @@
             <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column gap-10">
               <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
                 <div class="card-title mb-6">
-                  <h5 class="text-nowrap mb-1">Profile Report</h5>
-                  <span class="badge bg-label-warning">YEAR 2022</span>
+                  <h5 class="text-nowrap mb-1">Kualitas Panen</h5>
+                  <span class="badge bg-label-warning">Tahun 2024</span>
                 </div>
                 <div class="mt-sm-auto">
-                  <span class="text-success text-nowrap fw-medium"><i class='bx bx-up-arrow-alt'></i> 68.2%</span>
-                  <h4 class="mb-0">$84,686k</h4>
+                  <span class="text-success text-nowrap fw-medium"><i class='bx bx-up-arrow-alt'></i> 96.52%</span>
+                  <h4 class="mb-0">4.02%</h4>
                 </div>
               </div>
               <div id="profileReportChart"></div>
@@ -243,8 +243,9 @@
     <div class="card h-100">
       <div class="card-header d-flex justify-content-between">
         <div class="card-title mb-0">
-          <h5 class="mb-1 me-2">Order Statistics</h5>
-          <p class="card-subtitle">42.82k Total Sales</p>
+          <h5 class="mb-1 me-2">% Pencapaian Kualitas Tanam</h5>
+          <p class="card-subtitle">Dari total 112 lokasi teramati, 1 Lokasi tidak masuk STD dengan 
+            rata-rata pencapaian kualitas tanam sebesar 96,74%</p>
         </div>
         <div class="dropdown">
           <button class="btn text-muted p-0" type="button" id="orederStatistics" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -260,8 +261,8 @@
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-center mb-6">
           <div class="d-flex flex-column align-items-center gap-1">
-            <h3 class="mb-1">8,258</h3>
-            <small>Total Orders</small>
+            <h3 class="mb-1">Standar Kualitas 95%</h3>
+            <small>Plantation Group 1,2,3</small>
           </div>
           <div id="orderStatisticsChart"></div>
         </div>
@@ -272,11 +273,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <h6 class="mb-0">Electronic</h6>
-                <small>Mobile, Earbuds, TV</small>
+                <h6 class="mb-0">JTAB</h6>
+                <small>...</small>
               </div>
               <div class="user-progress">
-                <h6 class="mb-0">82.5k</h6>
+                <h6 class="mb-0">95%</h6>
               </div>
             </div>
           </li>
@@ -286,11 +287,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <h6 class="mb-0">Fashion</h6>
-                <small>T-shirt, Jeans, Shoes</small>
+                <h6 class="mb-0">JTDB</h6>
+                <small>...</small>
               </div>
               <div class="user-progress">
-                <h6 class="mb-0">23.8k</h6>
+                <h6 class="mb-0">97%</h6>
               </div>
             </div>
           </li>
@@ -300,11 +301,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <h6 class="mb-0">Decor</h6>
-                <small>Fine Art, Dining</small>
+                <h6 class="mb-0">Kedalaman</h6>
+                <small>...</small>
               </div>
               <div class="user-progress">
-                <h6 class="mb-0">849k</h6>
+                <h6 class="mb-0">97.2%</h6>
               </div>
             </div>
           </li>
@@ -314,11 +315,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <h6 class="mb-0">Sports</h6>
-                <small>Football, Cricket Kit</small>
+                <h6 class="mb-0">Pencapaian Kualitas Tanam</h6>
+                <small>...</small>
               </div>
               <div class="user-progress">
-                <h6 class="mb-0">99</h6>
+                <h6 class="mb-0">99%</h6>
               </div>
             </div>
           </li>
@@ -334,13 +335,13 @@
       <div class="card-header nav-align-top">
         <ul class="nav nav-pills" role="tablist">
           <li class="nav-item">
-            <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-tabs-line-card-income" aria-controls="navs-tabs-line-card-income" aria-selected="true">Income</button>
+            <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-tabs-line-card-income" aria-controls="navs-tabs-line-card-income" aria-selected="true">Gudang Mixer</button>
           </li>
           <li class="nav-item">
-            <button type="button" class="nav-link" role="tab">Expenses</button>
+            <button type="button" class="nav-link" role="tab">Adukan Bahan</button>
           </li>
           <li class="nav-item">
-            <button type="button" class="nav-link" role="tab">Profit</button>
+            <button type="button" class="nav-link" role="tab">Boom Spray dan Cameco</button>
           </li>
         </ul>
       </div>
@@ -352,12 +353,12 @@
                 <img src="{{asset('assets/img/icons/unicons/wallet.png')}}" alt="User">
               </div>
               <div>
-                <p class="mb-0">Total Balance</p>
+                <p class="mb-0">Rata-Rata Lama .... (menit)</p>
                 <div class="d-flex align-items-center">
-                  <h6 class="mb-0 me-1">$459.10</h6>
+                  <h6 class="mb-0 me-1">100%</h6>
                   <small class="text-success fw-medium">
                     <i class='bx bx-chevron-up bx-lg'></i>
-                    42.9%
+                    4.9%
                   </small>
                 </div>
               </div>
@@ -368,8 +369,8 @@
                 <div id="expensesOfWeek"></div>
               </div>
               <div>
-                <h6 class="mb-0">Income this week</h6>
-                <small>$39k less than last week</small>
+                <h6 class="mb-0">Perawatan</h6>
+                <small>100% Masuk Standar</small>
               </div>
             </div>
           </div>
@@ -383,7 +384,7 @@
   <div class="col-md-6 col-lg-4 order-2 mb-6">
     <div class="card h-100">
       <div class="card-header d-flex align-items-center justify-content-between">
-        <h5 class="card-title m-0 me-2">Transactions</h5>
+        <h5 class="card-title m-0 me-2">Pengamatan Terbaru</h5>
         <div class="dropdown">
           <button class="btn text-muted p-0" type="button" id="transactionID" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="bx bx-dots-vertical-rounded bx-lg"></i>
@@ -403,11 +404,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <small class="d-block">Paypal</small>
-                <h6 class="fw-normal mb-0">Send money</h6>
+                <small class="d-block">Chopper</small>
+                <h6 class="fw-normal mb-0">PG 1</h6>
               </div>
               <div class="user-progress d-flex align-items-center gap-2">
-                <h6 class="fw-normal mb-0">+82.6</h6> <span class="text-muted">USD</span>
+                <h6 class="fw-normal mb-0">96A</h6> <span class="text-muted">In process</span>
               </div>
             </div>
           </li>
@@ -417,11 +418,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <small class="d-block">Wallet</small>
-                <h6 class="fw-normal mb-0">Mac'D</h6>
+                <small class="d-block">Bajak</small>
+                <h6 class="fw-normal mb-0">PG 2</h6>
               </div>
               <div class="user-progress d-flex align-items-center gap-2">
-                <h6 class="fw-normal mb-0">+270.69</h6> <span class="text-muted">USD</span>
+                <h6 class="fw-normal mb-0">154C</h6> <span class="text-muted">In process</span>
               </div>
             </div>
           </li>
@@ -431,11 +432,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <small class="d-block">Transfer</small>
-                <h6 class="fw-normal mb-0">Refund</h6>
+                <small class="d-block">Drop Bibit</small>
+                <h6 class="fw-normal mb-0">PG 2</h6>
               </div>
               <div class="user-progress d-flex align-items-center gap-2">
-                <h6 class="fw-normal mb-0">+637.91</h6> <span class="text-muted">USD</span>
+                <h6 class="fw-normal mb-0">166A</h6> <span class="text-muted">In process</span>
               </div>
             </div>
           </li>
@@ -445,11 +446,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <small class="d-block">Credit Card</small>
-                <h6 class="fw-normal mb-0">Ordered Food</h6>
+                <small class="d-block">Pool Dipping</small>
+                <h6 class="fw-normal mb-0">PG 3</h6>
               </div>
               <div class="user-progress d-flex align-items-center gap-2">
-                <h6 class="fw-normal mb-0">-838.71</h6> <span class="text-muted">USD</span>
+                <h6 class="fw-normal mb-0">571B</h6> <span class="text-muted">In process</span>
               </div>
             </div>
           </li>
@@ -459,11 +460,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <small class="d-block">Wallet</small>
-                <h6 class="fw-normal mb-0">Starbucks</h6>
+                <small class="d-block">Forcing</small>
+                <h6 class="fw-normal mb-0">PG 1</h6>
               </div>
               <div class="user-progress d-flex align-items-center gap-2">
-                <h6 class="fw-normal mb-0">+203.33</h6> <span class="text-muted">USD</span>
+                <h6 class="fw-normal mb-0">66A</h6> <span class="text-muted">Cross Check</span>
               </div>
             </div>
           </li>
@@ -473,11 +474,11 @@
             </div>
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
-                <small class="d-block">Mastercard</small>
-                <h6 class="fw-normal mb-0">Ordered Food</h6>
+                <small class="d-block">Panen</small>
+                <h6 class="fw-normal mb-0">PG 3</h6>
               </div>
               <div class="user-progress d-flex align-items-center gap-2">
-                <h6 class="fw-normal mb-0">-92.45</h6> <span class="text-muted">USD</span>
+                <h6 class="fw-normal mb-0">511C</h6> <span class="text-muted">In process</span>
               </div>
             </div>
           </li>

@@ -19,7 +19,7 @@
           <!-- Logo -->
           <div class="app-brand justify-content-center mb-6">
             <a href="{{url('/')}}" class="app-brand-link gap-2">
-              <span class="app-brand-logo demo">@include('_partials.macros',["width"=>25,"withbg"=>'var(--bs-primary)'])</span>
+              <img src="{{ asset('assets\img\illustrations\qcpp.png') }}" alt="Logo" class="app-brand-logo demo" style="width: 65px;">
               <span class="app-brand-text demo text-heading fw-bold">{{config('variables.templateName')}}</span>
             </a>
           </div>
