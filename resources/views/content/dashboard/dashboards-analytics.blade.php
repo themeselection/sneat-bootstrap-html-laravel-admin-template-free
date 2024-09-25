@@ -23,7 +23,6 @@
           <div class="card-body">
             <h5 class="card-title text-primary mb-3">Hello Everyone!</h5>
             <p class="mb-6">Kerja untuk Kinerja, untuk data yang cepat,<br>tepat, akurat dan dapat dipercaya. BISA!!!</p>
-
             <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Badges</a>
           </div>
         </div>
@@ -238,6 +237,7 @@
   </div>
 </div>
 <div class="row">
+
   <!-- Order Statistics -->
   <div class="col-md-6 col-lg-4 col-xl-4 order-0 mb-6">
     <div class="card h-100">
@@ -335,49 +335,32 @@
       <div class="card-header nav-align-top">
         <ul class="nav nav-pills" role="tablist">
           <li class="nav-item">
-            <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-tabs-line-card-income" aria-controls="navs-tabs-line-card-income" aria-selected="true">Gudang Mixer</button>
+            <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#gudangMixer" aria-controls="gudangMixer" aria-selected="true">Gudang Mixer</button>
           </li>
           <li class="nav-item">
-            <button type="button" class="nav-link" role="tab">Adukan Bahan</button>
+            <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#adukanBahan" aria-controls="adukanBahan" aria-selected="false">Adukan Bahan</button>
           </li>
           <li class="nav-item">
-            <button type="button" class="nav-link" role="tab">Boom Spray dan Cameco</button>
+            <button type="button" class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#boomSpray" aria-controls="boomSpray" aria-selected="false">Boom Spray dan Cameco</button>
           </li>
         </ul>
       </div>
       <div class="card-body">
         <div class="tab-content p-0">
-          <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
-            <div class="d-flex mb-6">
-              <div class="avatar flex-shrink-0 me-3">
-                <img src="{{asset('assets/img/icons/unicons/wallet.png')}}" alt="User">
-              </div>
-              <div>
-                <p class="mb-0">Rata-Rata Lama .... (menit)</p>
-                <div class="d-flex align-items-center">
-                  <h6 class="mb-0 me-1">100%</h6>
-                  <small class="text-success fw-medium">
-                    <i class='bx bx-chevron-up bx-lg'></i>
-                    4.9%
-                  </small>
-                </div>
-              </div>
-            </div>
+          <div class="tab-pane fade show active" id="gudangMixer" role="tabpanel">
             <div id="incomeChart"></div>
-            <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
-              <div class="flex-shrink-0">
-                <div id="expensesOfWeek"></div>
-              </div>
-              <div>
-                <h6 class="mb-0">Perawatan</h6>
-                <small>100% Masuk Standar</small>
-              </div>
-            </div>
+          </div>
+          <div class="tab-pane fade" id="adukanBahan" role="tabpanel">
+            <div id="incomeChart"></div>
+          </div>
+          <div class="tab-pane fade" id="boomSpray" role="tabpanel">
+            <div id="incomeChart"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  
   <!--/ Expense Overview -->
 
   <!-- Transactions -->
@@ -487,5 +470,81 @@
     </div>
   </div>
   <!--/ Transactions -->
+
+    <!-- Expense Overview -->
+    <div class="col-md-6 col-lg-4 order-1 mb-6">
+      <div class="card h-100">
+        <div class="card-header nav-align-top">
+          <h5 class="card-title m-0 me-2">Pengamatan Boom Spraying</h5>
+          <p class="card-subtitle">Volume Air Per Aktivitas</p>
+        </div>
+        <div class="card-body">
+          <div class="tab-content p-0">
+            <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
+              <div class="d-flex mb-6">
+              </div>
+              <div id="incomeChart1"></div>
+              <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
+                <div class="flex-shrink-0">
+                  <div id="expensesOfWeek1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Expense Overview -->
+
+
+    <!-- Expense Overview -->
+    <div class="col-md-6 col-lg-4 order-1 mb-6">
+      <div class="card h-100">
+        <div class="card-header nav-align-top">
+          <h5 class="card-title m-0 me-2"> Pencapaian Keseragaman Bibit Lokasi Tanam</h5>
+          <p class="card-subtitle">Dari total 108 lokasi teramati, Seluruh Lokasi masuk STD dengan rata2 pencapaian sebesar 98,45%
+            </p>
+        </div>
+        <div class="card-body">
+          <div class="tab-content p-0">
+            <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
+              <div class="d-flex mb-6">
+              </div>
+              <div id="incomeChart2"></div>
+              <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
+                <div class="flex-shrink-0">
+                  <div id="expensesOfWeek2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Expense Overview -->
+
+    <div class="col-md-6 col-lg-8 order-1 mb-6">
+      <div class="card h-100">
+        <div class="card-header nav-align-top">
+          <h5 class="card-title m-0 me-2">Seset Bonggol</h5>
+          <p class="card-subtitle">huft
+            </p>
+        </div>
+        <div class="card-body">
+          <div class="tab-content p-0">
+            <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
+              <div class="d-flex mb-6">
+              </div>
+              <div id="bonggolChart"></div>
+              <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
+                <div class="flex-shrink-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Expense Overview -->
 </div>
 @endsection

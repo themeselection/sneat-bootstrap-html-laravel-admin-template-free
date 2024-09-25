@@ -398,8 +398,8 @@
     const chartOrderStatistics = document.querySelector('#orderStatisticsChart'),
         orderChartConfig = {
             chart: {
-                height: 145,
-                width: 110,
+                height: 180,
+                width: 210,
                 type: 'donut'
             },
             labels: ['JTDB', 'JTAB', 'Pencapaian Kualitas Tanam', 'Kedalaman'],
@@ -457,7 +457,7 @@
                                 show: true,
                                 fontSize: '13px',
                                 color: legendColor,
-                                label: 'Weekly',
+                                label: 'Capaian Kualitas',
                                 formatter: function(w) {
                                     return '96.74%';
                                 }
@@ -474,11 +474,25 @@
 
     // Income Chart - Area chart
     // --------------------------------------------------------------------
+    const gudangmixer = [21, 30, 22, 42, 26, 35, 29];
+    const dataAdukanBahan = [25, 28, 20, 38, 22, 32, 25];
+    const dataBoomSpray = [18, 25, 19, 35, 20, 28, 23];
+
     const incomeChartEl = document.querySelector('#incomeChart'),
         incomeChartConfig = {
             series: [{
-                data: [21, 30, 22, 42, 26, 35, 29]
-            }],
+                    name: "Gudang Mixer",
+                    data: gudangmixer
+                },
+                {
+                    name: "Adukan Bahan",
+                    data: dataAdukanBahan
+                },
+                {
+                    name: "Boom Spary Dan Cameco",
+                    data: dataBoomSpray
+                }
+            ],
             chart: {
                 height: 232,
                 parentHeightOffset: 0,
@@ -496,7 +510,12 @@
                 curve: 'smooth'
             },
             legend: {
-                show: false
+                show: true,
+                position: 'top',
+                horizontalAlign: 'right',
+                floating: true,
+                offsetY: -25,
+                offsetX: -5
             },
             markers: {
                 size: 6,
@@ -571,7 +590,7 @@
     // --------------------------------------------------------------------
     const weeklyExpensesEl = document.querySelector('#expensesOfWeek'),
         weeklyExpensesConfig = {
-            series: [65],
+            series: [100],
             chart: {
                 width: 60,
                 height: 60,
@@ -596,7 +615,7 @@
                         },
                         value: {
                             formatter: function(val) {
-                                return '$' + parseInt(val);
+                                return parseInt(val) + '%';
                             },
                             offsetY: 5,
                             color: legendColor,
@@ -639,4 +658,262 @@
         const weeklyExpenses = new ApexCharts(weeklyExpensesEl, weeklyExpensesConfig);
         weeklyExpenses.render();
     }
+
+    const volumeair = [75, 95, 85, 97, 100, 70];
+    const incomeChartEl1 = document.querySelector('#incomeChart1'),
+        incomeChartConfig1 = {
+            series: [{
+                name: "Volume Air Per Aktivitas",
+                data: volumeair
+            }],
+            chart: {
+                height: 232,
+                type: 'bar',
+                toolbar: {
+                    show: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            plotOptions: {
+                bar: {
+                    horizontal: false, // Jika Anda ingin horizontal bar, ubah menjadi true
+                    columnWidth: '50%', // Sesuaikan lebar kolom
+                    endingShape: 'rounded' // Bentuk ujung bar (pilihan: flat, rounded)
+                }
+            },
+            legend: {
+                show: true,
+                position: 'top',
+                horizontalAlign: 'right'
+            },
+            colors: [config.colors.primary],
+            grid: {
+                borderColor: borderColor,
+                strokeDashArray: 4,
+                padding: {
+                    top: -20,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }
+            },
+            xaxis: {
+                categories: ['BDF 1', 'BDF 2', 'BDF 3', 'BDF 4', 'BDF 5', 'BDF 6'], // Nama kategori (misalnya lokasi)
+                axisBorder: {
+                    show: false
+                },
+                axisTicks: {
+                    show: false
+                },
+                labels: {
+                    style: {
+                        fontSize: '13px',
+                        colors: labelColor
+                    }
+                }
+            },
+            yaxis: {
+                labels: {
+                    style: {
+                        colors: labelColor
+                    }
+                },
+                min: 0,
+                max: 150, // Sesuaikan dengan range data Anda
+                tickAmount: 5
+            }
+        };
+
+    if (typeof incomeChartEl1 !== undefined && incomeChartEl1 !== null) {
+        const incomeChart1 = new ApexCharts(incomeChartEl1, incomeChartConfig1);
+        incomeChart1.render();
+    }
+
+
+    const dataKMinus = [96.70, 96.98, 97.93]; // K-
+    const dataK = [98.22, 98.01, 96.74]; // K
+    const dataS = [97.73, 96.78, 96.75]; // S
+    const dataB = [97.83, 96.16, 95.97]; // B
+    const dataOsize = [0, 96.16, 95.97]; // Osize
+
+    const incomeChartEl2 = document.querySelector('#incomeChart2');
+    const incomeChartConfig2 = {
+        series: [{
+                name: "K-",
+                data: dataKMinus
+            },
+            {
+                name: "K",
+                data: dataK
+            },
+            {
+                name: "S",
+                data: dataS
+            },
+            {
+                name: "B",
+                data: dataB
+            },
+            {
+                name: "Osize",
+                data: dataOsize
+            }
+        ],
+        chart: {
+            height: 350,
+            type: 'bar',
+            stacked: true, // Enable stacking
+            toolbar: {
+                show: false
+            }
+        },
+        plotOptions: {
+            bar: {
+                horizontal: false,
+                columnWidth: '50%',
+                endingShape: 'rounded'
+            }
+        },
+        dataLabels: {
+            enabled: false
+        },
+        legend: {
+            position: 'top',
+            horizontalAlign: 'center'
+        },
+        fill: {
+            opacity: 1
+        },
+        colors: ['#7B68EE', '#48D1CC', '#C71585', '#DB7093', '#DDA0DD'], // Colors for each data series
+        xaxis: {
+            categories: ['PG1', 'PG2', 'PG3'], // X-axis labels (locations)
+            labels: {
+                style: {
+                    fontSize: '13px',
+                    colors: '#333' // Customize x-axis label color
+                }
+            }
+        },
+        yaxis: {
+            labels: {
+                formatter: function(value) {
+                    return value + "%"; // Format y-axis labels as percentages
+                }
+            },
+            min: 90, // Minimum value for y-axis
+            max: 100 // Maximum value for y-axis
+        },
+        tooltip: {
+            y: {
+                formatter: function(value) {
+                    return value + "%"; // Format tooltip values as percentages
+                }
+            }
+        }
+    };
+
+    if (typeof incomeChartEl2 !== undefined && incomeChartEl2 !== null) {
+        const incomeChart2 = new ApexCharts(incomeChartEl2, incomeChartConfig2);
+        incomeChart2.render();
+    }
+
+    const dataSampah = [93.72, 86.75, 56.90]; // Ketinggian Sampah (std 100%)
+    const dataKupasan = [96.38, 94.99, 95.52]; // Kebersihan Kupasan (std 95%)
+    const dataPotongan = [91.13, 94.69, 91.38]; // Potongan Bonggol (std 95%)
+    const dataKondisiBonggol = [100.00, 100.00, 100.00]; // Kondisi Bonggol (std 100%)
+    const dataKondisiBin = [96.97, 100.00, 0.00]; // Kondisi Bin (std 100%)
+
+    const bonggolChartEl = document.querySelector('#bonggolChart');
+    const bonggolChartConfig = {
+        series: [{
+                name: "Ketinggian Sampah (std 100%)",
+                data: dataSampah
+            },
+            {
+                name: "Kebersihan Kupasan (std 95%)",
+                data: dataKupasan
+            },
+            {
+                name: "Potongan Bonggol (std 95%)",
+                data: dataPotongan
+            },
+            {
+                name: "Kondisi Bonggol (std 100%)",
+                data: dataKondisiBonggol
+            },
+            {
+                name: "Kondisi Bin (std 100%)",
+                data: dataKondisiBin
+            }
+        ],
+        chart: {
+            type: 'bar',
+            height: 350,
+            stacked: false,
+            toolbar: {
+                show: false
+            }
+        },
+        plotOptions: {
+            bar: {
+                horizontal: false,
+                columnWidth: '50%',
+                endingShape: 'flat',
+                dataLabels: {
+                    position: 'top' // Show data labels above bars
+                }
+            }
+        },
+        dataLabels: {
+            enabled: false,
+            formatter: function(val) {
+                return val + "%";
+            },
+            offsetY: 3,
+            style: {
+                fontSize: '12px',
+                colors: ["#304758"]
+            }
+        },
+        legend: {
+            position: 'bottom',
+            horizontalAlign: 'left'
+        },
+        colors: ['#E9967A', '#8FBC8F', '#00BFFF', '#008B8B', '#7B68EE'], // Colors matching each dataset
+        xaxis: {
+            categories: ['PG1', 'PG2', 'PG3'], // X-axis labels for the locations
+            labels: {
+                style: {
+                    fontSize: '13px',
+                    colors: '#333' // Customize x-axis label color
+                }
+            }
+        },
+        yaxis: {
+            labels: {
+                formatter: function(value) {
+                    return value + "%";
+                }
+            },
+            min: 50, // Adjust the minimum y-axis value
+            max: 100, // Set max value to 100 for percentages
+            tickAmount: 5
+        },
+        tooltip: {
+            y: {
+                formatter: function(val) {
+                    return val + "%";
+                }
+            }
+        }
+    };
+
+    if (typeof bonggolChartEl !== undefined && bonggolChartEl !== null) {
+        const bonggolChart = new ApexCharts(bonggolChartEl, bonggolChartConfig);
+        bonggolChart.render();
+    }
+
+
 })();
