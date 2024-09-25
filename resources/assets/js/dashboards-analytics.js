@@ -915,5 +915,90 @@
         bonggolChart.render();
     }
 
+    const dataPG1 = [95.98, 4.02, 0.00]; // PG1 (Grade A, B, C)
+    const dataPG2 = [84.75, 13.64, 1.60]; // PG2 (Grade A, B, C)
+    const dataPG3 = [96.00, 4.00, 0.00]; // PG3 (Grade A, B, C)
+
+    const colors = ['#7B68EE', '#00BFFF', '#32CD32']; // Grade A (Blue), Grade B (Yellow), Grade C (Red)
+
+    const optionsPG1 = {
+        series: dataPG1,
+        chart: {
+            type: 'pie',
+            height: 200
+        },
+        labels: ['Grade A', 'Grade B', 'Grade C'],
+        colors: colors,
+        legend: {
+            position: 'bottom'
+        },
+        tooltip: {
+            y: {
+                formatter: function(val) {
+                    return val + "%";
+                }
+            }
+        }
+    };
+
+    const optionsPG2 = {
+        series: dataPG2,
+        chart: {
+            type: 'pie',
+            height: 200
+        },
+        labels: ['Grade A', 'Grade B', 'Grade C'],
+        colors: colors,
+        legend: {
+            position: 'bottom'
+        },
+        tooltip: {
+            y: {
+                formatter: function(val) {
+                    return val + "%";
+                }
+            }
+        }
+    };
+
+    const optionsPG3 = {
+        series: dataPG3,
+        chart: {
+            type: 'pie',
+            height: 200
+        },
+        labels: ['Grade A', 'Grade B', 'Grade C'],
+        colors: colors,
+        legend: {
+            position: 'bottom'
+        },
+        tooltip: {
+            y: {
+                formatter: function(val) {
+                    return val + "%";
+                }
+            }
+        }
+    };
+
+    // Render the charts
+    const pg1ChartEl = document.querySelector('#chartPg1');
+    if (pg1ChartEl) {
+        const pg1Chart = new ApexCharts(pg1ChartEl, optionsPG1);
+        pg1Chart.render();
+    }
+
+    const pg2ChartEl = document.querySelector('#chartPg2');
+    if (pg2ChartEl) {
+        const pg2Chart = new ApexCharts(pg2ChartEl, optionsPG2);
+        pg2Chart.render();
+    }
+
+    const pg3ChartEl = document.querySelector('#chartPg3');
+    if (pg3ChartEl) {
+        const pg3Chart = new ApexCharts(pg3ChartEl, optionsPG3);
+        pg3Chart.render();
+    }
+
 
 })();

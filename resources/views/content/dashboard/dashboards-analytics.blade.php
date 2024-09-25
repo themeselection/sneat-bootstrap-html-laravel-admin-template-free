@@ -546,5 +546,46 @@
       </div>
     </div>
     <!--/ Expense Overview -->
+    <div class="col-md-6 col-lg-8 order-1 mb-6">
+      <div class="card h-100">
+          <div class="card-header nav-align-top">
+              <h5 class="card-title m-0 me-2">Bonggol Tidak Terseset Per Grade</h5>
+              <p class="card-subtitle">huft</p>
+          </div>
+          <div class="card-body">
+              <div class="tab-content p-0">
+                  <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
+                      <div class="d-flex mb-6">
+                          <!-- Tempat untuk charts -->
+                      </div>
+                      <div class="row">
+                          <!-- Chart PG1 -->
+                          <div class="col-md-4">
+                              <div id="chartPg1"></div>
+                          </div>
+                          
+                          <!-- Chart PG2 -->
+                          <div class="col-md-4">
+                              <div id="chartPg2"></div>
+                          </div>
+                          
+                          <!-- Chart PG3 -->
+                          <div class="col-md-4">
+                              <div id="chartPg3"></div>
+                          </div>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
+                          <div class="flex-shrink-0"></div>
+                          <h6>Bonggol tidak terseset didominasi grade A (15-22 Cm) sebesar
+                            92,69%, dan diikuti grede B (23-31 Cm) sebesar 6,84%, dan 
+                            grade C (>31 Cm) sebesar 0,47%.</h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
 </div>
 @endsection
