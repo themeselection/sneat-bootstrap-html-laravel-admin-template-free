@@ -4,6 +4,7 @@
 
 @section('content')
 
+ 
 <!-- Striped Rows -->
 <div class="card">
   <h5 class="card-header">Tabel Data Pengamatan</h5>
