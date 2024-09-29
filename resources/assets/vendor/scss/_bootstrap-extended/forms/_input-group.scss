@@ -1,0 +1,182 @@
+// Input groups
+// *******************************************************************************
+
+// Using :focus-within to apply focus border and shadow to default and merged input-group
+.input-group {
+  border-radius: $input-border-radius;
+  // Input group (Default)
+  .input-group-text {
+    padding: calc($input-padding-y - $input-focus-border-width) calc($input-padding-x - $input-border-width);
+    @include transition($input-transition);
+  }
+
+  //? Info :focus-within to apply focus border and shadow to default and merged input & input-group
+  &:focus-within {
+    .input-group-text {
+      border-width: $input-focus-border-width;
+      padding: calc($input-padding-y - calc($input-focus-border-width + $input-border-width))
+        calc($input-padding-x - $input-focus-border-width);
+    }
+    .form-control,
+    .form-select {
+      border-width: $input-focus-border-width;
+      padding: calc($input-padding-y - $input-focus-border-width) calc($input-padding-x - $input-border-width);
+      &:first-child {
+        padding-inline-start: calc($input-padding-x - $input-focus-border-width);
+      }
+    }
+  }
+  // Input group (lg)
+  &.input-group-lg {
+    .input-group-text {
+      padding: calc($input-padding-y-lg - $input-border-width) calc($input-padding-x-lg - $input-border-width);
+    }
+    &:focus-within {
+      .input-group-text {
+        padding: calc($input-padding-y-lg - $input-border-width) calc($input-padding-x-lg - $input-focus-border-width);
+      }
+      .form-control:not(:first-child),
+      .form-select:not(:first-child) {
+        padding: calc($input-padding-y-lg - $input-border-width) calc($input-padding-x-lg);
+      }
+    }
+  }
+  // Input group (sm)
+  &.input-group-sm {
+    .form-control,
+    .form-select {
+      padding-inline: calc($input-padding-x-sm - $input-border-width);
+    }
+    .input-group-text {
+      padding: calc($input-padding-y-sm - $input-border-width) calc($input-padding-x-sm - $input-border-width);
+    }
+    &:focus-within {
+      .input-group-text {
+        padding: calc($input-padding-y-sm - $input-focus-border-width)
+          calc($input-padding-x-sm - $input-focus-border-width);
+      }
+      .form-control,
+      .form-select {
+        padding: calc($input-padding-y-sm - $input-border-width) calc($input-padding-x-sm);
+      }
+    }
+  }
+
+  // Input group merge
+  &.input-group-merge {
+    &:focus-within {
+      > .form-control:first-child,
+      > .form-select:first-child {
+        padding-inline: calc($input-padding-x - $input-focus-border-width);
+      }
+    }
+    &.input-group-sm {
+      &:focus-within {
+        > .form-control:first-child,
+        > .form-select:first-child {
+          padding-inline: calc($input-padding-x - $input-focus-border-width);
+        }
+      }
+    }
+
+    .input-group-text {
+      &:first-child {
+        border-inline-end: 0;
+      }
+      &:last-child {
+        border-inline-start: 0;
+      }
+    }
+    .form-control {
+      &:not(:first-child) {
+        border-inline-start: 0;
+      }
+      &:not(:last-child) {
+        border-inline-end: 0;
+      }
+      &:not(textarea) {
+        &:not(:first-child) {
+          padding-inline-start: 0 !important;
+        }
+        &:not(:last-child) {
+          padding-inline-end: 0 !important;
+        }
+      }
+    }
+    &.disabled,
+    &[disabled] {
+      margin-inline: 0 !important;
+    }
+  }
+  // Rounded pill option
+  &.rounded-pill {
+    .input-group-text,
+    .form-control {
+      @include border-radius($border-radius-pill);
+    }
+  }
+  &:hover {
+    .input-group-text,
+    .form-control {
+      border-color: $input-border-hover-color;
+    }
+  }
+
+  &:focus-within {
+    box-shadow: $input-focus-box-shadow;
+    .form-control,
+    .input-group-text {
+      box-shadow: none;
+    }
+  }
+  // For disabled input group
+  &.disabled,
+  &[disabled] {
+    .input-group-text,
+    .form-control {
+      pointer-events: none;
+      color: $text-muted;
+      background-color: $input-disabled-bg;
+      border-color: $input-disabled-border-color;
+    }
+  }
+}
+
+// input-group-text icon size
+.input-group-text {
+  background-clip: padding-box;
+  i {
+    @include font-size(1.25rem);
+  }
+}
+.input-group-lg > .input-group-text {
+  i {
+    @include font-size(1.375rem);
+  }
+}
+.input-group-sm > .input-group-text {
+  i {
+    @include font-size(1.125rem);
+  }
+}
+
+// Merge input
+
+// Input group merge .form-control border & padding
+@include ltr-only {
+  .input-group-merge {
+    .input-group-text {
+      &:first-child {
+        border-right: 0;
+      }
+      &:last-child {
+        border-left: 0;
+      }
+    }
+  }
+}
+
+// Adding transition (On focus border color change)
+.input-group-text {
+  @include transition($input-transition);
+}

@@ -1,0 +1,336 @@
+// Nav
+// *******************************************************************************
+
+.nav .nav-item,
+.nav .nav-link,
+.tab-pane,
+.tab-pane .card-body {
+  outline: none !important;
+}
+
+// To fix height issue of nav pills
+.nav {
+  flex-wrap: inherit;
+  &.nav-pills:not(.nav-align-right):not(.nav-align-left) {
+    flex-wrap: wrap;
+  }
+  .nav-item {
+    white-space: nowrap;
+  }
+  .nav-tabs {
+    background-color: $card-bg;
+  }
+}
+
+//nav tabs shadow
+.nav-tabs-shadow {
+  box-shadow: $card-box-shadow;
+}
+// Tab and pills style
+.nav-tabs,
+.nav-pills {
+  &:not(.flex-column),
+  &.flex-column.flex-md-row {
+    row-gap: 8px;
+  }
+  @include media-breakpoint-down(md) {
+    &.flex-column {
+      row-gap: 4px;
+    }
+  }
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    &.active {
+      background-color: transparent;
+    }
+  }
+
+  &:not(.nav-fill):not(.nav-justified) .nav-link {
+    width: 100%;
+  }
+}
+
+.tab-content:not(.doc-example-content) {
+  padding: $card-spacer-y;
+  .tab-pane {
+    opacity: 0;
+    transition: all linear 0.1s;
+    transform: translateX(-30px);
+    &.show {
+      opacity: 1;
+      transform: unset !important;
+      transition: all ease-out 0.2s 0.1s;
+    }
+  }
+}
+
+// For scrollable navs/tabs/pills
+.nav-scrollable {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  width: 100%;
+  overflow-y: auto;
+  flex-wrap: nowrap;
+}
+
+// Tab link
+.nav-tabs {
+  position: relative;
+  .tab-slider {
+    height: 2px;
+    position: absolute;
+    .nav-align-left &,
+    .nav-align-right & {
+      width: 2px !important;
+    }
+  }
+  .nav-link {
+    background-clip: padding-box;
+    border-radius: 0;
+  }
+}
+.nav-pills {
+  .nav-link {
+    padding: $nav-pills-padding-y $nav-pills-padding-x;
+  }
+  & .nav-item .nav-link:not(.active):hover {
+    border-bottom: none;
+    padding-bottom: $nav-link-padding-y;
+    background-color: $nav-pills-link-hover-bg;
+  }
+  ~ .tab-content {
+    box-shadow: $box-shadow;
+  }
+}
+
+// Sizing
+// *******************************************************************************
+
+.nav-sm {
+  @include template-nav-size($nav-link-padding-y-sm, $nav-link-padding-x-sm, $font-size-sm, $nav-link-line-height-sm);
+}
+.nav-lg {
+  @include template-nav-size($nav-link-padding-y-lg, $nav-link-padding-x-lg, $font-size-lg, $nav-link-line-height-lg);
+}
+
+// Top, Right, Bottom & Left Tabbed panels
+// *******************************************************************************
+
+.nav-align-top,
+.nav-align-right,
+.nav-align-bottom,
+.nav-align-left {
+  .nav-tabs {
+    background: $nav-tabs-link-active-bg;
+  }
+  display: flex;
+
+  > .nav,
+  > div > .nav {
+    z-index: 1;
+    position: relative;
+  }
+  &:has(.nav-tabs) {
+    border-radius: $border-radius !important;
+  }
+
+  .row-bordered > [class^='col-'],
+  .row-bordered > [class*=' col-'],
+  .row-bordered > [class^='col '],
+  .row-bordered > [class*=' col '],
+  .row-bordered > [class$=' col'],
+  .row-bordered > [class='col'] {
+    &::before,
+    &::after {
+      border-color: $card-inner-border-color;
+    }
+  }
+}
+
+.nav-align-right,
+.nav-align-left {
+  align-items: stretch;
+
+  > .nav,
+  > div > .nav {
+    flex-grow: 0;
+    flex-direction: column;
+    border-bottom-width: 0;
+  }
+
+  > .nav.nav-pills .nav-item:not(:last-child),
+  > div > .nav.nav-pills .nav-item:not(:last-child) {
+    margin: 0 0 $nav-spacer 0 !important;
+  }
+
+  > .tab-content {
+    flex-grow: 1;
+    .tab-pane {
+      transform: translateY(-30px);
+      &.show {
+        transform: translateY(0px);
+      }
+    }
+  }
+}
+
+// Top tabs
+.nav-align-top {
+  .tab-content {
+    @include border-bottom-radius($border-radius);
+  }
+  flex-direction: column;
+  .nav-tabs {
+    border-bottom: $border-width solid $border-color;
+    @include border-top-radius($border-radius);
+    & .nav-link:not(.active):hover {
+      border-bottom: 2px solid $nav-pills-link-hover-bg !important;
+      padding-bottom: calc($nav-link-padding-y - 0.125rem);
+    }
+    &.nav-lg .nav-link:not(.active):hover {
+      padding-bottom: calc($nav-link-padding-y-lg - 0.125rem);
+    }
+    &.nav-sm .nav-link:not(.active):hover {
+      padding-bottom: calc($nav-link-padding-y-sm - 0.125rem);
+    }
+  }
+  .nav-pills ~ .tab-content {
+    @include border-top-radius($border-radius);
+  }
+}
+.nav-align-top,
+.nav-align-bottom {
+  > .tab-content {
+    .tab-pane {
+      transform: translateX(-30px);
+      &.show {
+        transform: translateX(0px) !important;
+      }
+    }
+  }
+  > .nav.nav-pills .nav-item:not(:last-child) {
+    margin-right: $nav-spacer;
+  }
+}
+.nav-align-right {
+  .tab-content {
+    @include border-start-radius($border-radius);
+  }
+  flex-direction: row-reverse;
+  .nav-tabs {
+    border-left: $border-width solid $border-color;
+    @include border-end-radius($border-radius);
+    position: relative;
+    .tab-slider {
+      left: 0;
+    }
+    ~ .tab-content {
+      .card & {
+       border-right: $nav-tabs-border-width solid $nav-tabs-border-color;
+      }
+    }
+    & .nav-link:not(.active):hover {
+      border-left: 2px solid $nav-pills-link-hover-bg !important;
+      padding-left: calc($nav-link-padding-x - 0.125rem);
+    }
+  }
+
+  > .nav .nav-item,
+  > div > .nav .nav-item {
+    margin-left: 0;
+  }
+  .nav-link {
+    text-align: right;
+    justify-content: end;
+  }
+  .nav-pills ~ .tab-content {
+    @include border-end-radius($border-radius);
+  }
+}
+
+// Bottom tabs
+.nav-align-bottom {
+  .tab-content {
+    @include border-top-radius($border-radius);
+  }
+  flex-direction: column-reverse;
+
+  > .nav .nav-item,
+  > div > .nav .nav-item {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  > .nav,
+  > div > .nav {
+    border-bottom-width: 0;
+    border-top: $nav-tabs-border-width solid $nav-tabs-border-color;
+  }
+  .nav-tabs {
+    border-top: $border-width solid $border-color;
+    @include border-bottom-radius($border-radius);
+    .tab-slider {
+      bottom: inherit !important;
+    }
+    & .nav-link:not(.active):hover {
+      border-top: 2px solid $nav-pills-link-hover-bg !important;
+      padding-top: calc($nav-link-padding-y - 0.125rem);
+    }
+  }
+  .nav-pills ~ .tab-content {
+    @include border-bottom-radius($border-radius);
+  }
+}
+
+// Left tabs
+.nav-align-left {
+  .tab-content {
+    @include border-end-radius($border-radius);
+  }
+  .nav-tabs {
+    position: relative;
+    ~ .tab-content {
+      .card & {
+        border-left: $nav-tabs-border-width solid $nav-tabs-border-color;
+      }
+    }
+      border-right: $border-width solid $border-color;
+      & .nav-link:not(.active):hover {
+        border-right: 2px solid $nav-pills-link-hover-bg !important;
+        padding-right: calc($nav-link-padding-x - 0.125rem);
+    }
+  }
+  > .nav .nav-item,
+  > div > .nav .nav-item {
+    margin-right: 0;
+  }
+  .nav-link {
+    text-align: left;
+    justify-content: start;
+  }
+  .nav-pills ~ .tab-content {
+    @include border-start-radius($border-radius !important);
+  }
+  &:has(.nav-tabs) {
+    overflow: hidden;
+  }
+}
+
+// Tab content
+.nav-align-top > .tab-content,
+.nav-align-right > .tab-content,
+.nav-align-bottom > .tab-content,
+.nav-align-left > .tab-content {
+  flex-shrink: 1;
+  background-clip: padding-box;
+  background: $nav-tabs-link-active-bg;
+  .card & {
+    background: transparent;
+  }
+}
+.card .tab-content {
+  box-shadow: none !important;
+}

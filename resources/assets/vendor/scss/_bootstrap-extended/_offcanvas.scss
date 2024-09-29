@@ -1,0 +1,13 @@
+// Offcanvas
+// *******************************************************************************
+
+.offcanvas {
+  box-shadow: $offcanvas-box-shadow;
+}
+.offcanvas-header {
+  padding-bottom: $offcanvas-padding-y * 0.5;
+}
+
+.offcanvas-body {
+  padding-top: $offcanvas-padding-y * 0.5;
+}

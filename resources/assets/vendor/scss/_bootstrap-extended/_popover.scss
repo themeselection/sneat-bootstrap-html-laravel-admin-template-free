@@ -1,0 +1,20 @@
+// Popovers
+// *******************************************************************************
+
+.modal-open .popover {
+  z-index: $zindex-modal + 1;
+}
+
+.popover {
+  box-shadow: $popover-box-shadow;
+
+  .popover-arrow {
+    z-index: 1;
+  }
+}
+
+// popover header font size override
+.popover-header {
+  padding: $popover-header-padding-x $popover-header-padding-x $popover-header-padding-y;
+  @include font-size($popover-header-font-size);
+}

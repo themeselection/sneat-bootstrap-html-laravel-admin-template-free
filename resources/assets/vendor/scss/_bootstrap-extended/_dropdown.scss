@@ -1,0 +1,70 @@
+// Dropdowns
+// *****************************************************************
+
+// On hover outline
+[data-trigger='hover'] {
+  outline: 0;
+}
+
+.dropdown-menu {
+  margin-top: 1px !important;
+  box-shadow: $dropdown-box-shadow;
+
+  // Mega dropdown inside the dropdown menu
+  .mega-dropdown > & {
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  // Badge within dropdown menu
+  .badge[class^='float-'],
+  .badge[class*=' float-'] {
+    position: relative;
+    top: 0.071em;
+  }
+}
+// Dropdown item line height
+.dropdown-item {
+  li:not(:first-child) &,
+  .dropdown-menu &:not(:first-child) {
+    margin-top: 2px;
+  }
+}
+
+// Hidden dropdown toggle arrow
+.dropdown-toggle.hide-arrow,
+.dropdown-toggle-hide-arrow > .dropdown-toggle {
+  &::before,
+  &::after {
+    display: none;
+  }
+}
+
+// Dropdown caret icon
+
+@if $enable-caret {
+  // Dropdown arrow
+  .dropdown-toggle::after {
+    @include caret-down($caret-width);
+  }
+  // Dropend arrow
+  .dropend .dropdown-toggle::after {
+    @include caret-right($caret-width);
+  }
+  // Dropstart arrow
+  .dropstart .dropdown-toggle::before {
+    @include caret-left($caret-width);
+  }
+  // Dropup arrow
+  .dropup .dropdown-toggle::after {
+    @include caret-up($caret-width);
+  }
+
+  .dropstart .dropdown-toggle::before,
+  .dropend .dropdown-toggle::after {
+    vertical-align: $caret-vertical-align;
+  }
+}
+.dropdown-toggle-split:after {
+  margin-left: 0 !important;
+}

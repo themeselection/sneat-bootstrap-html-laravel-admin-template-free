@@ -1,0 +1,124 @@
+// Modals
+// *******************************************************************************
+
+// Modal Shadow
+.modal-content {
+  box-shadow: $modal-content-box-shadow-xs;
+}
+
+// Modal Header close btn style
+.modal {
+  .btn-close {
+    background-color: $card-bg;
+    border-radius: $border-radius-sm;
+    background-image: str-replace(str-replace($btn-close-bg, '#{$btn-close-color}', $text-muted), '#', '%23');
+    opacity: 1;
+    padding: 0.563rem;
+    box-shadow: $box-shadow-xs;
+    background-size: 0.75rem 0.6875rem;
+    transition: all 0.23s ease 0.1s;
+
+    @include ltr-style {
+      transform: translate(23px, -25px);
+    }
+
+    // For hover effect of close btn
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 1;
+      outline: none;
+
+      @include ltr-style {
+        transform: translate(20px, -20px);
+      }
+    }
+  }
+  .modal-header {
+    position: relative;
+    .btn-close {
+      position: absolute;
+      top: $modal-dialog-margin + 0.1875rem;
+      right: $modal-footer-margin-between - 0.1875rem;
+    }
+  }
+}
+
+// modal footer
+.modal-footer {
+  padding: $modal-footer-padding;
+  > * {
+    margin-block: 0;
+    &:last-child {
+      margin-left: 0;
+    }
+    &:first-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// ! remove close button animation & shadow for .modal-dialog-scrollable, .modal-fullscreen, .modal-top modal
+.modal-dialog-scrollable,
+.modal-fullscreen,
+.modal-top {
+  .btn-close {
+    box-shadow: none;
+    @include ltr-style {
+      transform: translate(0, 0) !important;
+    }
+
+    &:hover {
+      @include ltr-style {
+        transform: translate(0, 0) !important;
+      }
+    }
+  }
+}
+
+// Top modals
+// *******************************************************************************
+
+.modal-top {
+  .modal-dialog {
+    margin-top: 0;
+  }
+
+  .modal-content {
+    @include border-top-radius(0);
+  }
+}
+
+// Responsive
+// *******************************************************************************
+
+@include media-breakpoint-down(lg) {
+  .modal-onboarding .onboarding-horizontal {
+    flex-direction: column;
+  }
+}
+@include media-breakpoint-down(md) {
+  .modal {
+    .modal-dialog:not(.modal-fullscreen) {
+      padding: 0 0.75rem;
+      padding-left: 0.75rem !important;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
+}
+@include media-breakpoint-up(sm) {
+  .modal-content {
+    box-shadow: $modal-content-box-shadow-sm-up;
+  }
+  .modal-sm .modal-dialog {
+    max-width: $modal-sm;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .modal-xl .modal-dialog {
+    max-width: $modal-xl;
+  }
+}
