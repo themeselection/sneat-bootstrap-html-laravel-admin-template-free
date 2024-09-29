@@ -10,6 +10,10 @@
   "require": {
     "php": "^8.2",
     "laravel/framework": "^11.0",
+<<<<<<< HEAD
+=======
+    "laravel/jetstream": "^5.2",
+>>>>>>> f509c1eeb5836b5db954fe49b910113e6321d5f0
     "laravel/tinker": "^2.9"
   },
   "require-dev": {

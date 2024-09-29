@@ -4,6 +4,10 @@
 
 @section('content')
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> f509c1eeb5836b5db954fe49b910113e6321d5f0
 <!-- Striped Rows -->
 <div class="card">
   <h5 class="card-header">Tabel Data Pengamatan</h5>
