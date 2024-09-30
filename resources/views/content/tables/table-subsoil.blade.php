@@ -6,18 +6,18 @@
 
 <!-- Striped Rows -->
 <div class="card">
-  <h5 class="card-header">Tabel Data Pengamatan Bajak</h5>
+  <h5 class="card-header">Tabel Data Pengamatan Subsoil</h5>
 
   <div class="">
     <div class="btn-group">
       <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Filter</button>
       <ul class="dropdown-menu">
         <li>
-          <a class="dropdown-item" href={{route('tables-bajak')}}>Semua</a>
+          <a class="dropdown-item" href={{route('tables-subsoil')}}>Semua</a>
         </li>
         @foreach ($plantGroups as $item)
           <li>
-            <a class="dropdown-item" href={{route('tables-bajak') . '?plantGroup=' . $item->PlantGroup}}>{{$item->PlantGroup}}</a>
+            <a class="dropdown-item" href={{route('tables-subsoil') . '?plantGroup=' . $item->PlantGroup}}>{{$item->PlantGroup}}</a>
           </li>
         @endforeach
 
@@ -33,39 +33,37 @@
           <th>Lokasi</th>
           <th>Luas</th>
           <th>Sat</th>
-          <th>Exs Tanaman</th>
-          <th>Kedalaman Masuk Standar</th>
-          <th>Kedalaman (Min)</th>
-          <th>Kedalaman (Max)</th>
-          <th>Kedalaman (Rata-Rata)</th>
-          <th>Aplikasi pinggiran % Masuk STD</th>
-          <th>Kerataan Aplikasi % Masuk STD</th>
-          <th>Kerataan Aplikasi % Masuk STD</th>
+          <th>Kedalaman % Masuk Std</th>
+          <th>Min Kedalaman (Cm)</th>
+          <th>Max Kedalaman (Cm)</th>
+          <th>Rata-rata Kedalaman (Cm)</th>
+          <th>Kerataan Aplikasi % Masuk Std</th>
+          <th>Min Kerataan Aplikasi (Cm) (Jarak Antar Leg)</th>
+          <th>Max Kerataan Aplikasi (Cm) (Jarak Antar Leg)</th>
+          <th>Rata-rata Kerataan Aplikasi (Cm) (Jarak Antar Leg)</th>
           <th>Total (%)</th>
-          <th>Jenis Bajak</th>
           <th>Komoditi</th>
           <th>Aksi</th>
         </tr>
       </thead>
       <tbody class="table-border-bottom-0">
 
-        @foreach($bajaks as $item)
+        @foreach($subsoils as $item)
           <tr>
             <td>{{$item->PlantGroup}}</td>
-            <td>{{$item->TGL_Pengamatan}}</td>
+            <td>{{$item->TanggalPengamatan}}</td>
             <td>{{$item->Lokasi}}</td>
-            <td>{{$item->Luas}}</td>
+            <td>{{$item->LuasAktif}}</td>
             <td>{{$item->Sat}}</td>
-            <td>{{$item->Exs_Tanaman}}</td>
-            <td>{{$item['Kedalaman%MasukSTD']}}</td>
-            <td>{{$item['Kedalaman(Min)']}}</td>
-            <td>{{$item['Kedalaman(Max)']}}</td>
-            <td>{{$item['Kedalaman(Rata-Rata)']}}</td>
-            <td>{{$item['Aplikasi_pinggiran%MasukSTD']}}</td>
-            <td>{{$item['Kerataan_Aplikasi%MasukSTD']}}</td>
-            <td>{{$item['Total(%)']}}</td>
-            <td>{{$item['Jenis Bajak']}}</td>
-            <td>{{$item['Kedalaman(Max)']}}</td>
+            <td>{{$item['Kedalaman % Masuk Std']}}</td>
+            <td>{{$item['Min Kedalaman (Cm)']}}</td>
+            <td>{{$item['Max Kedalaman (Cm)']}}</td>
+            <td>{{$item['Rata-rata Kedalaman (Cm)']}}</td>
+            <td>{{$item['Kerataan Aplikasi % Masuk Std']}}</td>
+            <td>{{$item['Min Kerataan Aplikasi (Cm) (Jarak Antar Leg)']}}</td>
+            <td>{{$item['Max Kerataan Aplikasi (Cm) (Jarak Antar Leg)']}}</td>
+            <td>{{$item['Rata-rata Kerataan Aplikasi (Cm) (Jarak Antar Leg)']}}</td>
+            <td>{{$item['Total (%)']}}</td>
             <td>{{$item->Commodity}}</td>
             <td>
               <div class="dropdown">

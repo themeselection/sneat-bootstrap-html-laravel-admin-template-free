@@ -8,11 +8,24 @@ use Illuminate\Http\Request;
 
 class ChopperTable extends Controller
 {
-  public function index()
+  public function index(Request $request)
   {
+    $plantGroup = $request->query('plantGroup');
 
-    $choppers = Chopper::all();
+    $choppers = Chopper::query()
+      ->when($plantGroup, function ($query, $plantGroup) {
+        return $query->where('PlantGroup', $plantGroup);
+      })
+      ->get();
 
-    return view('content.tables.table-chopper', compact('choppers'));
+    $plantGroups = Chopper::query()
+      ->select('PlantGroup')
+      ->distinct()
+      ->get();
+
+    return view(
+      'content.tables.table-chopper',
+      compact('choppers', 'plantGroups')
+    );
   }
 }

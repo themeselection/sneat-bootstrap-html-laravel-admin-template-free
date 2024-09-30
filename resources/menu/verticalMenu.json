@@ -306,8 +306,33 @@
               "slug": "form-layouts-horizontal"
             },
             {
-              "url": "/tables/bajak",
-              "name": "Dll",
+              "url": "/tables/subsoil",
+              "name": "Subsoiler",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "/tables/Agregat",
+              "name": "Agregat Tanah",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "/tables/ridger",
+              "name": "Ridger",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "/tables/kebersihanbonggol",
+              "name": "Kebersihan Bongglol",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "/tables/jalan",
+              "name": "Jalan Saluran",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "/tables/pHtanah",
+              "name": "Analisa pH Tanah",
               "slug": "form-layouts-horizontal"
             }
           ]
@@ -317,18 +342,108 @@
           "slug": "form-layouts-horizontal",
           "submenu": [
             {
-              "url": "form/layouts-vertical",
-              "name": "Chopper",
+              "url": "form/bibit",
+              "name": "Bibit Lokasi Tanam",
               "slug": "form-layouts-vertical"
             },
             {
-              "url": "form/layouts-horizontal",
-              "name": "Bajak",
+              "url": "form/kebersihanbibit",
+              "name": "Transport",
               "slug": "form-layouts-horizontal"
             },
             {
-              "url": "form/layouts-horizontal",
-              "name": "Dll",
+              "url": "form/pooldipping",
+              "name": "Pool Dipping",
+              "slug": "form-layouts-horizontal"
+            }
+          ]
+        },
+        {
+          "name": "Tanam",
+          "slug": "form-layouts-horizontal",
+          "submenu": [
+            {
+              "url": "form/kualitastanam",
+              "name": "Kualitas Tanam",
+              "slug": "form-layouts-vertical"
+            },
+            {
+              "url": "form/jumbar",
+              "name": "Jumlah Baris",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "form/bibitlokasipanenbibit",
+              "name": "Kualitas Bibit di Lokasi Panen Bibit",
+              "slug": "form-layouts-horizontal"
+            }
+          ]
+        },
+        {
+          "name": "Perwatan",
+          "slug": "form-layouts-horizontal",
+          "submenu": [
+            {
+              "url": "form/gudangmixer",
+              "name": "Gudang Mixer",
+              "slug": "form-layouts-vertical"
+            },
+            {
+              "url": "form/adukanbahan",
+              "name": "Adukan Bahan",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "form/Boom Spray",
+              "name": "Boom Spray",
+              "slug": "form-layouts-horizontal"
+            }
+          ]
+        },
+        {
+          "name": "Panen",
+          "slug": "form-layouts-horizontal",
+          "submenu": [
+            {
+              "url": "form/panen",
+              "name": "Populasi Buah Tertinggal dan Kebersihan Crown",
+              "slug": "form-layouts-vertical"
+            }
+          ]
+        },
+        {
+          "name": "Bromelain",
+          "slug": "form-layouts-horizontal",
+          "submenu": [
+            {
+              "url": "form/sesetbonggol",
+              "name": "Seset Bonggol Nanas",
+              "slug": "form-layouts-vertical"
+            },
+            {
+              "url": "form/bonggoltidakterseset",
+              "name": "Bonggol Tidak Terseset",
+              "slug": "form-layouts-horizontal"
+            }
+          ]
+        },
+        {
+          "name": "Cassava",
+          "slug": "form-layouts-horizontal",
+          "submenu": [
+            {
+              "url": "form/ridgersingkong",
+              "name": "Ridger Singkong",
+              "slug": "form-layouts-vertical"
+            },
+            {
+              "url": "form/bibitsingkong",
+              "name": "Bibit Singkong",
+              "slug": "form-layouts-horizontal"
+            },
+            {
+              "url": "form/tanamsingkong",
+              "name": "Tanam Singkong",
               "slug": "form-layouts-horizontal"
             }
           ]
