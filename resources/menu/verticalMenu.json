@@ -355,13 +355,7 @@
               "url": "form/pooldipping",
               "name": "Pool Dipping",
               "slug": "form-layouts-horizontal"
-            }
-          ]
-        },
-        {
-          "name": "Tanam",
-          "slug": "form-layouts-horizontal",
-          "submenu": [
+            },
             {
               "url": "form/kualitastanam",
               "name": "Kualitas Tanam",
@@ -371,7 +365,13 @@
               "url": "form/jumbar",
               "name": "Jumlah Baris",
               "slug": "form-layouts-horizontal"
-            },
+            }
+          ]
+        },
+        {
+          "name": "Tanam",
+          "slug": "form-layouts-horizontal",
+          "submenu": [
             {
               "url": "form/bibitlokasipanenbibit",
               "name": "Kualitas Bibit di Lokasi Panen Bibit",
