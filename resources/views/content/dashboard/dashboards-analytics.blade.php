@@ -12,6 +12,48 @@
 
 @section('page-script')
 @vite('resources/assets/js/dashboards-analytics.js')
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+
+    console.log(@json($bajakTotalPersentase));
+
+    const totalRevenueChartEl = document.querySelector('#totalRevenueChart');
+    const totalRevenueChartOptions = {
+            chart: {
+                // height: 317,
+                // stacked: true,
+                type: 'line',
+                // toolbar: { show: false }
+            },
+            stroke: {
+              curve: 'smooth',
+            },
+            series: [{
+                    name: 'Persentase Bajak',
+                    data: [18, 7, 15, 29, 18, 12, 9]
+                }
+            ],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '30%',
+                    borderRadius: 8,
+                    startingShape: 'rounded',
+                    endingShape: 'rounded'
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+        };  
+        
+    if (typeof totalRevenueChartEl !== undefined && totalRevenueChartEl !== null) {
+        const totalRevenueChart = new window.ApexCharts(totalRevenueChartEl, totalRevenueChartOptions);
+        totalRevenueChart.render();
+    }
+    
+  });
+</script>
 @endsection
 
 @section('content')
