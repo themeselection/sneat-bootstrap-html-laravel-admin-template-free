@@ -9,3 +9,5 @@ Route::get('/tables/basic', [Basic::class, 'index'])->name('tables-basic');
 Route::get('/tables/chopper', [ChopperTable::class, 'index'])->name('tables-chopper');
 
 Route::get('/tables/bajak', [BajakController::class, 'index'])->name('tables-bajak');
+
+// hmm
