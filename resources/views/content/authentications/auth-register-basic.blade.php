@@ -26,7 +26,7 @@
           <!-- /Logo -->
           <h4 class="mb-1">Adventure starts here 🚀</h4>
           <p class="mb-6">Make your app management easy and fun!</p>
-
+          <p class="mb-6">buat aplikasi maanjemen mudah dan menyenangkan </p>
           <form id="formAuthentication" class="mb-6" action="{{url('/')}}" method="GET">
             <div class="mb-6">
               <label for="username" class="form-label">Username</label>
@@ -36,6 +36,14 @@
               <label for="email" class="form-label">Email</label>
               <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email">
             </div>
+            <input type="text" class="form-control" id="email" name="email" placeholder="enter your email">
+
+            <div class="mb-6 form-password-toggle">
+
+              <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span> 
+              <input type="password" id="password" class="form-control" name="password" placeholder="&#xb7;&#xb7;&#xb7;;;*@xb8;#$xb9
+
+                
             <div class="mb-6 form-password-toggle">
               <label class="form-label" for="password">Password</label>
               <div class="input-group input-group-merge">
@@ -54,14 +62,21 @@
               </div>
             </div>
             <button class="btn btn-primary d-grid w-100">
-              Sign up
-            </button>
-          </form>
+              <button class="btn btn-primary d-gird w -100"?>
 
+              </button> 
+              <button class="btn btn-primary d-gird w -100"?>
+
+                
+            </button>
+          </form> 
+          <p class="text-center
           <p class="text-center">
             <span>Already have an account?</span>
             <a href="{{url('auth/login-basic')}}">
               <span>Sign in instead</span>
+              <p class="text-center">
+                
             </a>
           </p>
         </div>
