@@ -235,7 +235,7 @@ For free products, enjoy community support via GitHub issues. Upgrade to Premium
 - [ASP.Net Core Admin Templates](https://themeselection.com/item/category/asp-net-dashboard/)
 - [Free UI Kits](https://themeselection.com/item/category/free-ui-kits/)
 
-If you want to [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
+If you want to [Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
 
 ## Useful Links 🎁
 
@@ -243,10 +243,12 @@ If you want to [Download Free Admin Templates](https://themeselection.com/item/c
 - [Freebies](https://themeselection.com/item/category/freebies/)
 - [Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
 - [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
+- [FlyonUI](https://flyonui.com/)
+- [JetShip](https://demos.themeselection.com/jetship-laravel-starter-kit/)
 
 ## Social Media :earth_africa:
 
-- [x](https://x.com/Theme_Selection)
+- [X](https://x.com/Theme_Selection)
 - [Facebook](https://www.facebook.com/ThemeSelections/)
 - [Pinterest](https://www.pinterest.com/themeselection/)
 - [Instagram](https://www.instagram.com/themeselection/)
