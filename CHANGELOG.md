@@ -2,6 +2,29 @@
 
 All notable changes to this template will be documented in this file.
 
+## v3.0.0 (2025-06-10)
+
+### Added
+
+- New Design Alignments
+- New spacer & utility classes
+
+### Updated
+
+- Laravel 11 to Laravel 12
+- Bootstrap 5.3.5
+- SCSS structure - Build and extend in real-time with CSS variables
+- Fonts icons with SVG icons using iconify
+- Documentation
+
+### Removed
+
+- Mix package
+
+### Fixed
+
+- UI improvements & bug fixes
+
 ## v2.0.1 (2024-08-02)
 
 - Minor Bug Fixes
