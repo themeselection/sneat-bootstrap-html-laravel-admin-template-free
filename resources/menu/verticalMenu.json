@@ -3,7 +3,7 @@
     {
       "url": "/",
       "name": "Dashboards",
-      "icon": "menu-icon tf-icons bx bx-home-smile",
+      "icon": "menu-icon icon-base bx bx-home-smile",
       "slug": "dashboard",
       "badge": [
         "danger",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Layouts",
-      "icon": "menu-icon tf-icons bx bx-layout",
+      "icon": "menu-icon icon-base bx bx-layout",
       "slug": "layouts",
       "submenu": [
         {
@@ -92,7 +92,7 @@
     },
     {
       "name": "Front Pages",
-      "icon": "menu-icon tf-icons bx bx-store",
+      "icon": "menu-icon icon-base bx bx-store",
       "slug": "front-pages",
       "badge": [
         "label-primary fs-tiny",
@@ -133,7 +133,7 @@
     },
     {
       "name": "Laravel Crud",
-      "icon": "menu-icon tf-icons bx bxl-php",
+      "icon": "menu-icon icon-base bx bxl-php",
       "slug": "laravel-example",
       "badge": [
         "label-primary fs-tiny",
@@ -154,7 +154,7 @@
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/email",
       "name": "Email",
-      "icon": "menu-icon tf-icons bx bx-envelope",
+      "icon": "menu-icon icon-base bx bx-envelope",
       "slug": "app-email",
       "target": "_blank",
       "badge": [
@@ -165,7 +165,7 @@
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/chat",
       "name": "Chat",
-      "icon": "menu-icon tf-icons bx bx-chat",
+      "icon": "menu-icon icon-base bx bx-chat",
       "slug": "app-chat",
       "target": "_blank",
       "badge": [
@@ -176,7 +176,7 @@
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/calendar",
       "name": "Calendar",
-      "icon": "menu-icon tf-icons bx bx-calendar",
+      "icon": "menu-icon icon-base bx bx-calendar",
       "slug": "app-calendar",
       "target": "_blank",
       "badge": [
@@ -187,7 +187,7 @@
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/kanban",
       "name": "Kanban",
-      "icon": "menu-icon tf-icons bx bx-grid",
+      "icon": "menu-icon icon-base bx bx-grid",
       "slug": "app-kanban",
       "target": "_blank",
       "badge": [
@@ -197,7 +197,7 @@
     },
     {
       "name": "Account Settings",
-      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "icon": "menu-icon icon-base bx bx-dock-top",
       "slug": "pages-account-settings",
       "submenu": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "name": "Authentications",
-      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "icon": "menu-icon icon-base bx bx-lock-open-alt",
       "slug": "auth",
       "submenu": [
         {
@@ -244,7 +244,7 @@
     },
     {
       "name": "Misc",
-      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "icon": "menu-icon icon-base bx bx-cube-alt",
       "slug": "pages-misc",
       "submenu": [
         {
@@ -266,13 +266,13 @@
     },
     {
       "name": "Cards",
-      "icon": "menu-icon tf-icons bx bx-collection",
+      "icon": "menu-icon icon-base bx bx-collection",
       "slug": "cards-basic",
       "url": "cards/basic"
     },
     {
       "name": "User interface",
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon icon-base bx bx-box",
       "slug": "ui",
       "submenu": [
         {
@@ -317,7 +317,7 @@
         },
         {
           "url": "ui/list-groups",
-          "name": "List Groups",
+          "name": "List groups",
           "slug": "ui-list-groups"
         },
         {
@@ -374,7 +374,7 @@
     },
     {
       "name": "Extended UI",
-      "icon": "menu-icon tf-icons bx bx-copy",
+      "icon": "menu-icon icon-base bx bx-copy",
       "slug": "extended",
       "submenu": [
         {
@@ -391,7 +391,7 @@
     },
     {
       "url": "icons/boxicons",
-      "icon": "menu-icon tf-icons bx bx-crown",
+      "icon": "menu-icon icon-base bx bx-crown",
       "name": "Boxicons",
       "slug": "icons-boxicons"
     },
@@ -400,7 +400,7 @@
     },
     {
       "name": "Form Elements",
-      "icon": "menu-icon tf-icons bx bx-detail",
+      "icon": "menu-icon icon-base bx bx-detail",
       "slug": "forms",
       "submenu": [
         {
@@ -417,7 +417,7 @@
     },
     {
       "name": "Form Layouts",
-      "icon": "menu-icon tf-icons bx bx-detail",
+      "icon": "menu-icon icon-base bx bx-detail",
       "slug": "form-layouts",
       "submenu": [
         {
@@ -434,7 +434,7 @@
     },
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/form/validation",
-      "icon": "menu-icon tf-icons bx bx-list-check",
+      "icon": "menu-icon icon-base bx bx-list-check",
       "name": "Form Validation",
       "slug": "form-validation",
       "target": "_blank",
@@ -445,13 +445,13 @@
     },
     {
       "url": "tables/basic",
-      "icon": "menu-icon tf-icons bx bx-table",
+      "icon": "menu-icon icon-base bx bx-table",
       "name": "Tables",
       "slug": "tables-basic"
     },
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/tables/datatables-basic",
-      "icon": "menu-icon tf-icons bx bx-grid",
+      "icon": "menu-icon icon-base bx bx-grid",
       "name": "Datatables",
       "slug": "tables-datatables",
       "target": "_blank",
@@ -465,14 +465,14 @@
     },
     {
       "url": "https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free/issues",
-      "icon": "menu-icon tf-icons bx bx-support",
+      "icon": "menu-icon icon-base bx bx-support",
       "name": "Support",
       "slug": "support",
       "target": "_blank"
     },
     {
       "url": "https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/laravel-introduction.html",
-      "icon": "menu-icon tf-icons bx bx-file",
+      "icon": "menu-icon icon-base bx bx-file",
       "name": "Documentation",
       "slug": "documentation",
       "target": "_blank"
