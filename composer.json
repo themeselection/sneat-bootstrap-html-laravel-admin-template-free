@@ -1,4 +1,5 @@
 {
+  "$schema": "https://getcomposer.org/schema.json",
   "name": "laravel/laravel",
   "type": "project",
   "description": "The skeleton application for the Laravel framework.",
@@ -9,17 +10,17 @@
   "license": "MIT",
   "require": {
     "php": "^8.2",
-    "laravel/framework": "^11.0",
-    "laravel/tinker": "^2.9"
+    "laravel/framework": "^12.0",
+    "laravel/tinker": "^2.10.1"
   },
   "require-dev": {
     "fakerphp/faker": "^1.23",
+    "laravel/pail": "^1.2.2",
     "laravel/pint": "^1.13",
-    "laravel/sail": "^1.26",
+    "laravel/sail": "^1.41",
     "mockery/mockery": "^1.6",
-    "nunomaduro/collision": "^8.0",
-    "phpunit/phpunit": "^10.5",
-    "spatie/laravel-ignition": "^2.4"
+    "nunomaduro/collision": "^8.6",
+    "phpunit/phpunit": "^11.5.3"
   },
   "autoload": {
     "psr-4": {
@@ -48,6 +49,10 @@
       "@php artisan key:generate --ansi",
       "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
       "@php artisan migrate --graceful --ansi"
+    ],
+    "dev": [
+      "Composer\\Config::disableProcessTimeout",
+      "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
     ]
   },
   "extra": {

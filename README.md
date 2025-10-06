@@ -1,13 +1,13 @@
 <p align="center"></p>
 
 <p align="center">
-   <a href="https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/" target="_blank">
+   <a href="https://themeselection.com/item/sneat-dashboard-free-laravel/" target="_blank">
       <img src="https://cdn.themeselection.com/ts-assets/sneat/logo/logo.png" alt="sneat-logo" width="60px" height="auto">
    </a>
 </p>
 
 <h1 align="center">
-   <a href="https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/" target="_blank" align="center">
+   <a href="https://themeselection.com/item/sneat-dashboard-free-laravel/" target="_blank" align="center">
       Sneat - Free Bootstrap 5 HTML Laravel Admin Template
    </a>
 </h1>
@@ -36,7 +36,7 @@
 
 ## Introduction 🚀
 
-If you’re a developer looking for the most Powerful & comprehensive [Free Laravel Template](https://themeselection.com/item/category/laravel-templates/) built for developers, rich with features, and highly customizable look no further than Sneat. We’ve followed the highest industry standards to bring you the very best admin template, which is not only fast and easy to use but also highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
+If you’re a developer looking for the most Powerful & comprehensive [**Free Bootstrap 5 HTML Laravel Admin Template**](https://themeselection.com/item/sneat-dashboard-free-laravel/) built for developers, rich with features, and highly customizable look no further than Sneat. We’ve followed the highest industry standards to bring you the very best admin template that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
 
 Build premium quality applications with ease. Use our innovative **[Laravel admin template](https://themeselection.com/item/category/laravel-admin-templates/)** to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
 
@@ -44,10 +44,10 @@ Build premium quality applications with ease. Use our innovative **[Laravel admi
 
 ## Installation ⚒️
 
-Installing and running Sneat is super easy, please follow the steps below and you will be ready to rock 🤘
+Installing and running Sneat is super easy, please Follow below steps and you will be ready to rock 🤘
 
 1. Open the terminal in your root directory of Sneat Laravel.
-2. Use the following command to install Composer
+2. Use the following command to install the composer
 
 ```bash
 composer install
@@ -68,7 +68,7 @@ yarn
 5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles.
 
 ```bash
-yarn build
+yarn dev
 ```
 
 6. To serve the application, you need to run the following command in the project directory
@@ -81,7 +81,7 @@ php artisan serve
 
 ## Available Tasks 🧑‍💻
 
-**Building for Production:** If you want to run the project and make the build in production mode, then run the following command in the root directory. By default, the project will continue to run in the development mode:
+**Building for Production:** If you want to run the project and make the build in the production mode then run the following command in the root directory, by default The project will continue to run in the development mode:
 
 ```bash
 yarn prod
@@ -129,13 +129,13 @@ yarn prod
 | Default Theme                                                                                   | Default, Semi Dark & Bordered Themes                                                                                                                                                          |
 | Fixed Layout(Menu)                                                                              | Fixed & Static Layout(Menu)                                                                                                                                                                   |
 | 1 Simple Dashboard                                                                              | 5 Niche Dashboards                                                                                                                                                                            |
-| -                                                                                               | Multiple Ready to use Applications like **Laravel CRUD Application**, Email, Chat, Calendar, Kanban, eCommerce, Academy, Logistics, Invoice, Users List, Users View, Roles and Permission etc. |
-| Simple Form Elements                                                                            | Advance form elements, validation & form wizard                                                                                                                                               |
-| Basic Cards                                                                                     | Basic, Advance, Statistics, Analytics, Gamifications and Actions Cards                                                                                                                       |
+| -                                                                                               | Multiple Ready to use Application like **Laravel CRUD Application**, Email, Chat, Calendar, Kanban, eCommerce, Academy, Logistics, Invoice, Users List, Users View, Roles and Permission etc. |
+| Simple From Elements                                                                            | Advance form elements, validation & form wizard                                                                                                                                               |
+| Basic Cards                                                                                     | Basic, Advance , Statistics, Analytics, Gamifications and Actions Cards                                                                                                                       |
 | Basic User Interface(Components)                                                                | Advance and Custom User Interfaces(Components)                                                                                                                                                |
-| Two Extended Components                                                                         | Twelve Ready-to-Use Extended Components                                                                                                                                                       |
+| Two Extended Components                                                                         | Twelve Ready to use Extended Components                                                                                                                                                       |
 | -                                                                                               | Quick Search - Quickly navigate between pages (w/ hotkey support)                                                                                                                             |
-| Basic Pages                                                                                     | Authentication Pages in 2 Variants + Ready to use pages like User Profile, Account Settings, FAQ, Help Center, Pricing, Misc etc.                                                              |
+| Basic Pages                                                                                     | Authentication Pages in 2 Variants + Ready to use pages like User Profile, Account Settings,FAQ, Help Center, Pricing, Misc etc.                                                              |
 | -                                                                                               | 3D Characters + Illustrations                                                                                                                                                                 |
 | Basic tables                                                                                    | Advanced & Data tables                                                                                                                                                                        |
 | -                                                                                               | Quick customization using theme config file                                                                                                                                                   |
@@ -150,7 +150,7 @@ yarn prod
 
 ## Documentation 📜
 
-<!-- If you have docs in wiki, then use below line -->
+<!-- If you have docs in wiki then use below line -->
 
 Check GitHub [Wiki](https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free/wiki) of this repo
 
@@ -167,7 +167,7 @@ Check out our live [Documentation](https://demos.themeselection.com/sneat-bootst
 
 ## Contributing 🦸
 
-Contributions are always welcome and recommended! Here is how:
+Contribution are always welcome and recommended! Here is how:
 
 - Fork the repository ([here is the guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
 - Clone to your machine `git clone https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free.git` Make your changes
@@ -182,7 +182,7 @@ Contributions are always welcome and recommended! Here is how:
 
 ## Changelog 📆
 
-Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add detailed release notes to each new release.
+Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add a detailed release notes to each new release.
 
 ## Support 🧑🏻‍💻
 
@@ -192,7 +192,8 @@ For free products, enjoy community support via GitHub issues. Upgrade to Premium
 
 - Copyright © [ThemeSelection](https://themeselection.com/)
 - Licensed under [MIT](LICENSE)
-- All our free items are Open Source and licensed under MIT. You can use our free items for personal as well as commercial purposes. We just need an attribution from your end. Copy the link below and paste it at the footer of your web application or project.
+- All our free items are Open Source and licensed under MIT. You can use our free items for personal as well as commercial purposes. We just need an attribution from your end. Copy the below link and paste it at the footer of your web application or project.
+
   ```html
   <a href="https://themeselection.com/">ThemeSelection</a>
   ```
@@ -234,20 +235,22 @@ For free products, enjoy community support via GitHub issues. Upgrade to Premium
 - [ASP.Net Core Admin Templates](https://themeselection.com/item/category/asp-net-dashboard/)
 - [Free UI Kits](https://themeselection.com/item/category/free-ui-kits/)
 
-If you want to [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
+If you want to [Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
 
 ## Useful Links 🎁
 
 - [Vue CheatSheet](https://vue-cheatsheet.themeselection.com/)
-- [Freebies](https://themeselection.com/item/category/free-admin-templates/)
-- [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
+- [Freebies](https://themeselection.com/item/category/freebies/)
+- [Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
 - [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
+- [FlyonUI](https://flyonui.com/)
+- [JetShip](https://demos.themeselection.com/jetship-laravel-starter-kit/)
 
 ## Social Media :earth_africa:
 
-- [Twitter](https://twitter.com/Theme_Selection)
+- [X](https://x.com/Theme_Selection)
 - [Facebook](https://www.facebook.com/ThemeSelections/)
-- [Pinterest](https://pinterest.com/themeselect/)
+- [Pinterest](https://www.pinterest.com/themeselection/)
 - [Instagram](https://www.instagram.com/themeselection/)
-- [Discord](https://discord.gg/kBHkY7DekX)
+- [Discord](https://discord.com/invite/kBHkY7DekX)
 - [YouTube](https://www.youtube.com/channel/UCuryo5s0CW4aP83itLjIdZg)
