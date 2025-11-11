@@ -77,7 +77,9 @@ Route::name('auth-')->prefix('auth/')->group(function () {
 
 
 // cards
-Route::get('/cards/basic', [CardBasic::class, 'index'])->name('cards-basic');
+Route::name('cards-')->prefix('cards/')->group(function () {
+  Route::get('basic', [CardBasic::class, 'index'])->name('basic');
+});
 
 // User Interface
 Route::get('/ui/accordion', [Accordion::class, 'index'])->name('ui-accordion');
