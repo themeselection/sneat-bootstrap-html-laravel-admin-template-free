@@ -129,5 +129,5 @@ Route::name('form-')->prefix('form/')->group(function () {
 
 // tables
 Route::name('tables-')->prefix('tables/')->group(function () {
-Route::get('basic', [TablesBasic::class, 'index'])->name('basic');  
-})
+  Route::get('basic', [TablesBasic::class, 'index'])->name('basic');
+});
