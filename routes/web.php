@@ -116,12 +116,18 @@ Route::name('icons-')->prefix('icons/')->group(function () {
 });
 
 // form elements
-Route::get('/forms/basic-inputs', [BasicInput::class, 'index'])->name('forms-basic-inputs');
-Route::get('/forms/input-groups', [InputGroups::class, 'index'])->name('forms-input-groups');
+Route::name('forms-')->prefix('forms/')->group(function () {
+  Route::get('basic-inputs', [BasicInput::class, 'index'])->name('basic-inputs');
+  Route::get('input-groups', [InputGroups::class, 'index'])->name('input-groups');
+});
 
 // form layouts
-Route::get('/form/layouts-vertical', [VerticalForm::class, 'index'])->name('form-layouts-vertical');
-Route::get('/form/layouts-horizontal', [HorizontalForm::class, 'index'])->name('form-layouts-horizontal');
+Route::name('form-')->prefix('form/')->group(function () {
+  Route::get('layouts-vertical', [VerticalForm::class, 'index'])->name('layouts-vertical');
+  Route::get('layouts-horizontal', [HorizontalForm::class, 'index'])->name('layouts-horizontal');
+});
 
 // tables
-Route::get('/tables/basic', [TablesBasic::class, 'index'])->name('tables-basic');
+Route::name('tables-')->prefix('tables/')->group(function () {
+Route::get('basic', [TablesBasic::class, 'index'])->name('basic');  
+})
