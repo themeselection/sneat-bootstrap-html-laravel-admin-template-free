@@ -48,62 +48,86 @@ use App\Http\Controllers\tables\Basic as TablesBasic;
 Route::get('/', [Analytics::class, 'index'])->name('dashboard-analytics');
 
 // layout
-Route::get('/layouts/without-menu', [WithoutMenu::class, 'index'])->name('layouts-without-menu');
-Route::get('/layouts/without-navbar', [WithoutNavbar::class, 'index'])->name('layouts-without-navbar');
-Route::get('/layouts/fluid', [Fluid::class, 'index'])->name('layouts-fluid');
-Route::get('/layouts/container', [Container::class, 'index'])->name('layouts-container');
-Route::get('/layouts/blank', [Blank::class, 'index'])->name('layouts-blank');
+Route::name('layouts-')->prefix('layouts/')->group(function () {
+  Route::get('without-menu', [WithoutMenu::class, 'index'])->name('layoutwithout-menu');
+  Route::get('without-navbar', [WithoutNavbar::class, 'index'])->name('without-navbar');
+  Route::get('fluid', [Fluid::class, 'index'])->name('fluid');
+  Route::get('container', [Container::class, 'index'])->name('container');
+  Route::get('blank', [Blank::class, 'index'])->name('blank');
+});
+
+
 
 // pages
-Route::get('/pages/account-settings-account', [AccountSettingsAccount::class, 'index'])->name('pages-account-settings-account');
-Route::get('/pages/account-settings-notifications', [AccountSettingsNotifications::class, 'index'])->name('pages-account-settings-notifications');
-Route::get('/pages/account-settings-connections', [AccountSettingsConnections::class, 'index'])->name('pages-account-settings-connections');
-Route::get('/pages/misc-error', [MiscError::class, 'index'])->name('pages-misc-error');
-Route::get('/pages/misc-under-maintenance', [MiscUnderMaintenance::class, 'index'])->name('pages-misc-under-maintenance');
+Route::name('pages-')->prefix('pages/')->group(function () {
+  Route::get('account-settings-account', [AccountSettingsAccount::class, 'index'])->name('account-settings-account');
+  Route::get('account-settings-notifications', [AccountSettingsNotifications::class, 'index'])->name('account-settings-notifications');
+  Route::get('account-settings-connections', [AccountSettingsConnections::class, 'index'])->name('account-settings-connections');
+  Route::get('misc-error', [MiscError::class, 'index'])->name('misc-error');
+  Route::get('misc-under-maintenance', [MiscUnderMaintenance::class, 'index'])->name('misc-under-maintenance');
+});
+
 
 // authentication
-Route::get('/auth/login-basic', [LoginBasic::class, 'index'])->name('auth-login-basic');
-Route::get('/auth/register-basic', [RegisterBasic::class, 'index'])->name('auth-register-basic');
-Route::get('/auth/forgot-password-basic', [ForgotPasswordBasic::class, 'index'])->name('auth-reset-password-basic');
+Route::name('auth-')->prefix('auth/')->group(function () {
+  Route::get('login-basic', [LoginBasic::class, 'index'])->name('login-basic');
+  Route::get('register-basic', [RegisterBasic::class, 'index'])->name('register-basic');
+  Route::get('forgot-password-basic', [ForgotPasswordBasic::class, 'index'])->name('reset-password-basic');
+});
+
 
 // cards
-Route::get('/cards/basic', [CardBasic::class, 'index'])->name('cards-basic');
+Route::name('cards-')->prefix('cards/')->group(function () {
+  Route::get('basic', [CardBasic::class, 'index'])->name('basic');
+});
 
 // User Interface
-Route::get('/ui/accordion', [Accordion::class, 'index'])->name('ui-accordion');
-Route::get('/ui/alerts', [Alerts::class, 'index'])->name('ui-alerts');
-Route::get('/ui/badges', [Badges::class, 'index'])->name('ui-badges');
-Route::get('/ui/buttons', [Buttons::class, 'index'])->name('ui-buttons');
-Route::get('/ui/carousel', [Carousel::class, 'index'])->name('ui-carousel');
-Route::get('/ui/collapse', [Collapse::class, 'index'])->name('ui-collapse');
-Route::get('/ui/dropdowns', [Dropdowns::class, 'index'])->name('ui-dropdowns');
-Route::get('/ui/footer', [Footer::class, 'index'])->name('ui-footer');
-Route::get('/ui/list-groups', [ListGroups::class, 'index'])->name('ui-list-groups');
-Route::get('/ui/modals', [Modals::class, 'index'])->name('ui-modals');
-Route::get('/ui/navbar', [Navbar::class, 'index'])->name('ui-navbar');
-Route::get('/ui/offcanvas', [Offcanvas::class, 'index'])->name('ui-offcanvas');
-Route::get('/ui/pagination-breadcrumbs', [PaginationBreadcrumbs::class, 'index'])->name('ui-pagination-breadcrumbs');
-Route::get('/ui/progress', [Progress::class, 'index'])->name('ui-progress');
-Route::get('/ui/spinners', [Spinners::class, 'index'])->name('ui-spinners');
-Route::get('/ui/tabs-pills', [TabsPills::class, 'index'])->name('ui-tabs-pills');
-Route::get('/ui/toasts', [Toasts::class, 'index'])->name('ui-toasts');
-Route::get('/ui/tooltips-popovers', [TooltipsPopovers::class, 'index'])->name('ui-tooltips-popovers');
-Route::get('/ui/typography', [Typography::class, 'index'])->name('ui-typography');
+Route::name('ui-')->prefix('ui/')->group(function () {
+  Route::get('accordion', [Accordion::class, 'index'])->name('accordion');
+  Route::get('alerts', [Alerts::class, 'index'])->name('alerts');
+  Route::get('badges', [Badges::class, 'index'])->name('badges');
+  Route::get('buttons', [Buttons::class, 'index'])->name('buttons');
+  Route::get('carousel', [Carousel::class, 'index'])->name('carousel');
+  Route::get('collapse', [Collapse::class, 'index'])->name('collapse');
+  Route::get('dropdowns', [Dropdowns::class, 'index'])->name('dropdowns');
+  Route::get('footer', [Footer::class, 'index'])->name('footer');
+  Route::get('list-groups', [ListGroups::class, 'index'])->name('list-groups');
+  Route::get('modals', [Modals::class, 'index'])->name('modals');
+  Route::get('navbar', [Navbar::class, 'index'])->name('navbar');
+  Route::get('offcanvas', [Offcanvas::class, 'index'])->name('offcanvas');
+  Route::get('pagination-breadcrumbs', [PaginationBreadcrumbs::class, 'index'])->name('pagination-breadcrumbs');
+  Route::get('progress', [Progress::class, 'index'])->name('progress');
+  Route::get('spinners', [Spinners::class, 'index'])->name('spinners');
+  Route::get('tabs-pills', [TabsPills::class, 'index'])->name('tabs-pills');
+  Route::get('toasts', [Toasts::class, 'index'])->name('toasts');
+  Route::get('tooltips-popovers', [TooltipsPopovers::class, 'index'])->name('tooltips-popovers');
+  Route::get('typography', [Typography::class, 'index'])->name('typography');
+});
 
 // extended ui
-Route::get('/extended/ui-perfect-scrollbar', [PerfectScrollbar::class, 'index'])->name('extended-ui-perfect-scrollbar');
-Route::get('/extended/ui-text-divider', [TextDivider::class, 'index'])->name('extended-ui-text-divider');
+Route::name('extended-')->prefix('extended/')->group(function () {
+  Route::get('ui-perfect-scrollbar', [PerfectScrollbar::class, 'index'])->name('ui-perfect-scrollbar');
+  Route::get('ui-text-divider', [TextDivider::class, 'index'])->name('ui-text-divider');
+});
 
 // icons
-Route::get('/icons/boxicons', [Boxicons::class, 'index'])->name('icons-boxicons');
+Route::name('icons-')->prefix('icons/')->group(function () {
+  Route::get('boxicons', [Boxicons::class, 'index'])->name('boxicons');
+});
 
 // form elements
-Route::get('/forms/basic-inputs', [BasicInput::class, 'index'])->name('forms-basic-inputs');
-Route::get('/forms/input-groups', [InputGroups::class, 'index'])->name('forms-input-groups');
+Route::name('forms-')->prefix('forms/')->group(function () {
+  Route::get('basic-inputs', [BasicInput::class, 'index'])->name('basic-inputs');
+  Route::get('input-groups', [InputGroups::class, 'index'])->name('input-groups');
+});
 
 // form layouts
-Route::get('/form/layouts-vertical', [VerticalForm::class, 'index'])->name('form-layouts-vertical');
-Route::get('/form/layouts-horizontal', [HorizontalForm::class, 'index'])->name('form-layouts-horizontal');
+Route::name('form-')->prefix('form/')->group(function () {
+  Route::get('layouts-vertical', [VerticalForm::class, 'index'])->name('layouts-vertical');
+  Route::get('layouts-horizontal', [HorizontalForm::class, 'index'])->name('layouts-horizontal');
+});
 
 // tables
-Route::get('/tables/basic', [TablesBasic::class, 'index'])->name('tables-basic');
+Route::name('tables-')->prefix('tables/')->group(function () {
+  Route::get('basic', [TablesBasic::class, 'index'])->name('basic');
+});
