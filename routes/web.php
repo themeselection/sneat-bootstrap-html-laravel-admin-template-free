@@ -69,9 +69,12 @@ Route::name('pages-')->prefix('pages/')->group(function () {
 
 
 // authentication
-Route::get('/auth/login-basic', [LoginBasic::class, 'index'])->name('auth-login-basic');
-Route::get('/auth/register-basic', [RegisterBasic::class, 'index'])->name('auth-register-basic');
-Route::get('/auth/forgot-password-basic', [ForgotPasswordBasic::class, 'index'])->name('auth-reset-password-basic');
+Route::name('auth-')->prefix('auth/')->group(function () {
+  Route::get('login-basic', [LoginBasic::class, 'index'])->name('login-basic');
+  Route::get('register-basic', [RegisterBasic::class, 'index'])->name('register-basic');
+  Route::get('forgot-password-basic', [ForgotPasswordBasic::class, 'index'])->name('reset-password-basic');
+});
+
 
 // cards
 Route::get('/cards/basic', [CardBasic::class, 'index'])->name('cards-basic');
