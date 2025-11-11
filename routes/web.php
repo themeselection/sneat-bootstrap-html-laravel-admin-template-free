@@ -59,11 +59,14 @@ Route::name('layouts-')->prefix('layouts/')->group(function () {
 
 
 // pages
-Route::get('/pages/account-settings-account', [AccountSettingsAccount::class, 'index'])->name('pages-account-settings-account');
-Route::get('/pages/account-settings-notifications', [AccountSettingsNotifications::class, 'index'])->name('pages-account-settings-notifications');
-Route::get('/pages/account-settings-connections', [AccountSettingsConnections::class, 'index'])->name('pages-account-settings-connections');
-Route::get('/pages/misc-error', [MiscError::class, 'index'])->name('pages-misc-error');
-Route::get('/pages/misc-under-maintenance', [MiscUnderMaintenance::class, 'index'])->name('pages-misc-under-maintenance');
+Route::name('pages-')->prefix('pages/')->group(function () {
+  Route::get('account-settings-account', [AccountSettingsAccount::class, 'index'])->name('account-settings-account');
+  Route::get('account-settings-notifications', [AccountSettingsNotifications::class, 'index'])->name('account-settings-notifications');
+  Route::get('account-settings-connections', [AccountSettingsConnections::class, 'index'])->name('account-settings-connections');
+  Route::get('misc-error', [MiscError::class, 'index'])->name('misc-error');
+  Route::get('misc-under-maintenance', [MiscUnderMaintenance::class, 'index'])->name('misc-under-maintenance');
+});
+
 
 // authentication
 Route::get('/auth/login-basic', [LoginBasic::class, 'index'])->name('auth-login-basic');
