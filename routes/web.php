@@ -105,8 +105,10 @@ Route::name('ui-')->prefix('ui/')->group(function () {
 });
 
 // extended ui
-Route::get('/extended/ui-perfect-scrollbar', [PerfectScrollbar::class, 'index'])->name('extended-ui-perfect-scrollbar');
-Route::get('/extended/ui-text-divider', [TextDivider::class, 'index'])->name('extended-ui-text-divider');
+Route::name('extended-')->prefix('extended/')->group(function () {
+  Route::get('ui-perfect-scrollbar', [PerfectScrollbar::class, 'index'])->name('ui-perfect-scrollbar');
+  Route::get('ui-text-divider', [TextDivider::class, 'index'])->name('ui-text-divider');
+});
 
 // icons
 Route::get('/icons/boxicons', [Boxicons::class, 'index'])->name('icons-boxicons');
