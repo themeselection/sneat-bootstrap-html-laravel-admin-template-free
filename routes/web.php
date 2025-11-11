@@ -111,7 +111,9 @@ Route::name('extended-')->prefix('extended/')->group(function () {
 });
 
 // icons
-Route::get('/icons/boxicons', [Boxicons::class, 'index'])->name('icons-boxicons');
+Route::name('icons-')->prefix('icons/')->group(function () {
+  Route::get('boxicons', [Boxicons::class, 'index'])->name('boxicons');
+});
 
 // form elements
 Route::get('/forms/basic-inputs', [BasicInput::class, 'index'])->name('forms-basic-inputs');
