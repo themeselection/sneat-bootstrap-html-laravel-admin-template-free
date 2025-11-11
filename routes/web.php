@@ -82,25 +82,27 @@ Route::name('cards-')->prefix('cards/')->group(function () {
 });
 
 // User Interface
-Route::get('/ui/accordion', [Accordion::class, 'index'])->name('ui-accordion');
-Route::get('/ui/alerts', [Alerts::class, 'index'])->name('ui-alerts');
-Route::get('/ui/badges', [Badges::class, 'index'])->name('ui-badges');
-Route::get('/ui/buttons', [Buttons::class, 'index'])->name('ui-buttons');
-Route::get('/ui/carousel', [Carousel::class, 'index'])->name('ui-carousel');
-Route::get('/ui/collapse', [Collapse::class, 'index'])->name('ui-collapse');
-Route::get('/ui/dropdowns', [Dropdowns::class, 'index'])->name('ui-dropdowns');
-Route::get('/ui/footer', [Footer::class, 'index'])->name('ui-footer');
-Route::get('/ui/list-groups', [ListGroups::class, 'index'])->name('ui-list-groups');
-Route::get('/ui/modals', [Modals::class, 'index'])->name('ui-modals');
-Route::get('/ui/navbar', [Navbar::class, 'index'])->name('ui-navbar');
-Route::get('/ui/offcanvas', [Offcanvas::class, 'index'])->name('ui-offcanvas');
-Route::get('/ui/pagination-breadcrumbs', [PaginationBreadcrumbs::class, 'index'])->name('ui-pagination-breadcrumbs');
-Route::get('/ui/progress', [Progress::class, 'index'])->name('ui-progress');
-Route::get('/ui/spinners', [Spinners::class, 'index'])->name('ui-spinners');
-Route::get('/ui/tabs-pills', [TabsPills::class, 'index'])->name('ui-tabs-pills');
-Route::get('/ui/toasts', [Toasts::class, 'index'])->name('ui-toasts');
-Route::get('/ui/tooltips-popovers', [TooltipsPopovers::class, 'index'])->name('ui-tooltips-popovers');
-Route::get('/ui/typography', [Typography::class, 'index'])->name('ui-typography');
+Route::name('ui-')->prefix('ui/')->group(function () {
+  Route::get('accordion', [Accordion::class, 'index'])->name('accordion');
+  Route::get('alerts', [Alerts::class, 'index'])->name('alerts');
+  Route::get('badges', [Badges::class, 'index'])->name('badges');
+  Route::get('buttons', [Buttons::class, 'index'])->name('buttons');
+  Route::get('carousel', [Carousel::class, 'index'])->name('carousel');
+  Route::get('collapse', [Collapse::class, 'index'])->name('collapse');
+  Route::get('dropdowns', [Dropdowns::class, 'index'])->name('dropdowns');
+  Route::get('footer', [Footer::class, 'index'])->name('footer');
+  Route::get('list-groups', [ListGroups::class, 'index'])->name('list-groups');
+  Route::get('modals', [Modals::class, 'index'])->name('modals');
+  Route::get('navbar', [Navbar::class, 'index'])->name('navbar');
+  Route::get('offcanvas', [Offcanvas::class, 'index'])->name('offcanvas');
+  Route::get('pagination-breadcrumbs', [PaginationBreadcrumbs::class, 'index'])->name('pagination-breadcrumbs');
+  Route::get('progress', [Progress::class, 'index'])->name('progress');
+  Route::get('spinners', [Spinners::class, 'index'])->name('spinners');
+  Route::get('tabs-pills', [TabsPills::class, 'index'])->name('tabs-pills');
+  Route::get('toasts', [Toasts::class, 'index'])->name('toasts');
+  Route::get('tooltips-popovers', [TooltipsPopovers::class, 'index'])->name('tooltips-popovers');
+  Route::get('typography', [Typography::class, 'index'])->name('typography');
+});
 
 // extended ui
 Route::get('/extended/ui-perfect-scrollbar', [PerfectScrollbar::class, 'index'])->name('extended-ui-perfect-scrollbar');
