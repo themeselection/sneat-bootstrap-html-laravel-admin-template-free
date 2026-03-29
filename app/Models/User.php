@@ -20,6 +20,7 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'nivel_acesso',
         'password',
     ];
 
@@ -44,5 +45,27 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function possuiAcessoGerencial(): bool
+    {
+        return in_array($this->nivelAcesso(), ['GERENTE', 'ADMIN'], true);
+    }
+
+    public function nivelAcesso(): string
+    {
+        $nivel = (string) ($this->nivel_acesso ?? 'OPERADOR');
+        return in_array($nivel, ['OPERADOR', 'GERENTE', 'ADMIN'], true) ? $nivel : 'OPERADOR';
+    }
+
+    public function hasPermission(string $permission): bool
+    {
+        $permissions = config('rbac.permissions_by_role.' . $this->nivelAcesso(), []);
+
+        if (in_array('*', $permissions, true)) {
+            return true;
+        }
+
+        return in_array($permission, $permissions, true);
     }
 }

@@ -3,8 +3,8 @@
 return [
   "creatorName" => "ThemeSelection",
   "creatorUrl" => "https://themeselection.com",
-  "templateName" => "sneat",
-  "templateSuffix" => "Sneat Bootstrap Dashboard FREE",
+  "templateName" => "JBTINTAS",
+  "templateSuffix" => "Painel Administrativo",
   "templateVersion" => "2.0.0",
   "templateFree" => true,
   "templateDescription" => "Most Powerful & Comprehensive Bootstrap 5 + Laravel HTML Admin Dashboard Template built for developers!",

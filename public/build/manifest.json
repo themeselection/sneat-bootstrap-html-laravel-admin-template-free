@@ -1,0 +1,239 @@
+{
+  "__commonjsHelpers-CqkleIqs.js": {
+    "file": "assets/_commonjsHelpers-CqkleIqs.js",
+    "name": "_commonjsHelpers"
+  },
+  "_index.html": {
+    "file": "index.html",
+    "src": "_index.html"
+  },
+  "resources/assets/css/demo.css": {
+    "file": "assets/demo--dN7KDn2.css",
+    "src": "resources/assets/css/demo.css",
+    "isEntry": true
+  },
+  "resources/assets/js/clientes-form.js": {
+    "file": "assets/clientes-form-DRAYp1GX.js",
+    "name": "clientes-form",
+    "src": "resources/assets/js/clientes-form.js",
+    "isEntry": true
+  },
+  "resources/assets/js/compra-form.js": {
+    "file": "assets/compra-form-CkCT8zYP.js",
+    "name": "compra-form",
+    "src": "resources/assets/js/compra-form.js",
+    "isEntry": true
+  },
+  "resources/assets/js/config.js": {
+    "file": "assets/config-DvyemKWy.js",
+    "name": "config",
+    "src": "resources/assets/js/config.js",
+    "isEntry": true
+  },
+  "resources/assets/js/dashboards-analytics.js": {
+    "file": "assets/dashboards-analytics-2GdtvCmv.js",
+    "name": "dashboards-analytics",
+    "src": "resources/assets/js/dashboards-analytics.js",
+    "isEntry": true
+  },
+  "resources/assets/js/documentos-form.js": {
+    "file": "assets/documentos-form-Dtwn65C6.js",
+    "name": "documentos-form",
+    "src": "resources/assets/js/documentos-form.js",
+    "isEntry": true
+  },
+  "resources/assets/js/extended-ui-perfect-scrollbar.js": {
+    "file": "assets/extended-ui-perfect-scrollbar-87gYG_r1.js",
+    "name": "extended-ui-perfect-scrollbar",
+    "src": "resources/assets/js/extended-ui-perfect-scrollbar.js",
+    "isEntry": true
+  },
+  "resources/assets/js/form-basic-inputs.js": {
+    "file": "assets/form-basic-inputs-CjS8llQr.js",
+    "name": "form-basic-inputs",
+    "src": "resources/assets/js/form-basic-inputs.js",
+    "isEntry": true
+  },
+  "resources/assets/js/main.js": {
+    "file": "assets/main-TEy-IOuY.js",
+    "name": "main",
+    "src": "resources/assets/js/main.js",
+    "isEntry": true
+  },
+  "resources/assets/js/movimentacoes-estoque-form.js": {
+    "file": "assets/movimentacoes-estoque-form-DcdXrZ93.js",
+    "name": "movimentacoes-estoque-form",
+    "src": "resources/assets/js/movimentacoes-estoque-form.js",
+    "isEntry": true
+  },
+  "resources/assets/js/pages-account-settings-account.js": {
+    "file": "assets/pages-account-settings-account-CFTyzG2K.js",
+    "name": "pages-account-settings-account",
+    "src": "resources/assets/js/pages-account-settings-account.js",
+    "isEntry": true
+  },
+  "resources/assets/js/pdv.js": {
+    "file": "assets/pdv-CLyL41Eh.js",
+    "name": "pdv",
+    "src": "resources/assets/js/pdv.js",
+    "isEntry": true
+  },
+  "resources/assets/js/produtos-form.js": {
+    "file": "assets/produtos-form-BOD04I1Z.js",
+    "name": "produtos-form",
+    "src": "resources/assets/js/produtos-form.js",
+    "isEntry": true
+  },
+  "resources/assets/js/ui-modals.js": {
+    "file": "assets/ui-modals-CYNbp-iO.js",
+    "name": "ui-modals",
+    "src": "resources/assets/js/ui-modals.js",
+    "isEntry": true
+  },
+  "resources/assets/js/ui-popover.js": {
+    "file": "assets/ui-popover-CbvAU9Mu.js",
+    "name": "ui-popover",
+    "src": "resources/assets/js/ui-popover.js",
+    "isEntry": true
+  },
+  "resources/assets/js/ui-toasts.js": {
+    "file": "assets/ui-toasts-D2tjOEuf.js",
+    "name": "ui-toasts",
+    "src": "resources/assets/js/ui-toasts.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/fonts/iconify/iconify.css": {
+    "file": "assets/iconify-DDZnTNbY.css",
+    "src": "resources/assets/vendor/fonts/iconify/iconify.css",
+    "isEntry": true
+  },
+  "resources/assets/vendor/fonts/iconify/iconify.js": {
+    "file": "assets/iconify-C8wdrYoI.js",
+    "name": "iconify",
+    "src": "resources/assets/vendor/fonts/iconify/iconify.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/js/bootstrap.js": {
+    "file": "assets/bootstrap-BqFZZLXP.js",
+    "name": "bootstrap",
+    "src": "resources/assets/vendor/js/bootstrap.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/js/helpers.js": {
+    "file": "assets/helpers-CB19AG1d.js",
+    "name": "helpers",
+    "src": "resources/assets/vendor/js/helpers.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/js/menu.js": {
+    "file": "assets/menu-Bldkajpn.js",
+    "name": "menu",
+    "src": "resources/assets/vendor/js/menu.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/apex-charts/apex-charts.scss": {
+    "file": "assets/apex-charts-BSEhqGnV.css",
+    "src": "resources/assets/vendor/libs/apex-charts/apex-charts.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/apex-charts/apexcharts.js": {
+    "file": "assets/apexcharts-DrruP4Np.js",
+    "name": "apexcharts",
+    "src": "resources/assets/vendor/libs/apex-charts/apexcharts.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "resources/assets/vendor/libs/highlight/highlight-github.scss": {
+    "file": "assets/highlight-github-BfC0goYb.css",
+    "src": "resources/assets/vendor/libs/highlight/highlight-github.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/highlight/highlight.js": {
+    "file": "assets/highlight-BJVHAriQ.js",
+    "name": "highlight",
+    "src": "resources/assets/vendor/libs/highlight/highlight.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "resources/assets/vendor/libs/highlight/highlight.scss": {
+    "file": "assets/highlight-DGVygr29.css",
+    "src": "resources/assets/vendor/libs/highlight/highlight.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/jquery/jquery.js": {
+    "file": "assets/jquery-Bh41zue2.js",
+    "name": "jquery",
+    "src": "resources/assets/vendor/libs/jquery/jquery.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "resources/assets/vendor/libs/masonry/masonry.js": {
+    "file": "assets/masonry-Di3k0CUD.js",
+    "name": "masonry",
+    "src": "resources/assets/vendor/libs/masonry/masonry.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js": {
+    "file": "assets/perfect-scrollbar-uMurzE2-.js",
+    "name": "perfect-scrollbar",
+    "src": "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.scss": {
+    "file": "assets/perfect-scrollbar-CfyPsj0y.css",
+    "src": "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/popper/popper.js": {
+    "file": "assets/popper-Ck0tsB3H.js",
+    "name": "popper",
+    "src": "resources/assets/vendor/libs/popper/popper.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "resources/assets/vendor/scss/core.scss": {
+    "file": "assets/core-DPkZ6__9.css",
+    "src": "resources/assets/vendor/scss/core.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/scss/pages/page-auth.scss": {
+    "file": "assets/page-auth-Cz9xnkSz.css",
+    "src": "resources/assets/vendor/scss/pages/page-auth.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/scss/pages/page-icons.scss": {
+    "file": "assets/page-icons-BhNyGxXr.css",
+    "src": "resources/assets/vendor/scss/pages/page-icons.scss",
+    "isEntry": true
+  },
+  "resources/assets/vendor/scss/pages/page-misc.scss": {
+    "file": "assets/page-misc-D9kg9eYx.css",
+    "src": "resources/assets/vendor/scss/pages/page-misc.scss",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CsC4wx9G.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Bv13RJqf.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
