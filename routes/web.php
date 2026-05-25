@@ -48,11 +48,11 @@ use App\Http\Controllers\tables\Basic as TablesBasic;
 Route::get('/', [Analytics::class, 'index'])->name('dashboard-analytics');
 
 // layout
-Route::get('/layouts/without-menu', [WithoutMenu::class, 'index'])->name('layouts-without-menu');
-Route::get('/layouts/without-navbar', [WithoutNavbar::class, 'index'])->name('layouts-without-navbar');
-Route::get('/layouts/fluid', [Fluid::class, 'index'])->name('layouts-fluid');
-Route::get('/layouts/container', [Container::class, 'index'])->name('layouts-container');
-Route::get('/layouts/blank', [Blank::class, 'index'])->name('layouts-blank');
+// Route::get('/layouts/without-menu', [WithoutMenu::class, 'index'])->name('layouts-without-menu');
+// Route::get('/layouts/without-navbar', [WithoutNavbar::class, 'index'])->name('layouts-without-navbar');
+// Route::get('/layouts/fluid', [Fluid::class, 'index'])->name('layouts-fluid');
+// Route::get('/layouts/container', [Container::class, 'index'])->name('layouts-container');
+// Route::get('/layouts/blank', [Blank::class, 'index'])->name('layouts-blank');
 
 // pages
 Route::get('/pages/account-settings-account', [AccountSettingsAccount::class, 'index'])->name('pages-account-settings-account');
